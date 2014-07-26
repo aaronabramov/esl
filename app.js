@@ -21,6 +21,10 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+var fractal = require('fractaljs');
+fractal.config().assetPath = path.resolve(__dirname);
+app.use('/assets/*', fractal.middleware);
+
 app.use('/', routes);
 app.use('/users', users);
 
