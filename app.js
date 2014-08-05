@@ -22,7 +22,7 @@ var fractal = require('fractaljs');
 fractal.config().assetPath = path.resolve(__dirname);
 app.use('/assets/*', fractal.middleware);
 
-app.get('/', function(req, res) {
+app.get('/*', function(req, res) {
     var Page = require('./src/components/page.jsx');
     var React = require('react');
     var markup = '<!DOCTYPE html>\n' + React.renderComponentToString(Page(null));
