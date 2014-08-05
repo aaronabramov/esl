@@ -1,3 +1,7 @@
+require('node-jsx').install({
+    extension: '.jsx'
+})
+
 var express = require('express');
 var path = require('path');
 var favicon = require('static-favicon');
@@ -5,14 +9,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
-
 var app = express();
-
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
 
 app.use(favicon());
 app.use(logger('dev'));
@@ -25,8 +22,12 @@ var fractal = require('fractaljs');
 fractal.config().assetPath = path.resolve(__dirname);
 app.use('/assets/*', fractal.middleware);
 
-app.use('/', routes);
-app.use('/users', users);
+app.get('/', function(req, res) {
+    var Page = require('./src/components/page.jsx');
+    var React = require('react');
+    var markup = '<!DOCTYPE html>\n' + React.renderComponentToString(Page(null));
+    res.end(markup);
+});
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -35,28 +36,19 @@ app.use(function(req, res, next) {
     next(err);
 });
 
-/// error handlers
-
-// development error handler
-// will print stacktrace
-if (app.get('env') === 'development') {
-    app.use(function(err, req, res, next) {
-        res.status(err.status || 500);
-        res.render('error', {
-            message: err.message,
-            error: err
-        });
-    });
-}
-
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-        message: err.message,
-        error: {}
+    res.writeHead(err.status || 500, {
+        'Content-Type': 'application/json'
     });
+    var stack = err.stack;
+    stack && (stack = stack.split('\n'));
+    res.end(JSON.stringify({
+        msg: err.msg,
+        err: err.toString(),
+        stack: stack
+    }));
 });
 
 

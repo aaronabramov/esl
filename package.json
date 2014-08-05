@@ -13,6 +13,7 @@
     "express": "~4.2.0",
     "fractaljs": "0.0.2",
     "morgan": "~1.0.0",
+    "node-jsx": "^0.11.0",
     "react": "^0.11.1",
     "static-favicon": "~1.0.0"
   }
