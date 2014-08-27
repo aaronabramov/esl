@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./run.js"
   },
   "dependencies": {
     "body-parser": "~1.0.0",
@@ -17,5 +17,10 @@
     "node-jsx": "^0.11.0",
     "react": "^0.11.1",
     "static-favicon": "~1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express": "^1.4.1"
   }
 }
