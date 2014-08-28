@@ -21,10 +21,10 @@ fractal.config().assetPath = path.resolve(__dirname);
 app.use('/assets/*', fractal.middleware);
 
 app.get('/*', function(req, res) {
-    var Page = require('./src/components/page.jsx');
-    var React = require('react');
-    var markup = '<!DOCTYPE html>\n' + React.renderComponentToString(Page(null));
-    res.end(markup);
+    // var Page = require('./src/components/page.jsx');
+    // var React = require('react');
+    // var markup = '<!DOCTYPE html>\n' + React.renderComponentToString(Page(null));
+    // res.end(markup);
 });
 
 /// catch 404 and forward to error handler
