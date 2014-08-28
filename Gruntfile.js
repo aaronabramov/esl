@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             express: {
-                files: ['src/**/*.{js,jsx}'],
+                files: ['src/**/*.{js,jsx}', 'app.js'],
                 tasks: ['express:dev'],
                 options: {
                     spawn: false
