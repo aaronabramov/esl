@@ -1,7 +1,25 @@
 /** @jsx React.DOM */
 
 var QuestionBox = React.createClass({
+    getInitialState: function() {
+        return {
+            answers: ['You are', 'You', 'Are you', 'Are'],
+            answer: '...'
+        };
+    },
+
+    setAnswer: function(answer) {
+        if(answer === null) {
+            answer = '...';
+        }
+
+        this.setState({
+            answer: answer
+        });
+    },
+
     render: function() {
+        var answers = this.state.answers;
         return (
             <div className="question-box">
                 <div className="question-header">
@@ -9,12 +27,15 @@ var QuestionBox = React.createClass({
                 </div>
 
                 <div className="question-body">
-                    <h2>... from England?</h2>
+                    <h2>{this.state.answer} from England?</h2>
                     <div className="question-answers">
-                        <button className="question-answer">You are</button>
-                        <button className="question-answer">You</button>
-                        <button className="question-answer">Are you</button>
-                        <button className="question-answer">Are</button>
+                        {
+                            answers.map(function(answer) {
+                                return <Answer setAnswer={this.setAnswer}
+                                               answer={answer}
+                                        />;
+                            }, this)
+                        }
                     </div>
                 </div>
             </div>
