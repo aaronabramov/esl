@@ -3,7 +3,7 @@
 var App = React.createClass({
     render: function() {
         return (
-            <div id="layout" class="pure-g">
+            <div id="layout" className="pure-g">
                 <Sidebar />
                 <Content />
             </div>
