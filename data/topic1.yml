@@ -1,0 +1,84 @@
+name: Topic 1. Word order in questions
+questions:
+  - question: … from England?
+    answers:
+      - You are
+      - You
+      - Are you
+      - Are
+    correct: 3
+
+  - question: … love you?
+    answers:
+      - She
+      - Does she
+      - She does
+      - Does
+    correct: 2
+
+  - question: … on holiday?
+    answers:
+      - Are they
+      - They are
+      - Are
+      - They
+    correct: 1
+
+  - question: … live?
+    answers:
+      - Do where you
+      - Where you
+      - Where you do
+      - Where do you
+    correct: 4
+
+  - question: … name?
+    answers:
+      - Is what his
+      - What is his
+      - Whis his is
+      - Whis his
+    correct: 2
+
+  - question: … last name?
+    answers:
+      - Is what her
+      - What her
+      - What is her
+      - What her
+    correct: 3
+
+
+  - question: … live in Spain?
+    answers:
+      - They
+      - Do they
+      - They do
+      - Do
+    correct: 2
+
+
+  - question: ... work?
+    answers:
+      - Where you do
+      - Where you
+      - Do where you
+      - Where do you ✓
+    correct: 4
+
+
+  - question: … like music?
+    answers:
+      - You
+      - Do you ✓
+      - Do
+      - You do
+    correct: 2
+
+  - question: … go to work?
+    answers:
+      - When you
+      - Do when you
+      - When do you ✓
+      - When you
+    correct: 3
