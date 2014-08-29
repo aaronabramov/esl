@@ -22,19 +22,17 @@ var QuestionBox = React.createClass({
         });
     },
 
-    generateQuestionString: function() {
-        return this.state.question.replace('$', this.state.answer);
-    },
-
     render: function() {
-        var answers = this.state.answers,
-            question = this.generateQuestionString();
+        var answers = this.state.answers;
+
         return (
             <div className="question-box">
                 <QuestionTopic topic={this.state.topic} />
 
                 <div className="question-body">
-                    <h2>{question}</h2>
+                    <Question question={this.state.question}
+                              answer={this.state.answer}
+                    />
                     <div className="question-answers">
                         {
                             answers.map(function(answer) {
