@@ -1,6 +1,3 @@
-var QuestionsStore = {
-    questions: window.questions
-};
 
 window.questions = [{
     topic: 'Word Order in Questions',
@@ -43,3 +40,13 @@ window.questions = [{
     ],
     correct: 2
 }];
+
+var QuestionsStore = {
+    questions: window.questions,
+    index: 0,
+    getNextQuestion: function() {
+        var question = this.questions[this.index];
+        this.index++;
+        return question;
+    }
+};
