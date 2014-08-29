@@ -6,7 +6,8 @@ var QuestionBox = React.createClass({
 
         return {
             topic: question.topic,
-            answers: ['You are', 'You', 'Are you', 'Are'],
+            answers: question.answers,
+            question: question.question,
             answer: '...'
         };
     },
@@ -21,14 +22,19 @@ var QuestionBox = React.createClass({
         });
     },
 
+    generateQuestionString: function() {
+        return this.state.question.replace('$', this.state.answer);
+    },
+
     render: function() {
-        var answers = this.state.answers;
+        var answers = this.state.answers,
+            question = this.generateQuestionString();
         return (
             <div className="question-box">
                 <QuestionTopic topic={this.state.topic} />
 
                 <div className="question-body">
-                    <h2>{this.state.answer} from England?</h2>
+                    <h2>{question}</h2>
                     <div className="question-answers">
                         {
                             answers.map(function(answer) {
