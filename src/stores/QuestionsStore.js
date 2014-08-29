@@ -1,8 +1,9 @@
 var QuestionsStore = {
-
+    questions: window.questions
 };
 
 window.questions = [{
+    topic: 'Word Order in Questions',
     question: '$ from England?',
     answers: [
         'You are',
@@ -12,6 +13,7 @@ window.questions = [{
     ],
     correct: 3
 }, {
+    topic: 'Word Order in Questions',
     question: '$ love you?',
     answers: [
         'She',
@@ -21,6 +23,7 @@ window.questions = [{
     ],
     correct: 2
 }, {
+    topic: 'Word Order in Questions',
     question: '$ on holiday?',
     answers: [
         'Are they',
@@ -29,4 +32,14 @@ window.questions = [{
         'They'
     ],
     correct: 1
+}, {
+    topic: "Being Verbs",
+    question: "John and Amy $ American",
+    answers: [
+        'be',
+        'are',
+        'am',
+        'is'
+    ],
+    correct: 2
 }];
