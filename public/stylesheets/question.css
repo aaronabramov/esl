@@ -3,14 +3,9 @@
    font-weight: 300;
 }
 
-.question-header {
-    margin: 0;
-    color: #333;
+.question-topic {
     text-align: center;
-    padding: 2.5em 2em 0;
-}
-
-.question-header h1 {
+    padding: 1em 0 0 0;
     margin: 0.2em 0;
     font-size: 2.5em;
     font-weight: 300;

@@ -2,7 +2,10 @@
 
 var QuestionBox = React.createClass({
     getInitialState: function() {
+        var question = QuestionsStore.getNextQuestion();
+
         return {
+            topic: question.topic,
             answers: ['You are', 'You', 'Are you', 'Are'],
             answer: '...'
         };
@@ -22,9 +25,7 @@ var QuestionBox = React.createClass({
         var answers = this.state.answers;
         return (
             <div className="question-box">
-                <div className="question-header">
-                    <h1>Word Order in Questions</h1>
-                </div>
+                <QuestionTopic topic={this.state.topic} />
 
                 <div className="question-body">
                     <h2>{this.state.answer} from England?</h2>
