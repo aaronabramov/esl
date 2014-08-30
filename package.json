@@ -23,6 +23,6 @@
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-express-server": "^0.4.19",
-    "kirov": "0.0.0"
+    "ssh-kit": "0.0.0"
   }
 }
