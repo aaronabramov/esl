@@ -33,15 +33,9 @@ var QuestionBox = React.createClass({
                     <Question question={this.state.question}
                               answer={this.state.answer}
                     />
-                    <div className="question-answers">
-                        {
-                            answers.map(function(answer) {
-                                return <Answer setAnswer={this.setAnswer}
-                                               answer={answer}
-                                        />;
-                            }, this)
-                        }
-                    </div>
+                    <Answers setAnswer={this.setAnswer}
+                             answers={answers}
+                    />
                 </div>
             </div>
         );
