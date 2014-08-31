@@ -9,13 +9,17 @@ var Answer = React.createClass({
         this.props.setAnswer(null);
     },
 
+    handleClick: function() {
+        QuestionsActionCreator.submitAnswer(this.props.answer);
+    },
+
     render: function() {
         var answer = this.props.answer;
         return (
             <button className="question-answer"
                     onMouseOver={this.handleMouseOver}
                     onMouseOut={this.handleMouseOut}
-                    onClick={this.submitAnswer}>
+                    onClick={this.handleClick}>
                 {answer}
             </button>
         );

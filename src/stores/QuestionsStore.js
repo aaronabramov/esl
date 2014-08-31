@@ -8,6 +8,13 @@ var QuestionsStore = {
         }
         return question;
     },
+
+    _checkCorrectAnswer: function(submittedAnswer) {
+        var question = this.questions[this.index],
+            correctAnswer = question.answers[question.correct - 1];
+
+        question.isCorrect = (submittedAnswer === correctAnswer) ? true : false;
+    },
     register: function() {
         var _this = this;
 
@@ -18,6 +25,10 @@ var QuestionsStore = {
             switch(action.actionType) {
                 case QuestionsConstants.INITIALIZE:
                     _this.questions = action.questions;
+                    break;
+
+                case QuestionsConstants.SUBMIT_ANSWER:
+                    _this._checkCorrectAnswer(action.answer);
                     break;
 
                 default:

@@ -12,6 +12,13 @@ var QuestionsActionCreator = {
                 error: error
             });
         });
+    },
+
+    submitAnswer: function(submittedAnswer) {
+        Dispatcher.handleViewAction({
+            actionType: QuestionsConstants.SUBMIT_ANSWER,
+            submittedAnswer: submittedAnswer
+        });
     }
 
 };
