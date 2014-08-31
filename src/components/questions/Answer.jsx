@@ -10,13 +10,17 @@ var Answer = React.createClass({
     },
 
     handleClick: function() {
+        // clear the focus immediately after receiving a click
+        this.refs.answerButton.getDOMNode().blur();
+
         QuestionsActionCreator.submitAnswer(this.props.answer);
     },
 
     render: function() {
         var answer = this.props.answer;
         return (
-            <button className="question-answer"
+            <button ref="answerButton"
+                    className="question-answer"
                     onMouseOver={this.handleMouseOver}
                     onMouseOut={this.handleMouseOut}
                     onClick={this.handleClick}>

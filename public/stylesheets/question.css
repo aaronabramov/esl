@@ -24,6 +24,7 @@
 .question-answer:hover, .question-answer:focus, .question-answer:active {
     background-color: #3071a9;
     border-color: #285e8e;
+    outline: 0;
 }
 
 .question-answers {
