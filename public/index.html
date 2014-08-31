@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./stylesheets/question.css">
 
     <script type="text/javascript" src="./scripts/dispatcher/Dispatcher.js"></script>
+    <script type="text/javascript" src="./scripts/services/QuestionsService.js"></script>
+
     <script type="text/javascript" src="./scripts/stores/QuestionsStore.js"></script>
     <script type="text/javascript" src="./scripts/constants/QuestionsConstants.js"></script>
     <script type="text/javascript" src="./scripts/actions/QuestionsActionCreator.js"></script>
@@ -32,6 +34,7 @@
 <body>
     <script type="text/jsx">
         /** @jsx React.DOM */
+        QuestionsActionCreator.initialize();
         React.renderComponent(
             <App />,
             document.body
@@ -39,12 +42,7 @@
     </script>
 
     <script type="text/javascript">
-        var request = window.superagent;
-        request
-            .get('/questions/topic1.yml')
-            .end(function(res){
-                console.log(res.text);
-            });
+
     </script>
 </body>
 </html>
