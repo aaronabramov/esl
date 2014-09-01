@@ -1,6 +1,6 @@
 var QuestionsActionCreator = {
     initialize: function() {
-        QuestionsService.getQuestions(function(data) {
+        QuestionsService.getQuestions().then(function(data) {
             Dispatcher.handleServerAction({
                 actionType: QuestionsConstants.INITIALIZE,
                 questions: data.questions
