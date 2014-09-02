@@ -73,13 +73,12 @@
 
 .question-next-button {
     float: right;
-    color: #fff;
-    background-color: #428bca;
-    border-color: #357ebd;
+    color: #000;
+    background-color: #fff;
     text-decoration: none;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 0 5px 10px;
     font-size: 18px;
     line-height: 1.33;
-    border-radius: 6px;
+    border: 0;
 }
