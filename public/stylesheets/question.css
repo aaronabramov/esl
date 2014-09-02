@@ -3,6 +3,31 @@
    font-weight: 300;
 }
 
+.question-footer {
+    text-align: center;
+    padding-top: 1.0em;
+}
+
+.question-next {
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+}
+
+.next-text {
+    padding-right: 3px; /* to push the chevron a little bit to the right */
+}
+
+.question-next-button .glyphicon {
+    float: right;
+    line-height: 2.33em;
+    font-size: 10px;
+}
+
+.question-next-button .next-text {
+    float: right;
+}
+
 .question-topic {
     text-align: center;
     padding: 1em 0 0 0;
@@ -41,6 +66,19 @@
     display: inline-block;
     width: 70%;
     padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.question-next-button {
+    float: right;
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
     font-size: 18px;
     line-height: 1.33;
     border-radius: 6px;

@@ -67,6 +67,15 @@ var QuestionBox = React.createClass({
                              answers={answers}
                     />
                 </div>
+
+                <div className="question-footer">
+                    <div className="question-next">
+                        <button className="question-next-button">
+                            <span className="glyphicon glyphicon-chevron-right"></span>
+                            <span className="next-text">Next</span>
+                        </button>
+                    </div>
+                </div>
             </div>
         );
     }
