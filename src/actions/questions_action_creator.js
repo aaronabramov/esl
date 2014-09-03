@@ -1,8 +1,8 @@
-var QuestionsConstants = require('../constants/questions_constants.js'),
-    QuestionsService = require('../services/questions_service.js'),
+var QuestionsService = require('../services/questions_service.jsx'),
+    QuestionConstants = require('../constants/questions_constants.js'),
     Dispatcher = require('../dispatcher/dispatcher.js');
 
-var QuestionsActionCreator = {
+module.exports  = {
     initialize: function() {
         QuestionsService.getQuestions().then(function(data) {
             Dispatcher.handleServerAction({
@@ -23,5 +23,4 @@ var QuestionsActionCreator = {
             submittedAnswer: submittedAnswer
         });
     }
-
 };

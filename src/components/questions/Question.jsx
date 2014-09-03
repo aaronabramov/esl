@@ -1,6 +1,8 @@
 /** @jsx React.DOM */
 
-var Question = React.createClass({
+var React = require('react');
+
+module.exports = React.createClass({
     generateQuestionString: function() {
         return this.props.question.replace('$', this.props.answer);
     },

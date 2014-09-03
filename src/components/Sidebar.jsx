@@ -1,6 +1,8 @@
 /** @jsx React.DOM */
 
-var Sidebar = React.createClass({
+var React = require('react');
+
+module.exports = React.createClass({
     render: function() {
         return (
             <div className="sidebar pure-u-1 pure-u-md-1-4">

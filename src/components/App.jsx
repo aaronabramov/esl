@@ -1,6 +1,10 @@
 /** @jsx React.DOM */
 
-var App = React.createClass({
+var React = require('react'),
+    Sidebar = require('./sidebar.jsx'),
+    Content = require('./content.jsx');
+
+module.exports = React.createClass({
     render: function() {
         return (
             <div id="layout" className="pure-g">
