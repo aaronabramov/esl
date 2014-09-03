@@ -6,6 +6,7 @@
     "start": "node ./run.js"
   },
   "dependencies": {
+    "bean": "^1.0.14",
     "body-parser": "~1.0.0",
     "cookie-parser": "~1.0.1",
     "debug": "~0.7.4",
@@ -17,7 +18,8 @@
     "morgan": "~1.0.0",
     "node-jsx": "^0.11.0",
     "react": "^0.11.1",
-    "static-favicon": "~1.0.0"
+    "static-favicon": "~1.0.0",
+    "superagent": "^0.18.2"
   },
   "devDependencies": {
     "browserify": "^5.11.0",

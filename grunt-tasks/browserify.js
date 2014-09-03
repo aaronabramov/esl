@@ -11,7 +11,8 @@ var browserify = require('browserify'),
     SRC_FILE = path.resolve(ASSETS_DIR, 'our_stuff.js'),
     LIBS = [
         'lodash',
-        'react'
+        'react',
+        'bean'
     ];
 
 /**
