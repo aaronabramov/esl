@@ -14,12 +14,16 @@ var browserify = require('browserify'),
         'react'
     ];
 
+/**
+ * grunt browserify => bundles all libs and source
+ * grunt browesrify:src => bundles only source
+ */
 module.exports = function(grunt) {
     mkdirp.sync(ASSETS_DIR);
 
     grunt.registerTask('browserify', function() {
         var done = _.after(2, this.async());
-        bundleLibs(grunt, done);
+        this.flags.src ? done() : bundleLibs(grunt, done);
         bundleSrc(grunt, done)
     });
 };
