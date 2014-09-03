@@ -7,6 +7,10 @@ module.exports = function(grunt) {
                 options: {
                     spawn: false
                 }
+            },
+            browserify: {
+                files: ['src/**/*.{js,jsx}'],
+                tasks: ['browserify:src']
             }
         },
         express: {
