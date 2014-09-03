@@ -1,4 +1,4 @@
-var QuestionsService = require('../services/questions_service.jsx'),
+var QuestionsService = require('../services/questions_service.js'),
     QuestionConstants = require('../constants/questions_constants.js'),
     Dispatcher = require('../dispatcher/dispatcher.js');
 
@@ -23,4 +23,5 @@ module.exports  = {
             submittedAnswer: submittedAnswer
         });
     }
+
 };

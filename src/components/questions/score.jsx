@@ -1,8 +1,7 @@
 /** @jsx React.DOM */
-var QuestionsStore = require('../stores/questions_store.js');
 
 var React = require('react'),
-    QuestionSore = require('../../stores/question_store.js');
+    QuestionSore = require('../../stores/questions_store.js');
 
 module.exports = React.createClass({
     getInitialState: function() {

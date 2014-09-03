@@ -1,7 +1,7 @@
 /** @jsx React.DOM */
 
 var React = require('react'),
-    QuestionsActionCreator = require('../../actions/questions_action_creator.jsx');
+    QuestionsActionCreator = require('../../actions/questions_action_creator.js');
 
 module.exports = React.createClass({
     handleMouseOver: function() {
