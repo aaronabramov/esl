@@ -1,6 +1,9 @@
 /** @jsx React.DOM */
 
-var Answer = React.createClass({
+var React = require('react'),
+    QuestionsActionCreator = require('../../actions/questions_action_creator.jsx');
+
+module.exports = React.createClass({
     handleMouseOver: function() {
         this.props.setAnswer(this.props.answer);
     },

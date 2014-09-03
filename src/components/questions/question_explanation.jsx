@@ -1,6 +1,8 @@
 /** @jsx React.DOM */
 
-var QuestionExplanation = React.createClass({
+var React = require('react');
+
+module.exports = React.createClass({
     render: function() {
         return (
             <div className="question-footer">

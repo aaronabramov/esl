@@ -1,6 +1,9 @@
 /** @jsx React.DOM */
 
-var Score = React.createClass({
+var React = require('react'),
+    QuestionSore = require('../../stores/question_store.js');
+
+module.exports = React.createClass({
     getInitialState: function() {
         return {
             questions: QuestionsStore.getQuestions()

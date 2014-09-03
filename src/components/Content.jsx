@@ -1,6 +1,11 @@
 /** @jsx React.DOM */
 
-var Content = React.createClass({
+var React = require('react'),
+    QuestionStore = require('../stores/questions_store.js'),
+    QuestionBox = require('./questions/question_box.jsx'),
+    Score = require('./questions/score.jsx');
+
+module.exports = React.createClass({
     getInitialState: function() {
         var question = QuestionsStore.getNextQuestion(),
             obj = {

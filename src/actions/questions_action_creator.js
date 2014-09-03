@@ -1,4 +1,8 @@
-var QuestionsActionCreator = {
+var QuestionsService = require('../services/questions_service.jsx'),
+    QuestionConstants = require('../constants/questions_constants.js'),
+    Dispatcher = require('../dispatcher/dispatcher.js');
+
+module.exports  = {
     initialize: function() {
         QuestionsService.getQuestions().then(function(data) {
             Dispatcher.handleServerAction({

@@ -1,6 +1,11 @@
 /** @jsx React.DOM */
 
-var QuestionBox = React.createClass({
+var React = require('react'),
+    Question = require('./question.jsx'),
+    Answers = require('./answers.jsx'),
+    QuestionTopic = require('./question_topic.jsx');
+
+module.exports = React.createClass({
     setAnswer: function(answer) {
         if(answer === null) {
             answer = '...';
