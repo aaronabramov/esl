@@ -7,6 +7,10 @@ module.exports = function(grunt) {
                 options: {
                     spawn: false
                 }
+            },
+            browserify: {
+                files: ['src/**/*.{js,jsx}'],
+                tasks: ['browserify:src']
             }
         },
         express: {
@@ -20,5 +24,6 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-express-server');
-    grunt.registerTask('server', ['express:dev', 'watch'])
+    grunt.loadTasks('./grunt-tasks');
+    grunt.registerTask('default', ['express:dev', 'browserify', 'watch'])
 };
