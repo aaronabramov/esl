@@ -23,7 +23,11 @@ var Score = React.createClass({
     render: function() {
         var score = this.calculateScore();
         return (
-            <div>{score}</div>
+            <div className="score-container">
+                <div className="score-intro">You scored</div>
+                <div className="score">{score}</div>
+                <div className="score-outro">out of {this.state.questions.length}</div>
+            </div>
         );
     }
 });

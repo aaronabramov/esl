@@ -1,4 +1,5 @@
-.question-box {
+.question-box,
+.score-container {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 300;
 }
@@ -37,13 +38,27 @@
     color: #000;
 }
 
-.question-body h2 {
+.question-body h2,
+.score-intro,
+.score-outro {
     margin: 0;
     color: rgb(75, 75, 75);
     text-align: center;
     padding-top: 1em;
     font-size: 2em;
     font-weight: 400;
+}
+
+.score-outro {
+    padding-top: 0;
+}
+
+.score {
+    text-align: center;
+    margin: 0.2em 0;
+    font-size: 6em;
+    font-weight: 300;
+    color: #000;
 }
 
 .question-answer:hover, .question-answer:focus, .question-answer:active {
