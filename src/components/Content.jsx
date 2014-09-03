@@ -1,5 +1,6 @@
 /** @jsx React.DOM */
-var QuestionsStore = require('../stores/questions_store.js');
+var QuestionsStore = require('../stores/questions_store.js'),
+    bean = require('bean');
 
 var React = require('react'),
     QuestionStore = require('../stores/questions_store.js'),
