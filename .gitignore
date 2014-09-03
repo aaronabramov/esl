@@ -26,5 +26,4 @@ node_modules
 
 # Assets
 public/scripts
-public/vendor
 public/js
