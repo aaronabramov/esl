@@ -1,4 +1,5 @@
 /** @jsx React.DOM */
+var QuestionsStore = require('../stores/questions_store.js');
 
 var Score = React.createClass({
     getInitialState: function() {
