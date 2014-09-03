@@ -1,8 +1,8 @@
 var QuestionsService = require('../services/questions_service.js'),
-    QuestionConstants = require('../constants/questions_constants.js'),
+    QuestionsConstants = require('../constants/questions_constants.js'),
     Dispatcher = require('../dispatcher/dispatcher.js');
 
-module.exports  = {
+module.exports = {
     initialize: function() {
         QuestionsService.getQuestions().then(function(data) {
             Dispatcher.handleServerAction({
