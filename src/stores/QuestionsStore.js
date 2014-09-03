@@ -1,20 +1,30 @@
+var QuestionState = {
+    NOT_ANSWERED: _.uniqueId(),
+    CORRECT: _.uniqueId(),
+    INCORRECT: _.uniqueId()
+};
+
 var QuestionsStore = {
     questions: [],
     index: 0,
     getNextQuestion: function() {
-        var question = this.questions[this.index];
-        if(question) {
-            this.index++;
+        if(this.index === this.questions.length && this.index > 0) {
+            return 'end';
         }
-        return question;
+        return this.questions[this.index];
     },
 
-    _checkCorrectAnswer: function(submittedAnswer) {
+    getQuestions: function() {
+        return this.questions;
+    },
+
+    _saveAnswer: function(submittedAnswer) {
         var question = this.questions[this.index],
-            correctAnswer = question.answers[question.correct - 1];
+            correctAnswer = question.answers[question.correctAnswer];
 
-        question.isCorrect = (submittedAnswer === correctAnswer) ? true : false;
+        question.state = (submittedAnswer === correctAnswer) ? QuestionState.CORRECT : QuestionState.INCORRECT;
     },
+
     register: function() {
         var _this = this;
 
@@ -24,11 +34,21 @@ var QuestionsStore = {
 
             switch(action.actionType) {
                 case QuestionsConstants.INITIALIZE:
-                    _this.questions = action.questions;
+                    _this.questions = action.questions.map(function(question) {
+                        return {
+                            answers: question.answers,
+                            correctAnswer: question.correct - 1,
+                            question: question.question,
+                            topic: question.topic,
+                            state: QuestionState.NOT_ANSWERED
+                        };
+                    });
                     break;
 
                 case QuestionsConstants.SUBMIT_ANSWER:
-                    _this._checkCorrectAnswer(action.answer);
+                    _this._saveAnswer(action.submittedAnswer);
+                    _this.index++;
+
                     break;
 
                 default:
