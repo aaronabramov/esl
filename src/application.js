@@ -1,4 +1,3 @@
-/** @jsx React.DOM */
 QuestionsActionCreator.initialize();
 
-React.renderComponent(HelloMessage(null), document.body);
+React.renderComponent(App(null), document.body);
