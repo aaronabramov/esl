@@ -1,6 +1,7 @@
 var QuestionsConstants = require('../constants/questions_constants.js'),
     Dispatcher = require('../dispatcher/dispatcher.js'),
-    bean = require('bean');
+    bean = require('bean'),
+    _ = require('lodash');
 
 var QuestionState = {
     NOT_ANSWERED: _.uniqueId(),

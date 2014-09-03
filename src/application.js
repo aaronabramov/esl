@@ -3,4 +3,6 @@ var React = require('react'),
 
 require('./actions/questions_action_creator.js').initialize();
 
-React.renderComponent(App(null), document.body);
+window.onload = function() {
+    React.renderComponent(App(null), document.body);
+};

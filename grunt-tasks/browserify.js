@@ -61,6 +61,10 @@ function bundleSrc(grunt, done) {
 
     transformJsx(b);
 
+    LIBS.forEach(function(pkgName) {
+        b.external(pkgName);
+    });
+
     b.add(SRC_ENTRY_FILE);
 
     b.bundle().pipe(s);
