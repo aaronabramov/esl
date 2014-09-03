@@ -1,13 +1,8 @@
 var QuestionsConstants = require('../constants/questions_constants.js'),
     Dispatcher = require('../dispatcher/dispatcher.js'),
+    QuestionState = require('./question_state.js'),
     bean = require('bean'),
     _ = require('lodash');
-
-var QuestionState = {
-    NOT_ANSWERED: _.uniqueId(),
-    CORRECT: _.uniqueId(),
-    INCORRECT: _.uniqueId()
-};
 
 var QuestionsStore = {
     questions: [],
