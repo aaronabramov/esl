@@ -1,4 +1,4 @@
-var Dispatcher = (function() {
+module.exports = (function() {
     var _callbacks = [];
 
     return {

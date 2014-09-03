@@ -1,4 +1,5 @@
 /** @jsx React.DOM */
+var QuestionsStore = require('../stores/questions_store.js');
 
 var React = require('react'),
     QuestionSore = require('../../stores/question_store.js');
