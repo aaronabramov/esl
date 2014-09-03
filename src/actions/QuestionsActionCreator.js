@@ -1,3 +1,7 @@
+var QuestionsConstants = require('../constants/questions_constants.js'),
+    QuestionsService = require('../services/questions_service.js'),
+    Dispatcher = require('../dispatcher/dispatcher.js');
+
 var QuestionsActionCreator = {
     initialize: function() {
         QuestionsService.getQuestions().then(function(data) {

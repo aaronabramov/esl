@@ -1,4 +1,4 @@
-var QuestionsService = {
+module.exports = {
     getQuestions: function() {
         var request = window.superagent,
             Promise = window.Promise;

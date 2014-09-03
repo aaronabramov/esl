@@ -1,3 +1,6 @@
+var QuestionsConstants = require('../constants/questions_constants.js'),
+    Dispatcher = require('../dispatcher/dispatcher.js');
+
 var QuestionState = {
     NOT_ANSWERED: _.uniqueId(),
     CORRECT: _.uniqueId(),
@@ -67,3 +70,5 @@ var QuestionsStore = {
 };
 
 QuestionsStore.register();
+
+module.exports = QuestionsStore;
