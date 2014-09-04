@@ -1,15 +1,13 @@
 /** @jsx React.DOM */
-var QuestionsStore = require('../stores/questions_store.js'),
-    bean = require('bean');
-
-var React = require('react'),
-    QuestionStore = require('../stores/questions_store.js'),
+var QuizStore = require('../stores/quiz.js'),
+    bean = require('bean'),
+    React = require('react'),
     QuestionBox = require('./questions/question_box.jsx'),
     Score = require('./questions/score.jsx');
 
 module.exports = React.createClass({
     getInitialState: function() {
-        var question = QuestionsStore.getNextQuestion(),
+        var question = QuizStore.getNextQuestion(),
             obj = {
                 topic: '',
                 answers: [],
@@ -30,15 +28,15 @@ module.exports = React.createClass({
     },
 
     componentDidMount: function() {
-        bean.on(QuestionsStore, 'changed', this.handleChange);
+        bean.on(QuizStore, 'changed', this.handleChange);
     },
 
     componentWillUnmount: function() {
-        bean.off(QuestionsStore, 'changed', this.handleChange);
+        bean.off(QuizStore, 'changed', this.handleChange);
     },
 
     handleChange: function() {
-        var question = QuestionsStore.getNextQuestion(),
+        var question = QuizStore.getNextQuestion(),
             obj;
 
         if(question !== 'end') {

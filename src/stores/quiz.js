@@ -4,7 +4,7 @@ var QuestionsConstants = require('../constants/questions_constants.js'),
     bean = require('bean'),
     _ = require('lodash');
 
-var QuestionsStore = {
+var QuizStore = {
     questions: [],
     index: 0,
     getNextQuestion: function() {
@@ -66,6 +66,6 @@ var QuestionsStore = {
     }
 };
 
-QuestionsStore.register();
+QuizStore.register();
 
-module.exports = QuestionsStore;
+module.exports = QuizStore;

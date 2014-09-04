@@ -1,13 +1,13 @@
 /** @jsx React.DOM */
 
 var React = require('react'),
-    QuestionsStore = require('../../stores/questions_store.js'),
+    QuizStore = require('../../stores/quiz.js'),
     QuestionState = require('../../stores/question_state.js');
 
 module.exports = React.createClass({
     getInitialState: function() {
         return {
-            questions: QuestionsStore.getQuestions()
+            questions: QuizStore.getQuestions()
         };
     },
 
