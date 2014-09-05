@@ -2,8 +2,8 @@
 var QuizStore = require('../stores/quiz.js'),
     bean = require('bean'),
     React = require('react'),
-    QuestionBox = require('./questions/question_box.jsx'),
-    Score = require('./questions/score.jsx');
+    Quiz = require('./quiz/quiz.jsx'),
+    Score = require('./quiz/score.jsx');
 
 module.exports = React.createClass({
     getInitialState: function() {
@@ -58,7 +58,7 @@ module.exports = React.createClass({
         var component;
 
         if(!this.state.end) {
-            component = <QuestionBox question={this.state.question} />;
+            component = <Quiz question={this.state.question} />;
         } else {
             component = <Score />;
         }
