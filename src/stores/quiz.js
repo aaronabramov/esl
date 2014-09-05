@@ -1,4 +1,4 @@
-var QuestionsConstants = require('../constants/questions_constants.js'),
+var QuizConstants = require('../constants/quiz_constants.js'),
     Dispatcher = require('../dispatcher/dispatcher.js'),
     QuestionState = require('./question_state.js'),
     bean = require('bean'),
@@ -33,7 +33,7 @@ var QuizStore = {
             var action = payload.action;
 
             switch(action.actionType) {
-                case QuestionsConstants.INITIALIZE:
+                case QuizConstants.INITIALIZE:
                     _this.questions = action.questions.map(function(question) {
                         return {
                             answers: question.answers,
@@ -45,7 +45,7 @@ var QuizStore = {
                     });
                     break;
 
-                case QuestionsConstants.SUBMIT_ANSWER:
+                case QuizConstants.SUBMIT_ANSWER:
                     _this._saveAnswer(action.submittedAnswer);
                     _this.index++;
 

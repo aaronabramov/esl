@@ -1,7 +1,7 @@
 /** @jsx React.DOM */
 
 var React = require('react'),
-    QuestionsActionCreator = require('../../actions/questions_action_creator.js');
+    QuizActionCreator = require('../../actions/quiz_action_creator.js');
 
 module.exports = React.createClass({
     handleMouseOver: function() {
@@ -18,7 +18,7 @@ module.exports = React.createClass({
         // in a different color for the next question.
         this.refs.answerButton.getDOMNode().blur();
 
-        QuestionsActionCreator.submitAnswer(this.props.answer);
+        QuizActionCreator.submitAnswer(this.props.answer);
     },
 
     render: function() {
