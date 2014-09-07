@@ -6,6 +6,12 @@ var React = require('react'),
     QuestionTopic = require('./question_topic.jsx');
 
 module.exports = React.createClass({
+    getInitialState: function() {
+        return {
+            answer: '...'
+        };
+    },
+
     setAnswer: function(answer) {
         if(answer === null) {
             answer = '...';
@@ -25,7 +31,7 @@ module.exports = React.createClass({
 
                 <div className="question-body">
                     <Question question={question.question}
-                              answer={question.answer}
+                              answer={this.state.answer}
                     />
                     <Answers setAnswer={this.setAnswer}
                              answers={question.answers}
