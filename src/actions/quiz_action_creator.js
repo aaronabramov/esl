@@ -22,6 +22,12 @@ module.exports = {
             actionType: QuizConstants.SUBMIT_ANSWER,
             submittedAnswer: submittedAnswer
         });
+    },
+
+    nextQuestion: function() {
+        Dispatcher.handleViewAction({
+            actionType: QuizConstants.NEXT_QUESTION
+        });
     }
 
 };

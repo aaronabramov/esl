@@ -1,5 +1,6 @@
 /** @jsx React.DOM */
 var QuizStore = require('../stores/quiz.js'),
+    QuestionState = require('../stores/question_state.js'),
     bean = require('bean'),
     React = require('react'),
     Quiz = require('./quiz/quiz.jsx'),
@@ -12,7 +13,8 @@ module.exports = React.createClass({
                 topic: '',
                 answers: [],
                 question: '',
-                answer: '...'
+                answer: '...',
+                state: QuestionState.NOT_ANSWERED
             };
 
         if(question) {
@@ -20,7 +22,8 @@ module.exports = React.createClass({
                 topic: question.topic,
                 answers: question.answers,
                 question: question.question,
-                answer: '...'
+                answer: '...',
+                state: question.state
             };
         }
 
@@ -44,7 +47,8 @@ module.exports = React.createClass({
                 topic: question.topic,
                 answers: question.answers,
                 question: question.question,
-                answer: '...'
+                answer: '...',
+                state: question.state
             };
 
             this.setState({question: obj});

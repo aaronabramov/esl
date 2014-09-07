@@ -28,6 +28,7 @@ var QuizStore = {
     register: function() {
         var _this = this;
 
+
         // Register to handle all updates
         Dispatcher.register(function(payload) {
             var action = payload.action;
@@ -47,8 +48,10 @@ var QuizStore = {
 
                 case QuizConstants.SUBMIT_ANSWER:
                     _this._saveAnswer(action.submittedAnswer);
-                    _this.index++;
+                    break;
 
+                case QuizConstants.NEXT_QUESTION:
+                    _this.index++;
                     break;
 
                 default:
