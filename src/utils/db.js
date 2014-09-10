@@ -1,13 +1,15 @@
+var config = require('config');
+
 module.exports = {
     /**
      * create pg connect string
      */
-    connString: function(username, host, db) {
+    connString: function() {
         return 'postgres://' +
-            username +
+            config.get('db.user') +
             '@' +
-            host +
+            config.get('db.host') +
             '/' +
-            db;
+            config.get('db.name');
     }
 }

@@ -1,29 +1,27 @@
-var pg = require('pg'),
-    config = require('config'),
-    dbUtils = require('../src/utils/db.js'),
-    connString = dbUtils.connString(
-        config.get('db.user'),
-        config.get('db.host'),
-        config.get('db.user')
-    );
+var query = require('../db/query.js');
 
 exports.up = function(next) {
-    console.log(connString);
-    var client = new pg.Client(connString);
-    client.connect(function(err) {
+    var QUERY = '' +
+        'create table users(' +
+        '   id      serial      primary key     not null,' +
+        '   name    varchar(255)                not null)';
+
+    query(QUERY, function(err, results) {
         if (err) {
             throw err;
         }
-        client.query('select 1', function(err, result) {
-            if (err) {
-                throw err;
-            }
-            console.log(result);
-            next();
-        });
+        console.log(results);
+        next();
     });
 };
 
 exports.down = function(next) {
-    next();
+    query('drop table users', function(err, results) {
+        if (err) {
+            throw err;
+        }
+
+        console.log(results);
+        next();
+    });
 };
