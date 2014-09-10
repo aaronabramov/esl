@@ -12,6 +12,7 @@ postgres
 ```
 brew install postgres
 postgres -D /usr/local/var/postgres
+./node_modules/migrate/bin/migrate
 ```
 
 
