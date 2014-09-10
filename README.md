@@ -1,6 +1,11 @@
 interactive-esl-tests
 =====================
 
+#### Config
+```
+sed s/\<username\>/$(whoami)/ config/development.json.sample > config/development.json
+```
+
 #### DB
 postgres
 
