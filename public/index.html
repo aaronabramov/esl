@@ -1,6 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
+    <title>ESL</title>
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '694688507292410', // test appid
+            cookie     : true,  // enable cookies to allow the server to access the session
+            xfbml      : false,  // parse social plugins on this page
+            version    : 'v2.1' // use version 2.1
+        });
+    };
+    </script>
     <script src="./vendor/superagent.js"></script>
 
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
@@ -8,11 +19,13 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link rel="stylesheet" href="./stylesheets/layout.css">
     <link rel="stylesheet" href="./stylesheets/question.css">
-
+    <link rel="stylesheet" href="./stylesheets/login.css">
+    <script src="http://connect.facebook.net/en_US/sdk.js"></script>
     <script src="./js/their_stuff.js"></script>
     <script src="./js/our_stuff.js"></script>
-
 </head>
 <body>
+    <div id="container">
+    </div>
 </body>
 </html>
