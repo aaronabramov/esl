@@ -1,3 +1,7 @@
 {
-    "database_name": "esl_development"
+    "db": {
+        "name": "esl_development",
+        "user": "dabramov",
+        "host": "localhost"
+    }
 }

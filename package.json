@@ -17,6 +17,7 @@
     "lodash": "^2.4.1",
     "morgan": "~1.0.0",
     "node-jsx": "^0.11.0",
+    "pg": "^3.4.2",
     "react": "^0.11.1",
     "static-favicon": "~1.0.0",
     "superagent": "^0.18.2"

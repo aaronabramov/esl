@@ -3,7 +3,7 @@ var config = require('config'),
 
 exports.up = function(next) {
     var cmd = 'echo "create database ' +
-        config.get('database_name') +
+        config.get('db.name') +
         ';" | psql';
     exec(cmd, function(err, stdout, stderr) {
         if (err) {
@@ -16,9 +16,8 @@ exports.up = function(next) {
 
 exports.down = function(next) {
     var cmd = 'echo "drop database ' +
-        config.get('database_name') +
+        config.get('db.name') +
         ';" | psql';
-    cmd = 'ls';
     exec(cmd, function(err, stdout, stderr) {
         if (err) {
             throw err;
