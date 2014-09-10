@@ -28,3 +28,4 @@ node_modules
 public/scripts
 public/js
 migrations/.migrate
+config/*.json
