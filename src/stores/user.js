@@ -2,35 +2,38 @@ var UserConstants = require('../constants/user.js'),
     Dispatcher = require('../dispatcher/dispatcher.js'),
     bean = require('bean');
 
-var User = function() {
-    this.loggedIn = false;
-    this.fbSdkLoaded = false;
-};
+var User = {
+    loggedIn: false,
 
-User.prototype.register = function() {
-    var _this = this;
+    getLoginStatus: function() {
+        return this.loggedIn;
+    },
 
-    // Register to handle all updates
-    Dispatcher.register(function(payload) {
-        var action = payload.action;
+    register: function() {
+        var _this = this;
 
-        switch(action.actionType) {
-            case UserConstants.FB_SDK_LOADED:
-                _this.fbSdkLoaded = true;
-                break;
+        // Register to handle all updates
+        Dispatcher.register(function(payload) {
+            var action = payload.action;
 
-            default:
-              return true;
-        }
+            switch(action.actionType) {
+                case UserConstants.GET_LOGIN_STATUS:
+                    _this.loggedIn = true;
+                    break;
 
-        // This often goes in each case that should trigger a UI change. This store
-        // needs to trigger a UI change after every view action, so we can make the
-        // code less repetitive by putting it here.  We need the default case,
-        // however, to make sure this only gets called after one of the cases above.
-        bean.fire(_this, 'changed');
+                default:
+                  return true;
+            }
 
-        return true; // No errors.  Needed by promise in Dispatcher.
-    });
+            // This often goes in each case that should trigger a UI change. This store
+            // needs to trigger a UI change after every view action, so we can make the
+            // code less repetitive by putting it here.  We need the default case,
+            // however, to make sure this only gets called after one of the cases above.
+            bean.fire(_this, 'changed');
+
+            return true; // No errors.  Needed by promise in Dispatcher.
+        });
+    }
 };
 
 module.exports = User;

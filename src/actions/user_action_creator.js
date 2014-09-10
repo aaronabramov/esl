@@ -14,7 +14,10 @@ var UserActionCreator = {
 
     getLoginStatus: function() {
         FB.getLoginStatus(function(response) {
-            console.log(response);
+            Dispatcher.handleServerAction({
+                actionType: UserConstants.GET_LOGIN_STATUS,
+                loggedIn: response.status === 'connected' ? true : false
+            });
         });
     }
 };

@@ -1,37 +1,40 @@
 /** @jsx React.DOM */
-var React = require('react');
+var React = require('react'),
+    UserStore = require('../stores/user.js'),
+    bean = require('bean');
 
 var Login = React.createClass({
     getInitialState: function() {
         return {
-            fbSdkLoaded: false
+            loggedIn: UserStore.getLoginStatus()
         };
     },
 
-    statusChangeCallback: function(response) {
-        console.log('statusChangeCallback');
-        console.log(response);
-        if (response.status === 'connected') {
-            // Logged into your app and Facebook.
-            console.log('success!');
-        } else {
-            FB.login(function(response) {
-                console.log(response);
-            });
-        }
+    componentDidMount: function() {
+        bean.on(UserStore, 'changed', this.handleChange);
     },
 
-    checkLoginState: function() {
-        var _this = this;
-        FB.getLoginStatus(function(response) {
-            _this.statusChangeCallback(response);
+    componentWillUnmount: function() {
+        bean.off(UserStore, 'changed', this.handleChange);
+    },
+
+    handleChange: function() {
+        this.setState({
+            loggedIn: UserStore.getLoginStatus()
         });
     },
 
     render: function() {
+        var element;
+        if(this.state.loggedIn) {
+            element = <button className="pure-button" onClick={this.checkLoginState}>Login</button>;
+        } else {
+            element = <span className="login-name">Hello, name!</span>;
+        }
+
         return (
             <div className="fb-login">
-                <button className="pure-button" onClick={this.checkLoginState}>Login</button>
+                {element}
             </div>
         );
     }
