@@ -27,3 +27,4 @@ node_modules
 # Assets
 public/scripts
 public/js
+migrations/.migrate
