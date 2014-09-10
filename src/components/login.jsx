@@ -2,14 +2,22 @@
 var React = require('react');
 
 var Login = React.createClass({
+    getInitialState: function() {
+        return {
+            fbSdkLoaded: false
+        };
+    },
+
     statusChangeCallback: function(response) {
         console.log('statusChangeCallback');
         console.log(response);
         if (response.status === 'connected') {
             // Logged into your app and Facebook.
             console.log('success!');
-        } else if (response.status === 'not_authorized') {
         } else {
+            FB.login(function(response) {
+                console.log(response);
+            });
         }
     },
 
