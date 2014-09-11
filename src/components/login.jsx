@@ -6,7 +6,8 @@ var React = require('react'),
 var Login = React.createClass({
     getInitialState: function() {
         return {
-            loggedIn: UserStore.getLoginStatus()
+            loggedIn: UserStore.getLoginStatus(),
+            userName: UserStore.getUserName()
         };
     },
 
@@ -20,16 +21,17 @@ var Login = React.createClass({
 
     handleChange: function() {
         this.setState({
-            loggedIn: UserStore.getLoginStatus()
+            loggedIn: UserStore.getLoginStatus(),
+            userName: UserStore.getUserName()
         });
     },
 
     render: function() {
         var element;
-        if(this.state.loggedIn) {
+        if(!this.state.loggedIn) {
             element = <button className="pure-button" onClick={this.checkLoginState}>Login</button>;
         } else {
-            element = <span className="login-name">Hello, name!</span>;
+            element = <span className="login-name">Hello, {this.state.userName}!</span>;
         }
 
         return (

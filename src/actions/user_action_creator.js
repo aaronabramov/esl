@@ -13,10 +13,24 @@ var UserActionCreator = {
     },
 
     getLoginStatus: function() {
+        var _this = this;
+
         FB.getLoginStatus(function(response) {
             Dispatcher.handleServerAction({
                 actionType: UserConstants.GET_LOGIN_STATUS,
                 loggedIn: response.status === 'connected' ? true : false
+            });
+
+            _this.getUserName();
+        });
+    },
+
+    getUserName: function() {
+        FB.api('/me', function(response) {
+            console.log('Successful login for: ' + response.name);
+            Dispatcher.handleServerAction({
+                actionType: UserConstants.GET_USER_NAME,
+                name: response.name
             });
         });
     }

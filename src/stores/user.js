@@ -4,9 +4,14 @@ var UserConstants = require('../constants/user.js'),
 
 var User = {
     loggedIn: false,
+    name: '',
 
     getLoginStatus: function() {
         return this.loggedIn;
+    },
+
+    getUserName: function() {
+        return this.name;
     },
 
     register: function() {
@@ -19,6 +24,10 @@ var User = {
             switch(action.actionType) {
                 case UserConstants.GET_LOGIN_STATUS:
                     _this.loggedIn = true;
+                    break;
+
+                case UserConstants.GET_USER_NAME:
+                    _this.name = action.name;
                     break;
 
                 default:
@@ -36,4 +45,6 @@ var User = {
     }
 };
 
+
+User.register();
 module.exports = User;
