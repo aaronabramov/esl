@@ -11,7 +11,7 @@ sed -i.bak s/\<username\>/$(whoami)/ config/development.json && rm config/develo
 
 // if you want to update config then make the canges to development.json
 // then do
-openssl enc -des3 -in development.json -out development.json.enc
+openssl enc -des3 -in config/development.json -out config/development.json.enc
 // enter the key and commit
 ```
 
