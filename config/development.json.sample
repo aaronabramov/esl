@@ -1,7 +1,0 @@
-{
-    "db": {
-        "name": "esl_development",
-        "user": "<username>",
-        "host": "localhost"
-    }
-}
