@@ -23,7 +23,8 @@ var User = {
 
             switch(action.actionType) {
                 case UserConstants.GET_LOGIN_STATUS:
-                    _this.loggedIn = true;
+                case UserConstants.LOGIN:
+                    _this.loggedIn = action.loggedIn;
                     break;
 
                 case UserConstants.GET_USER_NAME:

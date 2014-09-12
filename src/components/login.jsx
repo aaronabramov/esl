@@ -1,6 +1,7 @@
 /** @jsx React.DOM */
 var React = require('react'),
     UserStore = require('../stores/user.js'),
+    UserActionCreator = require('../actions/user_action_creator.js'),
     bean = require('bean');
 
 var Login = React.createClass({
@@ -26,10 +27,14 @@ var Login = React.createClass({
         });
     },
 
+    login: function() {
+        UserActionCreator.login();
+    },
+
     render: function() {
         var element;
         if(!this.state.loggedIn) {
-            element = <button className="pure-button" onClick={this.checkLoginState}>Login</button>;
+            element = <button className="pure-button" onClick={this.login}>Login</button>;
         } else {
             element = <span className="login-name">Hello, {this.state.userName}!</span>;
         }

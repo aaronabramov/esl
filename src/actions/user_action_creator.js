@@ -21,17 +21,33 @@ var UserActionCreator = {
                 loggedIn: response.status === 'connected' ? true : false
             });
 
-            _this.getUserName();
+            if(response.status === 'connected') {
+                _this.getUserName();
+            }
         });
     },
 
     getUserName: function() {
         FB.api('/me', function(response) {
-            console.log('Successful login for: ' + response.name);
             Dispatcher.handleServerAction({
                 actionType: UserConstants.GET_USER_NAME,
                 name: response.name
             });
+        });
+    },
+
+    login: function() {
+        var _this = this;
+
+        FB.login(function(response) {
+            Dispatcher.handleServerAction({
+                actionType: UserConstants.LOGIN,
+                loggedIn: response.status === 'connected' ? true : false
+            });
+
+            if(response.status === 'connected') {
+                _this.getUserName();
+            }
         });
     }
 };
