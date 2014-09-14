@@ -1,5 +1,6 @@
 var Dispatcher = require('../dispatcher/dispatcher.js'),
-    UserConstants = require('../constants/user.js');
+    UserConstants = require('../constants/user.js'),
+    UserService = require('../services/user_service.js');
 
 var UserActionCreator = {
     initialize: function() {
@@ -15,7 +16,7 @@ var UserActionCreator = {
     getLoginStatus: function() {
         var _this = this;
 
-        FB.getLoginStatus(function(response) {
+        UserService.getLoginStatus().then(function onResolve(response) {
             Dispatcher.handleServerAction({
                 actionType: UserConstants.GET_LOGIN_STATUS,
                 loggedIn: response.status === 'connected' ? true : false
@@ -24,22 +25,26 @@ var UserActionCreator = {
             if(response.status === 'connected') {
                 _this.getUserName();
             }
+        }, function onReject(error) {
+
         });
     },
 
     getUserName: function() {
-        FB.api('/me', function(response) {
+        UserService.getUserName().then(function onResolve(response) {
             Dispatcher.handleServerAction({
                 actionType: UserConstants.GET_USER_NAME,
                 name: response.name
             });
+        }, function onReject() {
+
         });
     },
 
     login: function() {
         var _this = this;
 
-        FB.login(function(response) {
+        UserService.login().then(function onResolve(response) {
             Dispatcher.handleServerAction({
                 actionType: UserConstants.LOGIN,
                 loggedIn: response.status === 'connected' ? true : false
@@ -48,6 +53,8 @@ var UserActionCreator = {
             if(response.status === 'connected') {
                 _this.getUserName();
             }
+        }, function onReject() {
+
         });
     }
 };
