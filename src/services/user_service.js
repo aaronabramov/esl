@@ -6,7 +6,7 @@ var UserService = {
         return new Promise(function(resolve, reject) {
             FB.getLoginStatus(function(response) {
                 _this.sendCredentialsToServer(response).then(function onResolved(response) {
-                    resolve(response);
+                    resolve(response.body);
                 }, function onReject(error) {
                     reject(error);
                 });
@@ -31,7 +31,7 @@ var UserService = {
         return new Promise(function(resolve, reject) {
             FB.login(function(response) {
                 _this.sendCredentialsToServer(response).then(function onResolved(response) {
-                    resolve(response);
+                    resolve(response.body);
                 }, function onReject(error) {
                     reject(error);
                 });

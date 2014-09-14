@@ -19,10 +19,10 @@ var UserActionCreator = {
         UserService.getLoginStatus().then(function onResolve(response) {
             Dispatcher.handleServerAction({
                 actionType: UserConstants.GET_LOGIN_STATUS,
-                loggedIn: response.status === 'connected' ? true : false
+                loggedIn: response.success ? true : false
             });
 
-            if(response.status === 'connected') {
+            if(response.success) {
                 _this.getUserName();
             }
         }, function onReject(error) {
@@ -47,10 +47,10 @@ var UserActionCreator = {
         UserService.login().then(function onResolve(response) {
             Dispatcher.handleServerAction({
                 actionType: UserConstants.LOGIN,
-                loggedIn: response.status === 'connected' ? true : false
+                loggedIn: response.success ? true : false
             });
 
-            if(response.status === 'connected') {
+            if(response.success) {
                 _this.getUserName();
             }
         }, function onReject() {
