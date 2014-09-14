@@ -1,6 +1,6 @@
 require('node-jsx').install({
     extension: '.jsx'
-})
+});
 
 var express = require('express');
 var path = require('path');
@@ -25,11 +25,9 @@ app.get('/questions/:filename', function(req, res) {
     res.send(questions.load(req.params.filename));
 });
 
-app.get('/*', function(req, res) {
-    // var Page = require('./src/components/page.jsx');
-    // var React = require('react');
-    // var markup = '<!DOCTYPE html>\n' + React.renderComponentToString(Page(null));
-    // res.end(markup);
+app.post('/login', function(req, res) {
+    console.log(req.body.data);
+    res.send({success: 1});
 });
 
 /// catch 404 and forward to error handler
