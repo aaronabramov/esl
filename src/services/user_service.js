@@ -1,7 +1,8 @@
+var Promise = require('es6-promise').Promise;
+
 var UserService = {
     getLoginStatus: function() {
-        var Promise = window.Promise,
-            _this = this;
+        var _this = this;
 
         return new Promise(function(resolve, reject) {
             FB.getLoginStatus(function(response) {
@@ -15,8 +16,6 @@ var UserService = {
     },
 
     getUserName: function() {
-        var Promise = window.Promise;
-
         return new Promise(function(resolve, reject) {
             FB.api('/me', function(response) {
                 resolve(response);
@@ -25,8 +24,7 @@ var UserService = {
     },
 
     login: function() {
-        var Promise = window.Promise,
-            _this = this;
+        var _this = this;
 
         return new Promise(function(resolve, reject) {
             FB.login(function(response) {
@@ -40,8 +38,7 @@ var UserService = {
     },
 
     sendCredentialsToServer: function(data) {
-        var request = window.superagent,
-            Promise = window.Promise;
+        var request = window.superagent;
 
         return new Promise(function(resolve, reject) {
             request

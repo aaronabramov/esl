@@ -1,7 +1,8 @@
+var Promise = require('es6-promise').Promise;
+
 module.exports = {
     getQuestions: function() {
-        var request = window.superagent,
-            Promise = window.Promise;
+        var request = window.superagent;
 
         return new Promise(function(resolve, reject) {
             request
