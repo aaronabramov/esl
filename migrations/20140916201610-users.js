@@ -6,15 +6,14 @@ module.exports = {
                 primaryKey: true,
                 autoIncrement: true
             },
-            created_at: {
+            createdAt: {
                 type: DataTypes.DATE
             },
-            updated_at: {
+            updatedAt: {
                 type: DataTypes.DATE
             },
             facebook_id: {
-                type: DataTypes.BOOLEAN,
-                defaultValue: false,
+                type: DataTypes.STRING,
                 allowNull: false
             }
         }).complete(done);

@@ -19,6 +19,13 @@ to edit config modify `config/{config_name}_template.json` and run `make encrypt
 
 `./node_modules/sequelize-cli/bin/sequelize db:undo`
 
+#### ORM
+
+```javascript
+var models = require('./models');
+models.users.create({facebook_id: '12345'}).complete(function(err, user) { ... });
+```
+
 #### Setting up project
 1. npm install
 2. grunt
