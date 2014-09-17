@@ -16,6 +16,7 @@ to edit config modify `config/{config_name}_template.json` and run `make encrypt
 
 #### Database migrations
 `./node_modules/sequelize-cli/bin/sequelize db:migrate`
+
 `./node_modules/sequelize-cli/bin/sequelize db:undo`
 
 #### Setting up project
