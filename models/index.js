@@ -1,7 +1,7 @@
 var fs = require('fs'),
     path = require('path'),
     Sequelize = require('sequelize'),
-    lodash = require('lodash'),
+    _ = require('lodash'),
     env = process.env.NODE_ENV || 'development',
     config = require(__dirname + '/../config/config.json')[env],
     sequelize = new Sequelize(config.database, config.username, config.password, config),
@@ -23,7 +23,7 @@ Object.keys(db).forEach(function(modelName) {
     }
 })
 
-module.exports = lodash.extend({
+module.exports = _.extend({
     sequelize: sequelize,
     Sequelize: Sequelize
 }, db)
