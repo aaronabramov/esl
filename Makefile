@@ -1,5 +1,7 @@
 setup:
 	$(MAKE) decrypt CONFIG_NAME=development
+	# setup database config
+	sed s/\<username\>/`whoami`/ config/config_template.json > config/config.json
 
 decrypt:
 	openssl enc -des3 -d -in config/$(CONFIG_NAME).json.enc -out config/$(CONFIG_NAME)_template.json
