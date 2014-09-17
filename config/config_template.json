@@ -2,7 +2,7 @@
     "development": {
         "username": "<username>",
         "password": null,
-        "database": "els_development",
+        "database": "esl_development",
         "host": "127.0.0.1",
         "dialect": "postgres"
     },
