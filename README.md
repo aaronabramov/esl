@@ -4,7 +4,7 @@ interactive-esl-tests
 #### Config
 to decrypt and setup config files run `make setup` (ask someone for key)
 
-to edit config modify `config/development_template.json` and run `make encrypt` using the same key
+to edit config modify `config/{config_name}_template.json` and run `make encrypt CONFIG_NAME={config_name}` using the same key
 
 
 #### Setting up postgres
