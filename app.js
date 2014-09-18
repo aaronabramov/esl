@@ -16,10 +16,6 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-var fractal = require('fractaljs');
-fractal.config().assetPath = path.resolve(__dirname);
-app.use('/assets/*', fractal.middleware);
-
 app.get('/questions/:filename', function(req, res) {
     var questions = require('./src/questions');
     res.send(questions.load(req.params.filename));
