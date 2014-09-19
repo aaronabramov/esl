@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "<username>",
+        "password": null,
+        "database": "esl_development",
+        "host": "127.0.0.1",
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "<username>",
+        "password": null,
+        "database": "esl_test",
+        "host": "127.0.0.1",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "<username>",
+        "password": null,
+        "database": "esl_production",
+        "host": "127.0.0.1",
+        "dialect": "postgres"
+    }
+}
