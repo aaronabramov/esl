@@ -96,6 +96,7 @@
     font-size: 18px;
     line-height: 1.33em;
     border: 0;
+    outline: none;
 }
 
 .question-explanation {
