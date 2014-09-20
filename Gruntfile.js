@@ -19,11 +19,21 @@ module.exports = function(grunt) {
                     script: './run.js'
                 }
             }
+        },
+        mochaTest: {
+            test: {
+                options: {
+                    reporter: 'spec'
+                },
+                src: ['test/**/*.js']
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-express-server');
+    grunt.loadNpmTasks('grunt-mocha-test');
     grunt.loadTasks('./grunt-tasks');
-    grunt.registerTask('default', ['express:dev', 'browserify', 'watch'])
+    grunt.registerTask('default', ['express:dev', 'browserify', 'watch']);
+    grunt.registerTask('test', ['mochaTest']);
 };
