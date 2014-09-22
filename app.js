@@ -26,9 +26,7 @@ passport.use(new FacebookStrategy({
         callbackURL: "http://local.esl.com:3009/auth/facebook/callback"
     },
     function(accessToken, refreshToken, profile, done) {
-        // console.log(profile);
-        console.log('authentication done');
-        done({user: 'user'});
+        done(null, {'user': profile});
     })
 );
 
