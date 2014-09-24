@@ -5,7 +5,7 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     passport = require('passport'),
     FacebookStrategy = require('passport-facebook').Strategy,
-
+    models = require('./models'),
     app = express();
 
 require('node-jsx').install({
@@ -27,7 +27,13 @@ passport.use(new FacebookStrategy({
         callbackURL: "http://local.esl.com:3009/auth/facebook/callback"
     },
     function(accessToken, refreshToken, profile, done) {
-        done(null, {'user': profile});
+        var id = profile.id,
+            name = profile.name;
+
+        models.users.create({id: id, name: name}).complete(function(err, user) {
+            console.log(user);
+            done(null, {'user': profile});
+        });
     })
 );
 
