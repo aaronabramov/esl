@@ -30,7 +30,7 @@ passport.use(new FacebookStrategy({
         var id = profile.id,
             name = profile.name;
 
-        models.users.create({id: id, name: name}).complete(function(err, user) {
+        models.users.create({facebook_id: id}).complete(function(err, user) {
             console.log(user);
             done(null, {'user': profile});
         });
