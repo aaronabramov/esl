@@ -4,58 +4,26 @@ var Dispatcher = require('../dispatcher/dispatcher.js'),
 
 var UserActionCreator = {
     initialize: function() {
-        var _this = this;
-        var checkFbSdkInterval = setInterval(function() {
-            if(window.fbSdkLoaded) {
-                clearInterval(checkFbSdkInterval);
-                _this.getLoginStatus();
-            }
-        }, 100);
-    },
 
-    getLoginStatus: function() {
-        var _this = this;
-
-        UserService.getLoginStatus().then(function onResolve(response) {
-            Dispatcher.handleServerAction({
-                actionType: UserConstants.GET_LOGIN_STATUS,
-                loggedIn: response.success ? true : false
-            });
-
-            if(response.success) {
-                _this.getUserName();
-            }
-        }, function onReject(error) {
-
-        });
-    },
-
-    getUserName: function() {
-        UserService.getUserName().then(function onResolve(response) {
-            Dispatcher.handleServerAction({
-                actionType: UserConstants.GET_USER_NAME,
-                name: response.name
-            });
-        }, function onReject() {
-
-        });
     },
 
     login: function() {
-        var _this = this;
+        // this will be different because it will go to our server now.
 
-        UserService.login().then(function onResolve(response) {
-            Dispatcher.handleServerAction({
-                actionType: UserConstants.LOGIN,
-                loggedIn: response.success ? true : false
-            });
+        // var _this = this;
 
-            if(response.success) {
-                _this.getUserName();
-            }
-        }, function onReject() {
+        // UserService.login().then(function onResolve(response) {
+        //     Dispatcher.handleServerAction({
+        //         actionType: UserConstants.LOGIN,
+        //         loggedIn: response.success ? true : false
+        //     });
 
-        });
+        //     if(response.success) {
+        //         _this.getUserName();
+        //     }
+        // }, function onReject() {
+
+        // });
     }
 };
 
