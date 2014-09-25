@@ -27,13 +27,19 @@ module.exports = function(grunt) {
                 },
                 src: ['test/**/*.js']
             }
+        },
+        env: {
+            dev : {
+                NODE_ENV : 'development'
+            },
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-express-server');
     grunt.loadNpmTasks('grunt-mocha-test');
+    grunt.loadNpmTasks('grunt-env');
     grunt.loadTasks('./grunt-tasks');
-    grunt.registerTask('default', ['express:dev', 'browserify', 'watch']);
+    grunt.registerTask('default', ['env:dev', 'express:dev', 'browserify', 'watch']);
     grunt.registerTask('test', ['mochaTest']);
 };

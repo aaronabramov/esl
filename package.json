@@ -15,6 +15,7 @@
     "director": "^1.2.3",
     "es6-promise": "^1.0.0",
     "express": "~4.2.0",
+    "grunt-env": "^0.4.1",
     "js-yaml": "^3.2.1",
     "lodash": "^2.4.1",
     "morgan": "~1.0.0",

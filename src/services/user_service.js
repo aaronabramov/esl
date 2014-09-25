@@ -5,21 +5,23 @@ var UserService = {
         var _this = this;
 
         return new Promise(function(resolve, reject) {
-            FB.getLoginStatus(function(response) {
-                _this.sendCredentialsToServer(response).then(function onResolved(response) {
-                    resolve(response.body);
-                }, function onReject(error) {
-                    reject(error);
-                });
-            });
+                // FB.getLoginStatus(function(response) {
+                //     _this.sendCredentialsToServer(response).then(function onResolved(response) {
+                //         resolve(response.body);
+                //     }, function onReject(error) {
+                //         reject(error);
+                //     });
+                // });
         });
     },
 
     getUserName: function() {
+        var _this = this;
+
         return new Promise(function(resolve, reject) {
-            FB.api('/me', function(response) {
-                resolve(response);
-            });
+            // FB.api('/me', function(response) {
+            //     resolve(response);
+            // });
         });
     },
 
@@ -27,13 +29,13 @@ var UserService = {
         var _this = this;
 
         return new Promise(function(resolve, reject) {
-            FB.login(function(response) {
-                _this.sendCredentialsToServer(response).then(function onResolved(response) {
-                    resolve(response.body);
-                }, function onReject(error) {
-                    reject(error);
-                });
-            });
+            // FB.login(function(response) {
+            //     _this.sendCredentialsToServer(response).then(function onResolved(response) {
+            //         resolve(response.body);
+            //     }, function onReject(error) {
+            //         reject(error);
+            //     });
+            // });
         });
     },
 
