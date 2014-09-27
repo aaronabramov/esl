@@ -45,11 +45,11 @@ passport.use(new FacebookStrategy({
 //   have a database of user records, the complete Facebook profile is serialized
 //   and deserialized.
 passport.serializeUser(function(user, done) {
-  done(null, user);
+    done(null, user);
 });
 
 passport.deserializeUser(function(obj, done) {
-  done(null, obj);
+    done(null, obj);
 });
 
 // Redirect the user to Facebook for authentication.  When complete,
@@ -71,10 +71,6 @@ app.get('/auth/facebook/callback',
 app.get('/questions/:filename', function(req, res) {
     var questions = require('./src/questions');
     res.send(questions.load(req.params.filename));
-});
-
-app.post('/login', function(req, res) {
-    res.send({success: 1});
 });
 
 /// catch 404 and forward to error handler
