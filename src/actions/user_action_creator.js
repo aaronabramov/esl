@@ -8,22 +8,7 @@ var UserActionCreator = {
     },
 
     login: function() {
-        // this will be different because it will go to our server now.
 
-        // var _this = this;
-
-        // UserService.login().then(function onResolve(response) {
-        //     Dispatcher.handleServerAction({
-        //         actionType: UserConstants.LOGIN,
-        //         loggedIn: response.success ? true : false
-        //     });
-
-        //     if(response.success) {
-        //         _this.getUserName();
-        //     }
-        // }, function onReject() {
-
-        // });
     }
 };
 
