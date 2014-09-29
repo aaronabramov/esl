@@ -3,13 +3,7 @@ var Dispatcher = require('../dispatcher/dispatcher.js'),
     UserService = require('../services/user_service.js');
 
 var UserActionCreator = {
-    initialize: function() {
 
-    },
-
-    login: function() {
-
-    }
 };
 
 module.exports = UserActionCreator;
