@@ -27,14 +27,11 @@ var Login = React.createClass({
         });
     },
 
-    login: function() {
-        UserActionCreator.login();
-    },
-
     render: function() {
         var element;
         if(!this.state.loggedIn) {
-            element = <button className="pure-button" onClick={this.login}>Login</button>;
+            element = <button className="pure-button"><a href='auth/facebook'>Login</a></button>;
+
         } else {
             element = <span className="login-name">Hello, {this.state.userName}!</span>;
         }
