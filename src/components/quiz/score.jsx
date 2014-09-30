@@ -7,7 +7,8 @@ var React = require('react'),
 module.exports = React.createClass({
     getInitialState: function() {
         return {
-            questions: QuizStore.getQuestions()
+            questions: QuizStore.getQuestions(),
+            correctQuestions: QuizStore.getCorrectQuestions()
         };
     },
 
@@ -29,7 +30,7 @@ module.exports = React.createClass({
         return (
             <div className="score-container">
                 <div className="score-intro">You scored</div>
-                <div className="score">{score}</div>
+                <div className="score">{this.state.correctQuestions.length}</div>
                 <div className="score-outro">out of {this.state.questions.length}</div>
             </div>
         );

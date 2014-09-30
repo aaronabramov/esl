@@ -25,6 +25,12 @@ var QuizStore = {
         question.state = (submittedAnswer === correctAnswer) ? QuestionState.CORRECT : QuestionState.INCORRECT;
     },
 
+    getCorrectQuestions: function() {
+        return this.questions.filter(function(question) {
+            return question.state === QuestionState.CORRECT;
+        });
+    },
+
     register: function() {
         var _this = this;
 
