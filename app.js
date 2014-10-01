@@ -6,6 +6,7 @@ var express = require('express'),
     passport = require('passport'),
     FacebookStrategy = require('passport-facebook').Strategy,
     models = require('./models'),
+    QuizRouter = require('./routes/quiz.js'),
     app = express();
 
 require('node-jsx').install({
@@ -73,15 +74,7 @@ app.get('/questions/:filename', function(req, res) {
     res.send(questions.load(req.params.filename));
 });
 
-app.post('/quiz/save', function(req, res) {
-    console.log(req.body);
-
-    models.quiz_results.create({total_correct: req.body.correct}).complete(function(err, quiz_result) {
-        console.log(quiz_result);
-        res.json({'success': 1});
-    });
-
-});
+app.use('/quiz', QuizRouter);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
