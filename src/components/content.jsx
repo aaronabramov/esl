@@ -4,7 +4,8 @@ var QuizStore = require('../stores/quiz.js'),
     bean = require('bean'),
     React = require('react'),
     Quiz = require('./quiz/quiz.jsx'),
-    Score = require('./quiz/score.jsx');
+    Score = require('./quiz/score.jsx'),
+    QuizActionCreator = require('../actions/quiz_action_creator.js');
 
 module.exports = React.createClass({
     getInitialState: function() {
@@ -53,6 +54,11 @@ module.exports = React.createClass({
 
             this.setState({question: obj});
         } else {
+            totalQuestions = QuizStore.getQuestions().length;
+            correctQuestions = QuizStore.getCorrectQuestions().length;
+
+            QuizActionCreator.saveResults(correctQuestions, totalQuestions);
+
             this.setState({end: true});
         }
 

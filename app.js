@@ -73,6 +73,16 @@ app.get('/questions/:filename', function(req, res) {
     res.send(questions.load(req.params.filename));
 });
 
+app.post('/quiz/save', function(req, res) {
+    console.log(req.body);
+
+    models.quiz_results.create({total_correct: req.body.correct}).complete(function(err, quiz_result) {
+        console.log(quiz_result);
+        res.json({'success': 1});
+    });
+
+});
+
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');

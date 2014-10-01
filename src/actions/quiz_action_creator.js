@@ -28,6 +28,15 @@ module.exports = {
         Dispatcher.handleViewAction({
             actionType: QuizConstants.NEXT_QUESTION
         });
+    },
+
+    saveResults: function(numCorrect, numTotal) {
+        QuizService.saveResults(numCorrect, numTotal).then(function(data) {
+            console.log('results saved!');
+            console.log(data);
+        }, function(error) {
+            console.log('error: results not saved');
+        });
     }
 
 };
