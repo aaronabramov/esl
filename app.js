@@ -19,7 +19,6 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(passport.initialize());
 app.use(passport.session());
-
 app.use(express.static(path.join(__dirname, 'public')));
 
 passport.use(new FacebookStrategy({
@@ -68,11 +67,6 @@ app.get('/auth/facebook/callback',
         res.redirect('/'); // Successful authentication, redirect home.
     }
 );
-
-app.get('/questions/:filename', function(req, res) {
-    var questions = require('./src/questions');
-    res.send(questions.load(req.params.filename));
-});
 
 app.use('/quiz', QuizRouter);
 

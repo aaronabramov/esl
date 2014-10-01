@@ -6,7 +6,7 @@ module.exports = {
 
         return new Promise(function(resolve, reject) {
             request
-                .get('/questions/topic1.yml')
+                .get('/quiz/topic1.yml')
                 .end(function(error, res) {
                     if(error) {
                         reject(error);
