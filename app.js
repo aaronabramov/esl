@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 passport.use(new FacebookStrategy({
         clientID: 694688507292410,
         clientSecret: '27517f681feb86c31a95de25cb06b118',
-        callbackURL: "http://local.esl.com:3009/auth/facebook/callback"
+        callbackURL: "http://local.esl.com:3009/login/facebook/callback"
     },
     function(accessToken, refreshToken, profile, done) {
         var id = profile.id,
@@ -55,13 +55,13 @@ passport.deserializeUser(function(obj, done) {
 // Redirect the user to Facebook for authentication.  When complete,
 // Facebook will redirect the user back to the application at
 //     /auth/facebook/callback
-app.get('/auth/facebook', passport.authenticate('facebook'));
+app.get('/login/facebook', passport.authenticate('facebook'));
 
 // Facebook will redirect the user to this URL after approval.  Finish the
 // authentication process by attempting to obtain an access token.  If
 // access was granted, the user will be logged in.  Otherwise,
 // authentication has failed.
-app.get('/auth/facebook/callback',
+app.get('/login/facebook/callback',
     passport.authenticate('facebook', { failureRedirect: '/login' }),
     function(req, res) {
         res.redirect('/'); // Successful authentication, redirect home.
