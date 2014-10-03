@@ -1,23 +1,7 @@
 var express = require('express'),
-    router = express.Router(),
-    FacebookStrategy = require('passport-facebook').Strategy,
-    models = require('../models');
+    router = express.Router();
 
 module.exports = function(passport) {
-    passport.use(new FacebookStrategy({
-        clientID: 694688507292410,
-        clientSecret: '27517f681feb86c31a95de25cb06b118',
-        callbackURL: "http://local.esl.com:3009/login/facebook/callback"
-    }, function(accessToken, refreshToken, profile, done) {
-        var id = profile.id,
-            name = profile.name;
-
-        models.users.create({facebook_id: id}).complete(function(err, user) {
-            console.log(user);
-            done(null, {'user': profile});
-        });
-    }));
-
     // Passport session setup.
     //   To support persistent login sessions, Passport needs to be able to
     //   serialize users into and deserialize users out of the session.  Typically,

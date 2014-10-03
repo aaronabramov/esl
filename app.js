@@ -6,6 +6,7 @@ var express = require('express'),
     passport = require('passport'),
     QuizRouter = require('./routes/quiz.js'),
     LoginRouter = require('./routes/login.js'),
+    FacebookStrategy = require('./middleware/strategies/facebook.js'),
     app = express();
 
 require('node-jsx').install({
@@ -19,6 +20,8 @@ app.use(cookieParser());
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(express.static(path.join(__dirname, 'public')));
+
+passport.use(FacebookStrategy());
 
 app.use('/quiz', QuizRouter);
 app.use('/login', LoginRouter(passport));
