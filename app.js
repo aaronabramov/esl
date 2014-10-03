@@ -5,9 +5,8 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     passport = require('passport'),
     registerSession = require('./middleware/session'),
-    QuizRouter = require('./routes/quiz.js'),
-    LoginRouter = require('./routes/login.js'),
-    FacebookStrategy = require('./middleware/strategies/facebook.js'),
+    Routes = require('./routes'),
+    Strategies = require('./middleware/strategies'),
     app = express();
 
 require('node-jsx').install({
@@ -21,12 +20,12 @@ app.use(cookieParser());
 
 app.use(passport.initialize());
 app.use(passport.session());
-passport.use(FacebookStrategy());
+passport.use(Strategies.Facebook());
 registerSession(passport);
 
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/quiz', QuizRouter);
-app.use('/login', LoginRouter(passport));
+app.use('/quiz', Routes.Quiz);
+app.use('/login', Routes.Login(passport));
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {

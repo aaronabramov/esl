@@ -1,2 +1,2 @@
-module.Quiz = require('./quiz.js');
-module.Users = require('./users.js');
+exports.Quiz = require('./quiz.js');
+exports.Login = require('./login.js');
