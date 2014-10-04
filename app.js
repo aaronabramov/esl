@@ -13,6 +13,9 @@ require('node-jsx').install({
     extension: '.jsx'
 });
 
+app.set('templates', __dirname);
+app.set('view engine', 'jade');
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
@@ -26,6 +29,10 @@ registerSession(passport);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/quiz', Routes.Quiz);
 app.use('/login', Routes.Login(passport));
+
+app.get('/', function(req, res){
+    res.render('index', {});
+});
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
