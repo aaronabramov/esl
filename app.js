@@ -13,7 +13,6 @@ require('node-jsx').install({
     extension: '.jsx'
 });
 
-app.set('templates', __dirname);
 app.set('view engine', 'jade');
 
 app.use(logger('dev'));
