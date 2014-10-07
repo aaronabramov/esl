@@ -16,11 +16,12 @@ to edit config modify `config/{config_name}_template.json` and run `make encrypt
 
 #### Database migrations
 `./node_modules/sequelize-cli/bin/sequelize db:migrate`
-
 `./node_modules/sequelize-cli/bin/sequelize db:undo`
+`./node_modules/sequelize-cli/bin/sequelize migration:create --name <TABLE_NAME>`
+`drop database esl_development;`
+`create database esl_development;`
 
 #### ORM
-
 ```javascript
 var models = require('./models');
 models.users.create({facebook_id: '12345'}).complete(function(err, user) { ... });
