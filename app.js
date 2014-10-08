@@ -6,9 +6,12 @@ var express = require('express'),
     passport = require('passport'),
     registerSession = require('./middleware/session'),
     session = require('express-session'),
+    pgSession = require('connect-pg-simple')(session),
     Routes = require('./routes'),
     Strategies = require('./middleware/strategies'),
-    app = express();
+    pg = require('pg'),
+    app = express(),
+    config = require('./config/config.json')[app.get('env')];
 
 require('node-jsx').install({
     extension: '.jsx'
@@ -21,7 +24,28 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 
+
 app.use(session({
+    store: new pgSession({
+        pg: pg,
+        conString: 'postgres://' +
+            config.username +
+            ':' +
+            config.password +
+            '@' +
+            config.host +
+            '/' +
+            config.database,
+        tableName: 'session'
+    }),
+    secret: 'sharkhorse',
+    cookie: {
+        maxAge: 30 * 24 * 60 * 60 * 1000
+    } // 30 days
+}));
+
+app.use(session({
+    store: new(require('connect-pg-simple')(session))(),
     secret: 'sharkhorse'
 }));
 
