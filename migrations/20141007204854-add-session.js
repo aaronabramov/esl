@@ -12,7 +12,7 @@ var sequelize = require('../models').sequelize,
 module.exports = {
     up: function(migration, DataTypes, done) {
         sequelize.query(QUERY).success(function(result) {
-            console.log(result);
+            done();
         }).error(function(err) {
             throw err;
         });

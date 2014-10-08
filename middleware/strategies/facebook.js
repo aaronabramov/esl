@@ -8,7 +8,6 @@ module.exports = function() {
         clientSecret: config.get('facebook.clientSecret'),
         callbackURL: "http://local.esl.com:3009/login/facebook/callback"
     }, function(accessToken, refreshToken, profile, done) {
-        console.log(profile);
         var id = profile.id,
             displayName = profile.displayName;
 
