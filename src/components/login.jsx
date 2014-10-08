@@ -29,7 +29,6 @@ var Login = React.createClass({
 
     render: function() {
         var element;
-        console.log(this.state);
         if(!this.state.loggedIn) {
             element = <button className="pure-button"><a href='login/facebook'>Login</a></button>;
 
