@@ -17,6 +17,12 @@ var User = {
     register: function() {
         var _this = this;
 
+        // i've no idea what im doing
+        if (window.currentUser) {
+            this.name = window.currentUser.display_name;
+            this.loggedIn = true;
+        }
+
         // Register to handle all updates
         Dispatcher.register(function(payload) {
             var action = payload.action;

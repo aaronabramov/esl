@@ -10,12 +10,12 @@ html(lang="en")
         link(rel='stylesheet', href='/stylesheets/login.css', type='text/css')
         link(rel='stylesheet', href='/stylesheets/style.css', type='text/css')
 
+        script(type='text/javascript').
+            window.currentUser = !{currentUser};
+
         script(src='/vendor/superagent.js' type='text/javascript')
         script(src='/js/their_stuff.js' type='text/javascript')
         script(src='/js/our_stuff.js' type='text/javascript')
-
-        script(type='text/javascript').
-            window.currentUser = !{currentUser};
 
     body
         #container
