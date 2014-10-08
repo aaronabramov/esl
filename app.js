@@ -58,17 +58,13 @@ registerSession(passport);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(function(req, res, next) {
-    console.log(req.session);
-    console.log('user', req.user);
-    next();
-});
-
 app.use('/quiz', Routes.Quiz);
 app.use('/login', Routes.Login(passport));
 
 app.get('/', function(req, res) {
-    res.render('index', {});
+    res.render('index', {
+        currentUser: JSON.stringify(req.user)
+    });
 });
 
 /// catch 404 and forward to error handler
