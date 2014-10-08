@@ -4,7 +4,7 @@ var FacebookStrategy = require('passport-facebook').Strategy,
 
 module.exports = function() {
     return new FacebookStrategy({
-        clientID: 694688507292410,
+        clientID: config.get('facebook.clientID'),
         clientSecret: config.get('facebook.clientSecret'),
         callbackURL: "http://local.esl.com:3009/login/facebook/callback"
     }, function(accessToken, refreshToken, profile, done) {
