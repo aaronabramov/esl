@@ -15,10 +15,14 @@ to edit config modify `config/{config_name}_template.json` and run `make encrypt
 4. `createuser USERNAME // use your unix username here`
 
 #### Database migrations
-`./node_modules/sequelize-cli/bin/sequelize db:migrate`
-`./node_modules/sequelize-cli/bin/sequelize db:undo`
+`make migrate`
+
+`make rollback`
+
 `./node_modules/sequelize-cli/bin/sequelize migration:create --name <TABLE_NAME>`
+
 `drop database esl_development;`
+
 `create database esl_development;`
 
 #### ORM
