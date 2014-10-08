@@ -5,6 +5,7 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     passport = require('passport'),
     registerSession = require('./middleware/session'),
+    session = require('express-session'),
     Routes = require('./routes'),
     Strategies = require('./middleware/strategies'),
     app = express();
@@ -20,16 +21,29 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 
+app.use(session({
+    secret: 'sharkhorse'
+}));
+
 app.use(passport.initialize());
+
+
 app.use(passport.session());
 passport.use(Strategies.Facebook());
 registerSession(passport);
 
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(function(req, res, next) {
+    console.log(req.session);
+    console.log('user', req.user);
+    next();
+});
+
 app.use('/quiz', Routes.Quiz);
 app.use('/login', Routes.Login(passport));
 
-app.get('/', function(req, res){
+app.get('/', function(req, res) {
     res.render('index', {});
 });
 

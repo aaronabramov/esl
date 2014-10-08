@@ -15,6 +15,7 @@
     "director": "^1.2.3",
     "es6-promise": "^1.0.0",
     "express": "~4.2.0",
+    "express-session": "^1.8.2",
     "grunt-env": "^0.4.1",
     "jade": "^1.7.0",
     "js-yaml": "^3.2.1",
