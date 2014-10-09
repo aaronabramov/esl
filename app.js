@@ -9,6 +9,7 @@ var express = require('express'),
     pgSession = require('connect-pg-simple')(session),
     Routes = require('./routes'),
     Strategies = require('./middleware/strategies'),
+    Errors = require('./middleware/errors'),
     pg = require('pg'),
     app = express(),
     config = require('./config/config.json')[app.get('env')];
@@ -50,8 +51,6 @@ app.use(session({
 }));
 
 app.use(passport.initialize());
-
-
 app.use(passport.session());
 passport.use(Strategies.Facebook());
 registerSession(passport);
@@ -67,26 +66,7 @@ app.get('/', function(req, res) {
     });
 });
 
-/// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-    var err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
-
-// production error handler
-// no stacktraces leaked to user
-app.use(function(err, req, res, next) {
-    res.writeHead(err.status || 500, {
-        'Content-Type': 'application/json'
-    });
-    var stack = err.stack;
-    stack && (stack = stack.split('\n'));
-    res.end(JSON.stringify({
-        msg: err.msg,
-        err: err.toString(),
-        stack: stack
-    }));
-});
+app.use(Errors.PageNotFound);
+app.use(Errors.Handler);
 
 module.exports = app;
