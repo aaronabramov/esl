@@ -5,6 +5,7 @@ var QuizStore = require('../stores/quiz.js'),
     React = require('react'),
     Quiz = require('./quiz/quiz.jsx'),
     Score = require('./quiz/score.jsx'),
+    Video = require('./video/video.jsx'),
     QuizActionCreator = require('../actions/quiz_action_creator.js');
 
 module.exports = React.createClass({
