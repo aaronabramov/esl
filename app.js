@@ -21,6 +21,7 @@ require('node-jsx').install({
 app.set('view engine', 'jade');
 
 app.use(logger('dev'));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
@@ -55,10 +56,10 @@ app.use(passport.session());
 passport.use(Strategies.Facebook());
 registerSession(passport);
 
-app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/quiz', Routes.Quiz);
 app.use('/login', Routes.Login(passport));
+app.post('/logout', Routes.Logout);
 
 app.get('/', function(req, res) {
     res.render('index', {
