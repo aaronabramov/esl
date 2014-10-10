@@ -1,2 +1,2 @@
-module.PageNotFound = require('./page_not_found.js');
-module.Handler = require('./handler.js');
+module.exports.PageNotFound = require('./page_not_found.js');
+module.exports.Handler = require('./handler.js');
