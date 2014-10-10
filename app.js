@@ -59,6 +59,7 @@ registerSession(passport);
 
 app.use('/quiz', Routes.Quiz);
 app.use('/login', Routes.Login(passport));
+app.post('/logout', Routes.Logout);
 
 app.get('/', function(req, res) {
     res.render('index', {

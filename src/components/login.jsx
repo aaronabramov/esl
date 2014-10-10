@@ -2,7 +2,8 @@
 var React = require('react'),
     UserStore = require('../stores/user.js'),
     UserActionCreator = require('../actions/user_action_creator.js'),
-    bean = require('bean');
+    bean = require('bean'),
+    LOGOUT_URL = '/logout';
 
 var Login = React.createClass({
     getInitialState: function() {
@@ -27,13 +28,30 @@ var Login = React.createClass({
         });
     },
 
+    handleLogout: function(e) {
+        e.preventDefault();
+        superagent.post(LOGOUT_URL).end(function(err, res) {
+            if (err) {
+                throw err;
+                return;
+            }
+            if (!res.ok) {
+                return console.error(res.text);
+            }
+            window.location.reload();
+        });
+    },
+
     render: function() {
         var element;
         if(!this.state.loggedIn) {
             element = <button className="pure-button"><a href='login/facebook'>Login</a></button>;
 
         } else {
-            element = <span className="login-name">Hello, {this.state.userName}!</span>;
+            element = <div>
+                <span className="login-name">Hello, {this.state.userName}!</span>
+                <button className="pure-button"><a onClick={this.handleLogout}>Logout</a></button>
+            </div>;
         }
 
         return (
