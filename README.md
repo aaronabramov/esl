@@ -11,8 +11,9 @@ interactive-esl-tests
 6. Add the following line to `/etc/hosts/`: `127.0.0.1       localhost       local.esl.com`
 7. Start postgres `postgres -D /usr/local/var/postgres`
 8. Perform migrations `make migrate`
-9. Open new shell and start the web server: `grunt`
-10. Go to http://local.esl.com:3009
+9. `npm install -g grunt`
+10. Open new shell and start the web server: `grunt`
+11. Go to http://local.esl.com:3009
 
 #### Config
 to decrypt and setup config files run `make setup` (ask someone for key)
