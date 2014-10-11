@@ -3,13 +3,16 @@ interactive-esl-tests
 
 #### Initial Setup
 
-1. `make setup` (ask someone for key)
-2. Set up postgres (see below)
-3. Add the following line to `/etc/hosts/`: `127.0.0.1       localhost       local.esl.com`
-3. Start postgres `postgres -D /usr/local/var/postgres`
-4. Perform migrations `make migrate`
-5. Open new shell and start the web server: `grunt`
-6. Go to http://local.esl.com:3009
+1. Install nvm
+2. `nvm install 0.10.30`
+3. `nvm use 0.10.30`
+4. `make setup` (ask someone for key)
+5. Set up postgres (see below)
+6. Add the following line to `/etc/hosts/`: `127.0.0.1       localhost       local.esl.com`
+7. Start postgres `postgres -D /usr/local/var/postgres`
+8. Perform migrations `make migrate`
+9. Open new shell and start the web server: `grunt`
+10. Go to http://local.esl.com:3009
 
 #### Config
 to decrypt and setup config files run `make setup` (ask someone for key)
@@ -43,6 +46,7 @@ models.users.create({facebook_id: '12345'}).complete(function(err, user) { ... }
 
 #### Running
 1. npm install
-2. Open new shell and start postgres: `postgres -D /usr/local/var/postgres`
-2. Open new shell and start the web server: `grunt`
-3. go to `http://localhost:3009`
+2. `nvm use 0.10.30`
+3. Open new shell and start postgres: `postgres -D /usr/local/var/postgres`
+4. Open new shell and start the web server: `grunt`
+5. go to `http://localhost:3009`
