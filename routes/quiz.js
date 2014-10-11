@@ -10,8 +10,9 @@ router.post('/save', function(req, res) {
 });
 
 router.get('/:filename', function(req, res) {
-    var questions = require('../src/questions');
-    res.send(questions.load(req.params.filename));
+    var questions = require('../src/questions'),
+        quizDirectory = 'quizzes/'; // relative path inside /esl/data
+    res.send(questions.load(quizDirectory + req.params.filename));
 });
 
 module.exports = router;
