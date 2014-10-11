@@ -7,10 +7,10 @@ interactive-esl-tests
 2. `nvm install 0.10.30`
 3. `nvm use 0.10.30`
 4. `make setup` (ask someone for key)
-5. Set up postgres (see below)
-6. Add the following line to `/etc/hosts/`: `127.0.0.1       localhost       local.esl.com`
+5. Add the following line to `/etc/hosts/`: `127.0.0.1       localhost       local.esl.com`
+6. Set up postgres (see below)
 7. Start postgres `postgres -D /usr/local/var/postgres`
-8. Perform migrations `make migrate`
+8. While postgres is running, perform migrations `make migrate`
 9. `npm install -g grunt`
 10. Open new shell and start the web server: `grunt`
 11. Go to http://local.esl.com:3009
@@ -20,13 +20,13 @@ to decrypt and setup config files run `make setup` (ask someone for key)
 
 to edit config modify `config/{config_name}_template.json` and run `make encrypt CONFIG_NAME={config_name}` using the same key
 
-
 #### Setting up postgres
-
 1. brew install postgres
 2. npm install
 3. postgres -D /usr/local/var/postgres
-4. `createuser USERNAME // use your unix username here`
+4. In a new shell, start psql `psql --username=<USERNAME> -d template1` // use unix username
+5. In psql, `create database <USERNAME>;` // use unix username
+6. In psql, `create database esl_development;`
 
 #### Database migrations
 `make migrate` // migrate the database
