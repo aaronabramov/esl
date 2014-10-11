@@ -12,13 +12,16 @@ interactive-esl-tests
 7. Start postgres `postgres -D /usr/local/var/postgres`
 8. While postgres is running, perform migrations `make migrate`
 9. `npm install -g grunt`
-10. Open new shell and start the web server: `grunt`
-11. Go to http://local.esl.com:3009
+10. `npm install -g grunt-cli`
+11. Open new shell and start the web server: `grunt`
+12. Go to http://local.esl.com:3009
 
 #### Config
 to decrypt and setup config files run `make setup` (ask someone for key)
 
-to edit config modify `config/{config_name}_template.json` and run `make encrypt CONFIG_NAME={config_name}` using the same key
+to edit config:
+* modify `config/{config_name}_template.json`
+* run `make encrypt CONFIG_NAME={config_name}` using the same key
 
 #### Setting up postgres
 1. brew install postgres
