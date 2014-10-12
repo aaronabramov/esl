@@ -15,7 +15,7 @@ module.exports = {
                 actionType: VideoConstants.GET_VIDEO_LINK,
                 link: data
             });
-        }, function(error) {
+    }, function(error) {
             console.error('error: unable to get video link');
         });
 
