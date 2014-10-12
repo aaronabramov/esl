@@ -41,28 +41,34 @@ module.exports = React.createClass({
     },
 
     handleChange: function() {
-        var question = QuizStore.getNextQuestion(),
-            obj;
+        var question = QuizStore.getNextQuestion();
 
         if(question !== 'end') {
-            obj = {
-                topic: question.topic,
-                answers: question.answers,
-                question: question.question,
-                answer: '...',
-                state: question.state
-            };
-
-            this.setState({question: obj});
+            this.handleQuestion(question);
         } else {
-            totalQuestions = QuizStore.getQuestions().length;
+            this.handleEnd();
+        }
+    },
+
+    handleQuestion: function(question) {
+        var obj = {
+            topic: question.topic,
+            answers: question.answers,
+            question: question.question,
+            answer: '...',
+            state: question.state
+        };
+
+        this.setState({question: obj});
+    },
+
+    handleEnd: function() {
+        var totalQuestions = QuizStore.getQuestions().length,
             correctQuestions = QuizStore.getCorrectQuestions().length;
 
-            QuizActionCreator.saveResults(correctQuestions, totalQuestions);
+        QuizActionCreator.saveResults(correctQuestions, totalQuestions);
 
-            this.setState({end: true});
-        }
-
+        this.setState({end: true});
     },
 
     render: function() {
