@@ -13,10 +13,6 @@ a:focus {
     text-decoration: underline;
 }
 
-h3 {
-    font-weight: 100;
-}
-
 /* LAYOUT CSS */
 .pure-img-responsive {
     max-width: 100%;
@@ -41,6 +37,12 @@ h3 {
     margin: 1em 0 0 20px;
     font-weight: 300;
     color: rgb(176, 202, 219);
+}
+
+.lesson-piece {
+    font-weight: 100;
+    color: rgb(176, 202, 219);
+    margin: .5em 0 0 40px;
 }
 
 .nav-list {
