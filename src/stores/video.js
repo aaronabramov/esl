@@ -16,7 +16,6 @@ var Video = {
 
             switch(action.actionType) {
                 case VideoConstants.GET_VIDEO_LINK:
-                    debugger;
                     _this.link = action.link;
                     break;
 

@@ -20,7 +20,6 @@ var Video = React.createClass({
     },
 
     handleChange: function() {
-        debugger;
         this.setState({
             link: VideoStore.getLink()
         });
