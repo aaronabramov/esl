@@ -84,6 +84,7 @@ function transformJsx(b) {
         global: true
     }, function(filename) {
         var isJsx = !!filename.match(/\.jsx$/);
+        console.log(filename);
         if (isJsx) {
             var data = '',
                 write = function(buff) {
