@@ -1,14 +1,39 @@
 /** @jsx React.DOM */
 
-var React = require('react');
+var React = require('react'),
+    VideoStore = require('../../stores/video.js'),
+    bean = require('bean');
 
 var Video = React.createClass({
+    getInitialState: function() {
+        return {
+            link: VideoStore.getLink() || ''
+        };
+    },
+
+    componentDidMount: function() {
+        bean.on(VideoStore, 'changed', this.handleChange);
+    },
+
+    componentWillUnmount: function() {
+        bean.off(VideoStore, 'changed', this.handleChange);
+    },
+
+    handleChange: function() {
+        debugger;
+        this.setState({
+            link: VideoStore.getLink()
+        });
+    },
 
     render: function() {
-        var link = 'https://esl-videos-alice.s3-us-west-1.amazonaws.com/beginner_1_4.mp4?AWSAccessKeyId=AKIAJ2ZJDCY6PIMCYNAQ&Expires=1412926234&Signature=lFtei3NLG6nk4914hg%2BuAUuvoBg%3D',
-            html = '<video id="video" class="video-js vjs-default-skin"' +
+        if(!this.state.link) {
+            return null;
+        }
+
+        var html = '<video id="video" class="video-js vjs-default-skin"' +
                    ' controls preload="auto" width="640" height="264" data-setup=\'{"example_option":true}\'>' +
-                   ' <source src=' + link + ' type="video/mp4" /></video>';
+                   ' <source src=' + this.state.link + ' type="video/mp4" /></video>';
         return (
             <div dangerouslySetInnerHTML={{__html: html}}></div>
         );
