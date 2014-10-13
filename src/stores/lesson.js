@@ -6,6 +6,10 @@ var LessonConstants = require('../constants/lesson_constants.js'),
 var LessonStore = {
     lesson: {},
 
+    getLesson: function() {
+        return this.lesson;
+    },
+
     register: function() {
         var _this = this;
 
