@@ -11,8 +11,6 @@ module.exports = React.createClass({
                     <h2 className="lesson">Being Verbs</h2>
                     <h3 className="lesson-piece">Video</h3>
                     <h3 className="lesson-piece">Quiz</h3>
-
-
                 </div>
             </div>
         );
