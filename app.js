@@ -26,7 +26,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 
-
 app.use(session({
     store: new pgSession({
         pg: pg,
@@ -56,11 +55,11 @@ app.use(passport.session());
 passport.use(Strategies.Facebook());
 registerSession(passport);
 
-
 app.use('/quiz', Routes.Quiz);
 app.use('/login', Routes.Login(passport));
 app.use('/lesson', Routes.Lesson);
 app.post('/logout', Routes.Logout);
+app.use('/video', Routes.Video);
 
 app.get('/', function(req, res) {
     res.render('index', {
