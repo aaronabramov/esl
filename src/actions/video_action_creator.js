@@ -13,7 +13,7 @@ module.exports = {
 
             Dispatcher.handleServerAction({
                 actionType: VideoConstants.GET_VIDEO_LINK,
-                link: data
+                link: data.link
             });
     }, function(error) {
             console.error('error: unable to get video link');

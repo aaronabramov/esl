@@ -16,8 +16,9 @@ router.get('/', function(req, res, next) {
     s3 = new AWS.S3();
 
     s3.getSignedUrl('getObject', {Bucket: 'esl-videos-alice', Key: OBJ_KEY}, function(err, data) {
-        console.log(data);
-        res.send(data);
+        res.send({
+            link: data
+        });
     });
 });
 
