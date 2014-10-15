@@ -1,4 +1,4 @@
-var models = require('../../models');
+var models = require('../../../../models');
 
 // Passport session setup.
 //   To support persistent login sessions, Passport needs to be able to
