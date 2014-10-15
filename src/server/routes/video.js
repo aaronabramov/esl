@@ -1,6 +1,6 @@
 var express = require('express'),
     router = express.Router(),
-    models = require('../models');
+    models = require('../../../models');
 
 router.get('/', function(req, res, next) {
     var AWS = require('aws-sdk'),

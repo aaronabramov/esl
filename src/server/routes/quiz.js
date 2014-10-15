@@ -1,6 +1,6 @@
 var express = require('express'),
     router = express.Router(),
-    models = require('../models');
+    models = require('../../../models');
 
 router.post('/save', function(req, res) {
     models.quiz_results.create({total_correct: req.body.correct}).complete(function(err, quiz_result) {
@@ -10,7 +10,7 @@ router.post('/save', function(req, res) {
 });
 
 router.get('/:id', function(req, res) {
-    var questions = require('../src/questions'),
+    var questions = require('../../questions'),
         quizDirectory = 'quizzes/'; // relative path inside /esl/data
     res.send(questions.load(quizDirectory + req.params.id));
 });
