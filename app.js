@@ -57,7 +57,7 @@ registerSession(passport);
 
 app.use('/quiz', Routes.Quiz);
 app.use('/login', Routes.Login(passport));
-app.use('/lesson', Routes.Lesson);
+app.use('/lessons', Routes.Lesson);
 app.post('/logout', Routes.Logout);
 app.use('/video', Routes.Video);
 
