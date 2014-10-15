@@ -1,11 +1,11 @@
 var express = require('express'),
     router = express.Router(),
-    models = require('../models');
+    data = require('../src/data.js'),
+    utils = require('../src/utils.js'),
+    serializer = require('../src/serializers/lesson.js');
 
-router.get('/:filename', function(req, res) {
-    var questions = require('../src/questions'),
-        lessonDirectory = 'lessons/'; // relative path inside /esl/data
-    res.send(questions.load(lessonDirectory + req.params.filename));
+router.get('/:id', function(req, res) {
+    res.json(serializer(data.getIn(['lessons', req.params.id])));
 });
 
 module.exports = router;
