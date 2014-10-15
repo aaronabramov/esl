@@ -10,7 +10,7 @@ module.exports = function(lesson) {
     var items = lesson.get('items');
     /**
      * change item reference for actual item data
-     * if `type` is one of thigs that are stored in .yml files then
+     * if `type` is in the list of things that are stored in .yml files then
      * try to get it from yml data and assoc into [type] key
      *
      * e.g.
