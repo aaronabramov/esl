@@ -1,0 +1,7 @@
+name: Lesson 1
+items:
+    - type: video
+      id: 'beginner_1_4.m4a'
+
+    - type: quiz
+      id: quizzes/1
