@@ -9,10 +9,10 @@ router.post('/save', function(req, res) {
     });
 });
 
-router.get('/:filename', function(req, res) {
+router.get('/:id', function(req, res) {
     var questions = require('../src/questions'),
         quizDirectory = 'quizzes/'; // relative path inside /esl/data
-    res.send(questions.load(quizDirectory + req.params.filename));
+    res.send(questions.load(quizDirectory + req.params.id));
 });
 
 module.exports = router;
