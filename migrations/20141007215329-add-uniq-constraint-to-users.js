@@ -1,4 +1,4 @@
-var sequelize = require('../models').sequelize,
+var sequelize = require('../src/server/models').sequelize,
     UP = 'create unique index users_facebook_id on users (facebook_id)',
     DOWN = 'drop index users_facebook_id';
 

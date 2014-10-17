@@ -1,4 +1,4 @@
-var sequelize = require('../models').sequelize,
+var sequelize = require('../src/server/models').sequelize,
     QUERY = '' +
     'CREATE TABLE "session" (' +
     '"sid" varchar NOT NULL COLLATE "default",' +
