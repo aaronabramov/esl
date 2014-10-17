@@ -1,7 +1,7 @@
 var express = require('express'),
     router = express.Router(),
-    data = require('../../data.js'),
-    utils = require('../../utils.js'),
+    data = require('../utils/data.js'),
+    utils = require('../utils/utils.js'),
     serializer = require('../serializers/lesson.js');
 
 router.get('/:id', function(req, res) {
