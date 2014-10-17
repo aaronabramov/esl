@@ -1,4 +1,4 @@
-var data = require('../data.js'),
+var data = require('../../data.js'),
     // item types that are stored in yml files
     TYPES_IN_YML = ['quiz'];
 
