@@ -39,7 +39,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-express-server');
     grunt.loadNpmTasks('grunt-mocha-test');
     grunt.loadNpmTasks('grunt-env');
-    grunt.loadTasks('./grunt-tasks');
+    grunt.loadTasks('./build/grunt-tasks');
     grunt.registerTask('default', ['env:dev', 'express:dev', 'browserify', 'watch']);
     grunt.registerTask('test', ['mochaTest']);
 };
