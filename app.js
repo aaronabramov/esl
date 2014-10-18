@@ -64,8 +64,16 @@ app.post('/logout', Routes.Logout);
 app.use('/video', Routes.Video);
 
 app.get('/', function(req, res) {
+    var user;
+
+    if(req.user) {
+        user = JSON.stringify(req.user);
+    } else {
+        user = JSON.stringify(null);
+    }
+
     res.render('index', {
-        currentUser: JSON.stringify(req.user)
+        currentUser: user
     });
 });
 
