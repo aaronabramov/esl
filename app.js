@@ -61,7 +61,7 @@ app.use('/quiz', Routes.Quiz);
 app.use('/login', Routes.Login(passport));
 app.use('/lessons', Routes.Lesson);
 app.post('/logout', Routes.Logout);
-app.use('/video', Routes.Video);
+app.use('/videos', Routes.Video);
 
 app.get('/', function(req, res) {
     var user;
