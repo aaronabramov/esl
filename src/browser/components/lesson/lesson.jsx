@@ -4,7 +4,8 @@ var React = require('react'),
     bean = require('bean'),
     LessonStore = require('../../stores/lesson.js'),
     _ = require('lodash'),
-    Lesson;
+    Lesson,
+    LessonItem = require('./lesson_item.jsx');
 
 Lesson = React.createClass({
     getInitialState: function() {
@@ -36,14 +37,7 @@ Lesson = React.createClass({
         }
 
         lessonItemComponents = lesson.items.map(function(item) {
-            switch(item.type) {
-                case "video":
-                    return <h3 className="lesson-piece" key={item.id}>Video</h3>;
-                case "quiz":
-                    return <h3 className="lesson-piece" key={item.id}>Quiz</h3>;
-                default:
-                    return null;
-            }
+            return <LessonItem item={item} />
         });
 
         return (
