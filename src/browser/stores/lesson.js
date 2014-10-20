@@ -18,7 +18,6 @@ var LessonStore = {
 
             switch(action.actionType) {
                 case LessonConstants.INITIALIZE:
-                    debugger;
                     _this.lesson = action.lesson;
                     break;
 
