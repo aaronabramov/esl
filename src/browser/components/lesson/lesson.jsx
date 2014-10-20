@@ -3,12 +3,13 @@
 var React = require('react'),
     bean = require('bean'),
     LessonStore = require('../../stores/lesson.js'),
+    _ = require('lodash'),
     Lesson;
 
 Lesson = React.createClass({
     getInitialState: function() {
         return {
-            lesson: LessonStore.getLesson() || {}
+            lesson: LessonStore.getLesson() || null
         };
     },
 
@@ -27,17 +28,28 @@ Lesson = React.createClass({
     },
 
     render: function() {
-        var lesson = this.state.lesson;
+        var lesson = this.state.lesson,
+            lessonItemComponents;
 
-        if(!lesson) {
+        if(_.isEmpty(lesson)) {
             return null;
         }
+
+        lessonItemComponents = lesson.items.map(function(item) {
+            switch(item.type) {
+                case "video":
+                    return <h3 className="lesson-piece" key={item.id}>Video</h3>;
+                case "quiz":
+                    return <h3 className="lesson-piece" key={item.id}>Quiz</h3>;
+                default:
+                    return null;
+            }
+        });
 
         return (
             <div className="lesson">
                 <h2 className="lesson-name">{lesson.name}</h2>
-                <h3 className="lesson-piece">Video</h3>
-                <h3 className="lesson-piece">Quiz</h3>
+                {lessonItemComponents}
             </div>
         );
     }
