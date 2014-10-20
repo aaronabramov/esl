@@ -3,8 +3,8 @@ var _ = require('lodash'),
     Dispatcher = require('../dispatcher/dispatcher.js');
 
 module.exports = {
-    changePage: function() {
-
+    changePage: function(item) {
+        console.log(item);
     }
 };
 
