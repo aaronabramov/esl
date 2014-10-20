@@ -2,7 +2,7 @@
 
 var React = require('react'),
     Sidebar = require('./sidebar.jsx'),
-    Content = require('./content.jsx'),
+    QuizContainer = require('./quiz/quiz_container.jsx'),
     Login = require('./login.jsx');
 
 module.exports = React.createClass({
@@ -10,7 +10,7 @@ module.exports = React.createClass({
         return (
             <div id="layout" className="pure-g">
                 <Sidebar />
-                <Content />
+                <QuizContainer />
                 <Login />
             </div>
         );

@@ -1,14 +1,14 @@
 /** @jsx React.DOM */
-var QuizStore = require('../stores/quiz.js'),
-    QuestionState = require('../stores/question_state.js'),
+var QuizStore = require('../../stores/quiz.js'),
+    QuestionState = require('../../stores/question_state.js'),
     bean = require('bean'),
     React = require('react'),
-    Quiz = require('./quiz/quiz.jsx'),
-    Score = require('./quiz/score.jsx'),
-    Video = require('./video/video.jsx'),
-    QuizActionCreator = require('../actions/quiz_action_creator.js');
+    Quiz = require('./quiz.jsx'),
+    Score = require('./score.jsx'),
+    Video = require('../video/video.jsx'),
+    QuizActionCreator = require('../../actions/quiz_action_creator.js');
 
-module.exports = React.createClass({
+var QuizContainer = React.createClass({
     getInitialState: function() {
         var question = QuizStore.getNextQuestion(),
             obj = {
@@ -83,8 +83,9 @@ module.exports = React.createClass({
         return (
             <div className="content pure-u-1 pure-u-md-3-4">
                 {component}
-                <Video />
             </div>
         );
     }
 });
+
+module.exports = QuizContainer;
