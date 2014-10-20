@@ -7,6 +7,9 @@ var React = require('react'),
 
 module.exports = React.createClass({
     render: function() {
+        debugger;
+        // use the application store / onclick of sidebar to change pages within app.jsx
+
         return (
             <div id="layout" className="pure-g">
                 <Sidebar />
