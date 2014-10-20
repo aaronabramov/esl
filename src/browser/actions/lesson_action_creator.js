@@ -1,6 +1,7 @@
 var _ = require('lodash'),
     LessonService = require('../services/lesson_service.js'),
     LessonConstants = require('../constants/lesson_constants.js'),
+    VideoActionCreator = require('./video_action_creator.js'),
     Dispatcher = require('../dispatcher/dispatcher.js');
 
 module.exports = {
@@ -10,11 +11,11 @@ module.exports = {
                 return item.type;
             });
 
+            VideoActionCreator.initialize(lessonContent.video);
+
             Dispatcher.handleServerAction({
                 actionType: LessonConstants.INITIALIZE,
                 quizzes: lessonContent.quiz,
-                videos: lessonContent.video,
-                audios: lessonContent.audio,
                 lesson: lesson
             });
         }, function(error) {
