@@ -1,4 +1,5 @@
 var QuizConstants = require('../constants/quiz_constants.js'),
+    LessonConstants = require('../constants/lesson_constants.js'),
     Dispatcher = require('../dispatcher/dispatcher.js'),
     QuestionState = require('./question_state.js'),
     bean = require('bean'),
@@ -34,14 +35,16 @@ var QuizStore = {
     register: function() {
         var _this = this;
 
-
         // Register to handle all updates
         Dispatcher.register(function(payload) {
             var action = payload.action;
 
             switch(action.actionType) {
-                case QuizConstants.INITIALIZE:
-                    _this.questions = action.questions.map(function(question) {
+                case LessonConstants.INITIALIZE:
+                    var quiz = action.quizzes[0].quiz,
+                        questions = quiz.questions;
+
+                    _this.questions = questions.map(function(question) {
                         return {
                             answers: question.answers,
                             correctAnswer: question.correct - 1,
