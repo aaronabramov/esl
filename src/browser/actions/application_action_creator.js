@@ -3,8 +3,11 @@ var _ = require('lodash'),
     Dispatcher = require('../dispatcher/dispatcher.js');
 
 module.exports = {
-    changePage: function(item) {
-        console.log(item);
+    changePage: function(activePage) {
+        Dispatcher.handleViewAction({
+            actionType: ApplicationConstants.CHANGE_PAGE,
+            activePage: activePage
+        });
     }
 };
 

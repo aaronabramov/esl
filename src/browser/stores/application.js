@@ -7,7 +7,7 @@ var ApplicationStore = {
     activePage: {},
 
     getActivePage: function() {
-        return activePage;
+        return this.activePage;
     },
 
     register: function() {
