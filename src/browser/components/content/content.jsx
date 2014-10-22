@@ -3,6 +3,7 @@
 var React = require('react'),
     Sidebar = require('../sidebar.jsx'),
     QuizContainer = require('../quiz/quiz_container.jsx'),
+    VideoContainer = require('../video/video_container.jsx'),
     Login = require('../login.jsx'),
     ApplicationStore = require('../../stores/application.js'),
     bean = require('bean');
