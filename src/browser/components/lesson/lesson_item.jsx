@@ -8,7 +8,7 @@ var React = require('react'),
 var LessonItem = React.createClass({
     render: function() {
         var id = this.props.item.id,
-            name = this.props.item.type;
+            name = this.getName();
 
         return <a href='#'
                   className="lesson-piece"
@@ -16,6 +16,21 @@ var LessonItem = React.createClass({
                   onClick={this.handleClick}>
                     {name}
                 </a>;
+    },
+
+    getName: function() {
+        var type = this.props.item.type;
+
+        switch(type) {
+            case 'quiz':
+                return 'Quiz';
+            case 'video':
+                return 'Video';
+            case 'audio':
+                return 'Audio';
+            default:
+                return 'Not found';
+        }
     },
 
     handleClick: function() {
