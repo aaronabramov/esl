@@ -25,9 +25,11 @@ interactive-esl-tests
 1. brew install postgres
 2. npm install
 3. postgres -D /usr/local/var/postgres
-4. In a new shell, start psql `psql --username=<USERNAME> -d template1` // use unix username
-5. In psql, `create database <USERNAME>;` // use unix username
-6. In psql, `create database esl_development;`
+4. In psql, `create database esl_development;`
+
+###### If things aren't working with your user
+1. In a new shell, start psql `psql --username=<USERNAME> -d template1` // use unix username
+2. In psql, `create database <USERNAME>;` // use unix username
 
 #### Config
 to decrypt and setup config files run `make setup` (ask someone for key)
