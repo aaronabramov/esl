@@ -4,6 +4,7 @@ var React = require('react'),
     Sidebar = require('../sidebar.jsx'),
     QuizContainer = require('../quiz/quiz_container.jsx'),
     VideoContainer = require('../video/video_container.jsx'),
+    AudioContainer = require('../audio/audio_container.jsx'),
     Login = require('../login.jsx'),
     LessonStore = require('../../stores/lesson.js'),
     bean = require('bean');
