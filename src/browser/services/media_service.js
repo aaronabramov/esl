@@ -1,19 +1,13 @@
-var VideoService = {
-    getVideoLink: function(name) {
+module.exports = {
+    getFileLink: function(name) {
         return new Promise(function(resolve, reject) {
-            var request = window.superagent;
-
-            request
-                .get('/video')
+            superagent.get('/s3/' + name)
                 .end(function(error, res) {
-                    if(error) {
+                    if (error) {
                         reject(error);
                     }
-
                     resolve(res.body);
                 });
         });
     }
 };
-
-module.exports = VideoService;

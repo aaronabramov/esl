@@ -5,6 +5,3 @@ items:
 
     - type: quiz
       id: quizzes/1
-
-    - type: audio
-      id: 111.mp3
