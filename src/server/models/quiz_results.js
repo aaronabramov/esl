@@ -3,6 +3,9 @@ module.exports = function(sequelize, DataTypes) {
         quiz_id: {
             type: DataTypes.INTEGER
         },
+        user_id: {
+            type: DataTypes.INTEGER
+        },
         total_correct: {
             type: DataTypes.INTEGER
         }
