@@ -7,7 +7,7 @@ module.exports = {
                 autoIncrement: true
             },
             quiz_id: {
-                type: DataTypes.INTEGER
+                type: DataTypes.STRING
             },
             createdAt: {
                 type: DataTypes.DATE
