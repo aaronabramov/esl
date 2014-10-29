@@ -2,6 +2,7 @@ var _ = require('lodash'),
     LessonService = require('../services/lesson_service.js'),
     LessonConstants = require('../constants/lesson_constants.js'),
     VideoActionCreator = require('./video_action_creator.js'),
+    AudioActionCreator = require('./audio_action_creator.js'),
     Dispatcher = require('../dispatcher/dispatcher.js');
 
 module.exports = {
@@ -13,6 +14,10 @@ module.exports = {
 
             if(lessonContent.video) {
                 VideoActionCreator.initialize(lessonContent.video);
+            }
+
+            if(lessonContent.audio) {
+                AudioActionCreator.initialize(lessonContent.audio);
             }
 
             Dispatcher.handleServerAction({
