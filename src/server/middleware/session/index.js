@@ -1,4 +1,6 @@
-var models = require('../../models');
+var models = require('../../models'),
+    Promise = require('es6-promise').Promise,
+    _ = require('lodash');
 
 // Passport session setup.
 //   To support persistent login sessions, Passport needs to be able to
@@ -13,15 +15,36 @@ module.exports = function(passport) {
         done(null, id);
     });
 
-    passport.deserializeUser(function(id, done) {
+    passport.deserializeUser(function(facebookId, done) {
+        getUser(facebookId).then(function(user, results) {
+            getResults(user.id).then(function(results) {
+                user.quiz_results = results;
+                done(null, user);
+            }).catch(done)
+        }).catch(done);
+    });
+};
+
+function getUser(id) {
+    return new Promise(function(resolve, reject) {
         models.users.find({
             where: {
                 facebook_id: id
             }
         }).success(function(user) {
-            done(null, user.dataValues);
-        }).error(function(err) {
-            done(err);
-        });
+            resolve(user.dataValues);
+        }).error(reject);
     });
-};
+}
+
+function getResults(userId) {
+    return new Promise(function(resolve, reject) {
+        models.quiz_results.findAll({
+            where: {
+                user_id: userId
+            }
+        }).success(function(results) {
+            resolve(_.pluck(results, 'dataValues'));
+        }).error(reject);
+    });
+}
