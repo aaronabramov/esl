@@ -18,7 +18,8 @@ module.exports = {
             Dispatcher.handleServerAction({
                 actionType: LessonConstants.INITIALIZE,
                 quizzes: lessonContent.quiz,
-                lesson: lesson
+                lesson: lesson,
+                lessonContent: lessonContent
             });
         }, function(error) {
             console.error('get lesson: failed');

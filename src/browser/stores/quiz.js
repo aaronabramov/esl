@@ -9,7 +9,7 @@ var QuizStore = {
     questions: [],
     index: 0,
     getNextQuestion: function() {
-        if(this.index === this.questions.length && this.index > 0) {
+        if (this.index === this.questions.length && this.index > 0) {
             return 'end';
         }
         return this.questions[this.index];
@@ -39,10 +39,16 @@ var QuizStore = {
         Dispatcher.register(function(payload) {
             var action = payload.action;
 
-            switch(action.actionType) {
+            switch (action.actionType) {
                 case LessonConstants.INITIALIZE:
-                    var quiz = action.quizzes[0].quiz,
-                        questions = quiz.questions;
+                    var item, questions;
+
+                    item = _.find(action.lesson.items, function(item) {
+                        return item.type === 'quiz';
+                    });
+                    questions = item.quiz.questions;
+
+                    _this.id = item.id;
 
                     _this.questions = questions.map(function(question) {
                         return {
@@ -64,7 +70,7 @@ var QuizStore = {
                     break;
 
                 default:
-                  return true;
+                    return true;
             }
 
             // This often goes in each case that should trigger a UI change. This store

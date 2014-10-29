@@ -64,9 +64,10 @@ var QuizContainer = React.createClass({
 
     handleEnd: function() {
         var totalQuestions = QuizStore.getQuestions().length,
-            correctQuestions = QuizStore.getCorrectQuestions().length;
+            correctQuestions = QuizStore.getCorrectQuestions().length,
+            id = QuizStore.id;
 
-        QuizActionCreator.saveResults(correctQuestions, totalQuestions);
+        QuizActionCreator.saveResults(correctQuestions, totalQuestions, id);
 
         this.setState({end: true});
     },
