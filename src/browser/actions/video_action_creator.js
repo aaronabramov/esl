@@ -1,4 +1,4 @@
-var VideoService = require('../services/video_service.js'),
+var MediaService = require('../services/media_service.js'),
     VideoConstants = require('../constants/video_constants.js'),
     Dispatcher = require('../dispatcher/dispatcher.js');
 
@@ -10,16 +10,13 @@ module.exports = {
     },
 
     getVideoLink: function(name) {
-        VideoService.getVideoLink(name).then(function(data) {
-            console.log(data);
-
+        MediaService.getFileLink(name).then(function(data) {
             Dispatcher.handleServerAction({
                 actionType: VideoConstants.GET_VIDEO_LINK,
                 link: data.link
             });
-    }, function(error) {
+        }, function(error) {
             console.error('error: unable to get video link');
         });
-
     }
 };
