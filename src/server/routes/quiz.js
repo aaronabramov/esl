@@ -2,10 +2,17 @@ var express = require('express'),
     router = express.Router(),
     models = require('../models');
 
-router.post('/save', function(req, res) {
-    models.quiz_results.create({total_correct: req.body.correct}).complete(function(err, quiz_result) {
-        console.log(quiz_result);
-        res.json({'success': 1});
+router.post('/save', function(req, res, next) {
+    var userId = req.user.id;
+    models.quiz_results.create({
+        user_id: userId,
+        total_correct: req.body.correct
+    }).complete(function(err, quiz_result) {
+        if (err) {
+            return next(err);
+        }
+        res.writeHead(204);
+        res.end();
     });
 });
 
