@@ -33,18 +33,6 @@ a:focus {
     text-transform: uppercase;
 }
 
-.lesson {
-    margin: 1em 0 0 20px;
-    font-weight: 300;
-    color: rgb(176, 202, 219);
-}
-
-.lesson-piece {
-    font-weight: 100;
-    color: rgb(176, 202, 219);
-    margin: .5em 0 0 40px;
-}
-
 .nav-list {
     margin: 0;
     padding: 0;

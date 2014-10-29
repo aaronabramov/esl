@@ -3,8 +3,10 @@ var VideoService = require('../services/video_service.js'),
     Dispatcher = require('../dispatcher/dispatcher.js');
 
 module.exports = {
-    initialize: function() {
-        this.getVideoLink('beginner_1_4.m4a');
+    initialize: function(data) {
+        var videoName = data[0].id;
+
+        this.getVideoLink(videoName);
     },
 
     getVideoLink: function(name) {
