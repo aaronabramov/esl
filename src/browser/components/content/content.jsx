@@ -5,38 +5,36 @@ var React = require('react'),
     QuizContainer = require('../quiz/quiz_container.jsx'),
     VideoContainer = require('../video/video_container.jsx'),
     Login = require('../login.jsx'),
-    ApplicationStore = require('../../stores/application.js'),
+    LessonStore = require('../../stores/lesson.js'),
     bean = require('bean');
 
 var Content = React.createClass({
     getInitialState: function() {
         return {
-            activePage: {
-                type: 'quiz'
-            }
+            activeContent: LessonStore.getActiveLessonContent() || null
         };
     },
 
     componentDidMount: function() {
-        bean.on(ApplicationStore, 'changed', this.handleChange);
+        bean.on(LessonStore, 'changed', this.handleChange);
     },
 
     componentWillUnmount: function() {
-        bean.off(ApplicationStore, 'changed', this.handleChange);
+        bean.off(LessonStore, 'changed', this.handleChange);
     },
 
     handleChange: function() {
-        var activePage = ApplicationStore.getActivePage();
+        var activeContent = LessonStore.getActiveLessonContent();
 
         this.setState({
-            activePage: activePage
+            activeContent: activeContent
         });
     },
 
     render: function() {
         var component;
 
-        switch(this.state.activePage.type) {
+        switch(this.state.activeContent.type) {
             case "quiz":
                 component = <QuizContainer />
                 break;
