@@ -10,7 +10,9 @@ var React = require('react'),
 Lesson = React.createClass({
     getInitialState: function() {
         return {
-            lesson: LessonStore.getLesson() || null
+            lesson: LessonStore.getLesson() || null,
+            lessonContents: LessonStore.getLessonContents() || null,
+            activeLessonContent: LessonStore.getActiveLessonContent() || null
         };
     },
 
@@ -24,20 +26,25 @@ Lesson = React.createClass({
 
     handleChange: function() {
         this.setState({
-            lesson: LessonStore.getLesson()
+            lesson: LessonStore.getLesson(),
+            lessonContents: LessonStore.getLessonContents(),
+            activeLessonContent: LessonStore.getActiveLessonContent()
         });
     },
 
     render: function() {
         var lesson = this.state.lesson,
+            lessonContents = this.state.lessonContents,
+            activeId = this.state.activeLessonContent.id,
             lessonItemComponents;
 
         if(_.isEmpty(lesson)) {
             return null;
         }
 
-        lessonItemComponents = lesson.items.map(function(item) {
-            return <LessonItem item={item} />
+        lessonItemComponents = lessonContents.map(function(item) {
+            var active = (activeId === item.id) ? true : false;
+            return <LessonItem key={item.id} item={item} active={active}/>
         });
 
         return (
