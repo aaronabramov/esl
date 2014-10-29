@@ -3,15 +3,20 @@
 var React = require('react'),
     bean = require('bean'),
     _ = require('lodash'),
-    ApplicationActionCreator = require('../../actions/application_action_creator.js');
+    LessonActionCreator = require('../../actions/lesson_action_creator.js');
 
 var LessonItem = React.createClass({
     render: function() {
         var id = this.props.item.id,
-            name = this.getName();
+            name = this.getName(),
+            classes = 'lesson-piece';
+
+        if(this.props.active) {
+            classes += ' active';
+        }
 
         return <a href='#'
-                  className="lesson-piece"
+                  className={classes}
                   key={id}
                   onClick={this.handleClick}>
                     {name}
@@ -34,7 +39,7 @@ var LessonItem = React.createClass({
     },
 
     handleClick: function() {
-        ApplicationActionCreator.changePage(this.props.item);
+        LessonActionCreator.changeActiveLesson(this.props.item.id);
         return false; // stop propagation
     }
 });

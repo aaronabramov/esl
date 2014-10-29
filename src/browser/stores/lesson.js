@@ -5,9 +5,19 @@ var LessonConstants = require('../constants/lesson_constants.js'),
 
 var LessonStore = {
     lesson: {},
+    lessonContents: [],
+    activeLessonContent: {},
 
     getLesson: function() {
         return this.lesson;
+    },
+
+    getLessonContents: function() {
+        return this.lessonContents;
+    },
+
+    getActiveLessonContent: function() {
+        return this.activeLessonContent;
     },
 
     register: function() {
@@ -19,8 +29,14 @@ var LessonStore = {
             switch(action.actionType) {
                 case LessonConstants.INITIALIZE:
                     _this.lesson = action.lesson;
+                    _this.lessonContents = action.lesson.items;
+                    _this.activeLessonContent = _this.lessonContents[0];
                     break;
-
+                case LessonConstants.SET_ACTIVE_CONTENT:
+                    _this.activeLessonContent = _.find(_this.lessonContents, function(lessonContent) {
+                        return lessonContent.id === action.id;
+                    });
+                    break;
                 default:
                   return true;
             }

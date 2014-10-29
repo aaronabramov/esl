@@ -11,7 +11,9 @@ module.exports = {
                 return item.type;
             });
 
-            VideoActionCreator.initialize(lessonContent.video);
+            if(lessonContent.video) {
+                VideoActionCreator.initialize(lessonContent.video);
+            }
 
             Dispatcher.handleServerAction({
                 actionType: LessonConstants.INITIALIZE,
@@ -24,6 +26,13 @@ module.exports = {
                 actionType: LessonConstants.ERROR,
                 error: error
             });
+        });
+    },
+
+    changeActiveLesson: function(id) {
+        Dispatcher.handleViewAction({
+            actionType: LessonConstants.SET_ACTIVE_CONTENT,
+            id: id
         });
     }
 };
