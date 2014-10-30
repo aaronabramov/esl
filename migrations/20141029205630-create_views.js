@@ -1,6 +1,11 @@
 module.exports = {
     up: function(migration, DataTypes, done) {
         migration.createTable('views', {
+            id: {
+                type: DataTypes.INTEGER,
+                primaryKey: true,
+                autoIncrement: true
+            },
             content_id: {
                 type: DataTypes.STRING,
                 allowNull: false
