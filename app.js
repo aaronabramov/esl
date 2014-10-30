@@ -62,11 +62,12 @@ app.use('/login', Routes.Login(passport));
 app.use('/lessons', Routes.Lesson);
 app.post('/logout', Routes.Logout);
 app.use('/s3', Routes.S3);
+app.use('/views', Routes.View);
 
 app.get('/', function(req, res) {
     var user;
 
-    if(req.user) {
+    if (req.user) {
         user = JSON.stringify(req.user);
     } else {
         user = JSON.stringify(null);
