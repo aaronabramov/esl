@@ -5,6 +5,7 @@ var express = require('express'),
 router.post('/save', function(req, res, next) {
     var userId = req.user.id;
     models.quiz_results.create({
+        quiz_id: req.body.id,
         user_id: userId,
         total_correct: req.body.correct
     }).complete(function(err, quiz_result) {
