@@ -12,11 +12,11 @@ module.exports = {
                 return item.type;
             });
 
-            if(lessonContent.video) {
+            if (lessonContent.video) {
                 VideoActionCreator.initialize(lessonContent.video);
             }
 
-            if(lessonContent.audio) {
+            if (lessonContent.audio) {
                 AudioActionCreator.initialize(lessonContent.audio);
             }
 
@@ -40,6 +40,10 @@ module.exports = {
             actionType: LessonConstants.SET_ACTIVE_CONTENT,
             id: id
         });
+        // after action has been handled
+        // track the view and don't wait for it to return
+        superagent.post('/views').send({
+            content_id: id
+        }).end();
     }
 };
-

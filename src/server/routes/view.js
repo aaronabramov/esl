@@ -4,7 +4,7 @@ var router = require('express').Router(),
 router.post('/', function(req, res, next) {
     models.views.create({
         content_id: req.body.content_id,
-        user_id: 1
+        user_id: req.user.id
     }).complete(function(err, view) {
         if (err) {
             return next(err);
@@ -13,3 +13,5 @@ router.post('/', function(req, res, next) {
         res.end();
     });
 });
+
+module.exports = router;
