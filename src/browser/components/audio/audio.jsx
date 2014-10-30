@@ -13,6 +13,7 @@ var Audio = React.createClass({
 
     componentDidMount: function() {
         bean.on(AudioStore, 'changed', this.handleChange);
+        audiojs.createAll();
     },
 
     componentWillUnmount: function() {
