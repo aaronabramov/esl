@@ -33,15 +33,3 @@ function getUser(id) {
         }).error(reject);
     });
 }
-//
-// function getResults(userId) {
-//     return new Promise(function(resolve, reject) {
-//         models.quiz_results.findAll({
-//             where: {
-//                 user_id: userId
-//             }
-//         }).success(function(results) {
-//             resolve(_.pluck(results, 'dataValues'));
-//         }).error(reject);
-//     });
-// }
