@@ -6,7 +6,7 @@ module.exports = function() {
     return new FacebookStrategy({
         clientID: config.get('facebook.clientID'),
         clientSecret: config.get('facebook.clientSecret'),
-        callbackURL: "http://local.esl.com:3009/login/facebook/callback"
+        callbackURL: config.get('facebook.callback')
     }, function(accessToken, refreshToken, profile, done) {
         var id = profile.id,
             displayName = profile.displayName;
