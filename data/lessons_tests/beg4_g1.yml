@@ -1,0 +1,85 @@
+name: 'singular and plural, a/an, the'
+questions:
+  - question: It’s $ pen.
+    answers:
+      - a
+      - the
+      - an
+    correct: 1
+
+  - question: They’re $ photos.
+    answers:
+      - a
+      - an
+      - –
+    correct: 3
+
+  - question: It’s $ umbrella.
+    answers:
+      - a
+      - an
+      - –
+    correct: 2
+
+  - question: Open $ door!
+    answers:
+      - a
+      - an
+      - the
+    correct: 3
+
+  - question: They’re $ chairs.
+    answers:
+      - –
+      - a
+      - an
+    correct: 1
+
+  - question: It’s $ email.
+    answers:
+      - an
+      - a
+      - –
+    correct: 1
+
+  - question: They’re $ laptops.
+    answers:
+      - a
+      - –
+      - an
+    correct: 2
+
+  - question: They’re $ .
+    answers:
+      - dictionarys
+      - dictionaris
+      - dictionaries
+    correct: 3
+
+  - question: It’s $ ID.
+    answers:
+      - a
+      - an
+      - –
+    correct: 2
+
+  - question: It’s $ watch.
+    answers:
+      - a
+      - an
+      - –
+    correct: 1
+
+  - question: They’re $ .
+    answers:
+      - watch
+      - watchs
+      - watches
+    correct: 3
+
+  - question: What are they? $ books.
+    answers:
+      - They is
+      - They’re
+      - It’s
+    correct: 2

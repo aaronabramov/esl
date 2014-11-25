@@ -1,0 +1,29 @@
+name: Listening Quiz
+questions:
+  - qustion: How much is a grilled cheese sandwich?
+    answers:
+      - '$5.12'
+      - '$5.27'
+      - '$5.20'
+    correct: 3
+
+  - question: Which gate is the flight to Madrid boarding at?
+    answers:
+      - gate 9
+      - gate 5
+      - gate 1
+    correct: 1
+
+  - question: "A: Where to, miss?\nB: $ Townsend Road, please."
+    answers:
+      - '60'
+      - '16'
+      - '6'
+    correct: 2
+
+  - question: "Here's your key, sir. Room $."
+    answers:
+      - '20'
+      - '12'
+      - '11'
+    correct: 2

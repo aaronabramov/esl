@@ -1,0 +1,51 @@
+name: Days of the week
+questions:
+  - question: What goes after Sunday?
+    answers:
+      - Saturday
+      - Wednesday
+      - Monday
+
+    correct: 3
+
+  - question: What goes before Friday?
+    answers:
+      - Tuesday
+      - Thursday
+      - Saturday
+    correct: 2
+
+  - question: What goes after Saturday?
+    answers:
+      - Sunday
+      - Friday
+      - Monday
+    correct: 1
+
+  - question: What goes after Tuesday?
+    answers:
+      - Monday
+      - Friday
+      - Wednesday
+    correct: 3
+
+  - question: What goes before Monday?
+    answers:
+      - Saturday
+      - Sunday
+      - Tuesday
+    correct: 2
+
+  - question: What goes after Thursday?
+    answers:
+      - Wednesday
+      - Friday
+      - Saturday
+    correct: 2
+
+  - question: What goes after Wednesday?
+    answers:
+      - Thursday
+      - Tuesday
+      - Friday
+    correct: 1

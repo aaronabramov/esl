@@ -1,0 +1,85 @@
+name: can/can't
+questions:
+  - question: $ watch TV after dinner?
+    answers:
+      - do we can
+      - can we
+      - we can
+    correct: 2
+
+  - question: I $ see the board.
+    answers:
+      - don't can
+      - do can't
+      - can't
+    correct: 3
+
+  - question: James $ help us tomorrow.
+    answers:
+      - can
+      - can to
+      - does can
+    correct: 1
+
+  - question: $ come to class tomorrow?
+    answers:
+      - can you
+      - you can
+      - do you can
+    correct: 1
+
+  - question: $ read my newspaper.
+    answers:
+      - Can you
+      - You can
+      - You do can
+    correct: 2
+
+  - question: We $ park here.
+    answers:
+      - don't can
+      - do can't
+      - can't
+    correct: 3
+
+  - question: $ sit here?
+    answers:
+      - Do I can
+      - Can I
+      - I can
+    correct: 2
+
+  - question: $ swim today?
+    answers:
+      - Can we
+      - We can
+      - Do can we
+    correct: 1
+
+  - question: 'Sorry, I $ remember your name.'
+    answers:
+      - don't can
+      - can't
+      - not can
+    correct: 2
+
+  - question: $ eat in a new restaurant.
+    answers:
+      - We do can
+      - Can we
+      - We can
+    correct: 3
+
+  - question: $ open the window?
+    answers:
+      - Can I
+      - Do I can
+      - I can
+    correct: 1
+
+  - question: She $ go to the movies tomorrow.
+    answers:
+      - don't can
+      - can't
+      - not can
+    correct: 2

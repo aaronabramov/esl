@@ -1,0 +1,36 @@
+name: Translation - Phrase
+questions:
+  - question: Приятно познакомиться!
+    answers:
+      - You’re late!
+      - Nice to meet you!
+      - Excuse me!
+    correct: 2
+
+  - question: Простите?
+    answers:
+      - You’re late!
+      - Nice to meet you!
+      - Excuse me?
+    correct: 3
+
+  - question: Как вас зовут?
+    answers:
+      - Am I late?
+      - What’s your name?
+      - Excuse me?
+    correct: 2
+
+  - question: Я опоздал?
+    answers:
+      - Am I late?
+      - What’s your name?
+      - Excuse me?
+    correct: 1
+
+  - question: Прошу прощения!
+    answers:
+      - Nice to meet you!
+      - Sorry!
+      - Thank you!
+    correct: 2

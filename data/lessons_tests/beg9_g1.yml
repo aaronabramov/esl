@@ -1,0 +1,71 @@
+name: Adverbs of Frequency
+questions:
+  - question: I $ coffee after dinner.
+    answers:
+      - never don't drink
+      - never drink
+      - don't never drink
+    correct: 2
+
+  - question: My husband $.
+    answers:
+      - makes sometimes dinner
+      - dinner makes sometimes
+      - sometimes makes dinner
+    correct: 3
+
+  - question: I $ in the morning.
+    answers:
+      - always take a shower
+      - take always a shower
+      - always a shower take
+    correct: 1
+
+  - question: The restaurant $.
+    answers:
+      - closes usually late
+      - closes late usually
+      - usually closes late
+    correct: 3
+
+  - question: She $ at home.
+    answers:
+      - usually has breakfast
+      - has usually breakfast
+      - has breakfast usually
+    correct: 1
+
+  - question: We $ for dinner.
+    answers:
+      - have sometimes pizza
+      - sometimes have pizza
+      - have pizza sometimes
+    correct: 2
+
+  - question: She $ after work.
+    answers:
+      - never doesn't go shopping
+      - never goes shopping
+      - goes never shopping
+    correct: 2
+
+  - question: My mom $ early.
+    answers:
+      - gets up always
+      - gets always up
+      - always gets up
+    correct: 3
+
+  - question: Spanish people $ at home.
+    answers:
+      - have usually lunch
+      - usually have lunch
+      - have lunch usually
+    correct: 2
+
+  question: $ at work
+    answers:
+      - I never speak English
+      - I never don't speak English
+      - Naver I don't speak English
+    correct: 1

@@ -1,0 +1,85 @@
+name: Present Tense: verb be
+questions:
+  - question: She $ a student.
+    answers:
+      - am
+      - is
+      - are
+    correct: 2
+
+  - question: They $ from Argentina.
+    answers:
+      - am
+      - is
+      - are
+    correct: 3
+
+  - question: This is Julia. $ is from Russia.
+    answers:
+      - He
+      - She
+      - It
+    correct: 2
+
+  question: 'A: Are you Colombian?\nB: Yes, I $.'
+    answers:
+      - am
+      - is
+      - are
+    correct: 1
+
+  - question: They $ American. They're British.
+    answers:
+      - isn't
+      - are'nt
+      - aren't
+    correct: 3
+
+  - question: $ in room 315?
+    answers:
+      - We is
+      - Is we
+      - Are we
+    correct: 3
+
+  - question: 'A: Is Tom from Australia?\nB: Yes, $ is.'
+    answers:
+      - he
+      - she
+      - it
+    correct: 1
+
+  - question: Is $ a good book?
+    answers:
+      - he
+      - she
+      - it
+    correct: 3
+
+  - question: We $ from Moscow. We $ from St. Petersburg.
+    answers:
+      - isn't; is
+      - aren't; are
+      - am not; am
+    correct: 2
+
+  - question: $ Irish.
+    answers:
+      - They
+      - They's
+      - They're
+    correct: 3
+
+  - question: Lana isn't a doctor. $ a teacher.
+    answers:
+      - He's
+      - She's
+      - She
+    correct: 2
+
+  - question: 'A: Are you OK?\nB: Yes, $.'
+    answers:
+      - I'm
+      - I am
+      - I OK.
+    correct: 2

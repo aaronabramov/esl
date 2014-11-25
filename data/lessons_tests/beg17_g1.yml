@@ -1,0 +1,50 @@
+name: be going to (predictions)
+questions:
+  - question: It's sunny today. You $ very hot in this coat.
+    answers:
+      - are going be
+      - are going to be
+      - are going to being
+    correct: 2
+
+  - question: She $ a pizza.
+    answers:
+      - going to make
+      - 's going make
+      - 's going to make
+    correct: 3
+
+  - question: I think the plane $ soon! Hurry up!
+    answers:
+      - is going to leave
+      - going to leave
+      - is going leave
+    correct: 1
+
+  - question: Don't do this! You $ your leg!
+    answers:
+      - 're going break
+      - going to break
+      - 're going to break
+    correct: 3
+
+  - question: Wake up! You $ late for school!
+    answers:
+      - 're going be
+      - 're going to be
+      - going to be
+    correct: 2
+
+  - question: Yay! Our dad $ us a story!
+    answers:
+      - is going tell
+      - is going to tell
+      - going to tell
+    correct: 2
+
+   -question: They $ in the river.
+    answers:
+    - are going to swim
+    - are going swim
+    - going to swim
+    correct: 1

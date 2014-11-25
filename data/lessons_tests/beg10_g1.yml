@@ -1,0 +1,71 @@
+name: Word Order in Questions
+questions:
+  - question: Where $?
+    answers:
+      - you live
+      - live you
+      - do you live
+    correct: 3
+
+  - question: How $?
+    answers:
+      - is your mother
+      - your mother
+      - your mether is
+    correct: 1
+
+  - question: What time $?
+    answers:
+      - the movie start
+      - does the movie start
+      - does the movie starts
+    correct: 2
+
+  - question: Does $ English?
+    answers:
+      - your brother speaks
+      - your brother speak
+      - speak your brother
+    correct: 2
+
+  - question: When $ breakfast?
+    answers:
+      - you have
+      - have you
+      - do you have
+    correct: 3
+
+  - question: Why $?
+    answers:
+      - are you late
+      - you're late
+      - late are you
+    correct: 1
+
+  - question: What music $?
+    answers:
+      - she likes
+      - does she likes
+      - does she like
+    correct: 3
+
+  - question: How $ your last name?
+    answers:
+      - you spell
+      - do you spell
+      - spell you
+    correct: 2
+
+  - question: What time $?
+    answers:
+      - you do go to bed
+      - you go to bed
+      - do you go to bed
+    correct: 3
+
+  - question: How old $?
+    answers:
+      - is your sister
+      - your sister is
+      - your sister
+    correct: 1
