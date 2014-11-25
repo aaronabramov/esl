@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "browserify": "^5.11.0",
-    "forever": "^0.11.1",
+    "forever": "^0.13.0",
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-express-server": "^0.4.19",
@@ -44,7 +44,7 @@
     "mkdirp": "^0.5.0",
     "react-tools": "^0.11.1",
     "sequelize-cli": "^0.2.5",
-    "ssh-kit": "0.0.0",
+    "ssh-kit": "0.0.2",
     "through": "^2.3.4"
   }
 }
