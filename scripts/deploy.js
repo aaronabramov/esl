@@ -26,5 +26,7 @@ ssh.exec('mv ~/esl_deploy_tmp ~/esl');
 // link config directory
 ssh.exec('rm -rf ~/esl/config && ln -s ~/esl_config ~/esl/config');
 
+ssh.exec('cd ~/esl/ && ./node_modules/grunt-cli/bin/grunt browserify');
+
 // and daemonize the process redirectiong STDOUT of the server to ~/out.log
-ssh.exec('./esl/node_modules/forever/bin/forever start -o ~/esl_out.log -e ~/esl_err.log ~/esl/run.js');
+ssh.exec('NODE_ENV=production ./esl/node_modules/forever/bin/forever start -o ~/esl_out.log -e ~/esl_err.log ~/esl/run.js');
