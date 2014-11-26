@@ -1,0 +1,59 @@
+name: Lesson 8
+items:
+
+    - type: quiz
+      id: quizzes/beg8_l1.yml
+
+    - type: audio
+      id: cd2_15_pista_15.mp3
+
+    - type: video
+      id: beginner8_1.mp4
+
+    - type: video
+      id: beginner8_2.mp4
+
+    - type: quiz
+      id: quizzes/beg8_g1.yml
+
+    - type: audio
+      id: cd2_18_pista_18.mp3
+
+    - type: video
+      id: beginner8_3.mp4
+
+    - type: audio
+      id: cd2_19_pista_19.mp3
+
+    - type: audio
+      id: cd2_20_pista_20.mp3
+
+    - type: audio
+      id: cd2_21_pista_21.mp3
+
+    - type: quiz
+      id: quizzes/beg8_v1.yml
+
+    - type: quiz
+      id: quizzes/beg8_v2.yml
+
+    - type: quiz
+      id: quizzes/beg8_v3.yml
+
+    - type: audio
+      id: cd2_24_pista_24.mp3
+
+    - type: video
+      id: beginner8_4.mp4
+
+    - type: audio
+      id: cd2_25_pista_25.mp3
+
+    - type: video
+      id: beginner8_5.mp4
+
+    - type: quiz
+      id: quizzes/beg 8_l2.yml
+
+    - type: quiz
+      id: quizzes/beg8_l3.yml
