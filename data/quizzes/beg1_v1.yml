@@ -1,0 +1,36 @@
+name: Phrase - Translation
+questions:
+  - question: Excuse me?
+    answers:
+      - Я опоздал?
+      - Извините/простите?
+      - Как вас зовут?
+    correct: 2
+
+  - question: Am I late?
+    answers:
+      - Извините/простите?
+      - Как вас зовут?
+      - Я опоздал?
+    correct: 3
+
+  - question: What’s your name?
+    answers:
+      - Извините/простите?
+      - Как вас зовут?
+      - Я опоздал?
+    correct: 2
+
+  - question: Nice to meet you.
+    answers:
+      - Спасибо
+      - Приятно познакомиться.
+      - Прошу прощения.
+    correct: 2
+
+  - question: Sorry!
+    answers:
+      - Приятно познакомиться!
+      - Прошу прощения!
+      - Спасибо!
+    correct: 2

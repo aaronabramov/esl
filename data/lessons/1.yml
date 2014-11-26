@@ -4,7 +4,7 @@ items:
       id: 'beginner_1_4.m4a'
 
     - type: quiz
-      id: quizzes/1
+      id: quizzes/beg1_g1
 
     - type: audio
       id: 111.mp3
