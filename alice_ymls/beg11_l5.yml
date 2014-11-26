@@ -2,7 +2,7 @@ name: People on the street
 questions:
   - question: How much is her lunch?
     answers:
-      - £26.5
+      - £27.5
       - £2.75
       - £7.5
     correct: 2
