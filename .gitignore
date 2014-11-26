@@ -29,3 +29,4 @@ public/scripts
 public/js
 migrations/.migrate
 config/*.json
+.DS_Store
