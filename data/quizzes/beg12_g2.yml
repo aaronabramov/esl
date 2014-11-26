@@ -1,0 +1,85 @@
+name: Past Simple: Regular Verbs
+questions:
+  - question: $ golf last weekend?
+    answers:
+      - Did you played
+      - Did you play
+      - Do you played
+    correct: 2
+
+  - question: I $ my car near the restaurant.
+    answers:
+      - did park
+      - did parked
+      - parked
+    correct: 3
+
+  - question: She $ her homework. It was very late.
+    answers:
+      - didn't finished
+      - don't finished
+      - didn't finish
+    correct: 3
+
+  - question: I $ economics in college.
+    answers:
+      - studied
+      - studyed
+      - did studyed
+    correct: 1
+
+  - question: $ the movie?
+    answers:
+      - Did you liked
+      - Did you like
+      - Do you liked
+    correct: 2
+
+  - question: The actors $ terrible in this movie.
+    answers:
+      - did were
+      - did be
+      - were
+    correct: 3
+
+  - question: $ TV last night?
+    answers:
+      - Did they watched
+      - Did they watch
+      - Do they watched
+    correct: 2
+
+  - question: She $ her car.
+    answers:
+      - stoped
+      - did stop
+      - stopped
+    correct: 3
+
+  - question: $ the door?
+    answers:
+      - Did you close
+      - Do you closed
+      - Did you closed
+    correct: 1
+
+  - question: They $ in Brazil.
+    answers:
+      - did live
+      - livd
+      - lived
+    correct: 3
+
+  question: I $ tennis yesterday.
+    answers:
+      - didn't played
+      - didn't play
+      - didn't plaied
+    correct: 2
+
+  - question: $ ho work yesterda?
+    answers:
+      - Did she walked
+      - Did she walk
+      - Do she walked
+    correct: 2

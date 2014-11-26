@@ -1,0 +1,85 @@
+name: Common Adjectives (Word - Opposite)
+questions:
+  - question: old – $
+    answers:
+      - long
+      - cheap
+      - new
+    correct: 3
+
+  - question: short - $
+    answers:
+      - long
+      - cheap
+      - new
+    correct: 1
+
+  - question: expensive - $
+    answers:
+      - long
+      - cheap
+      - new
+    correct: 2
+
+  - question: good - $
+    answers:
+      - short
+      - bad
+      - small
+    correct: 2
+
+  - question: tall - $
+    answers:
+      - short
+      - bad
+      - small
+    correct: 1
+
+  - question: big - $
+    answers:
+      - short
+      - bad
+      - small
+    correct: 3
+
+  - question: fast - $
+    answers:
+      - old
+      - expensive
+      - slow
+    correct: 3
+
+  - question: new - $
+    answers:
+      - old
+      - expensive
+      - slow
+    correct: 1
+
+  - question: cheap - $
+    answers:
+      - old
+      - expensive
+      - slow
+    correct: 2
+
+  - question: bad - $
+    answers:
+      - short
+      - good
+      - fast
+    correct: 2
+
+  - question: slow - $
+    answers:
+      - short
+      - good
+      - fast
+    correct: 3
+
+  - question: long - $
+    answers:
+      - short
+      - good
+      - fast
+    correct: 1

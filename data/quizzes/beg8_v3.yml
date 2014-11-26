@@ -1,0 +1,28 @@
+name: Prepositions
+questions:
+  - question: He works $ Microsoft.
+    answers:
+      - at
+      - in
+      - for
+    correct: 3
+
+  - question: He’s $ school.
+    answers:
+      - in
+      - for
+      - on
+    correct: 1
+
+  - question: She’s $ college.
+    answers:
+      - on
+      - in
+      - for
+
+  - question: She’s $ a university
+    answers:
+      - at
+      - in
+      - on
+    correct: 1

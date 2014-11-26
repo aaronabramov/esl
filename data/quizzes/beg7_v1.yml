@@ -1,0 +1,85 @@
+name: Common Verbs
+questions:
+  - question: like dogs
+    answers:
+      - любить кошек
+      - любить собак
+      - иметь собак
+    correct: 3
+
+  - question: live in an apartment
+    answers:
+      - жить в доме
+      - жить в квартире
+      - снимать квартиру
+    correct: 2
+
+  - question: speak English
+    answers:
+      - говорить по-английски
+      - учить английский
+      - знать английский
+    correct: 1
+
+  - question: drink coffee
+    answers:
+      - делать кофе
+      - пить кофе
+      - покупать кофе
+    correct: 2
+
+  - question: listen to the radio
+    answers:
+      - любить радио
+      - слушать радио
+      - выключить радио
+    correct: 2
+
+  - question: study Spanish
+    answers:
+      - говорить по-испански
+      - понимать испанский
+      - изучать испанский
+    correct: 3
+
+  - question: want a new car
+    answers:
+      - любить новую машину
+      - иметь новую машину
+      - хотеть новую машину
+    correct: 3
+
+  - question: watch TV
+    answers:
+      - хотеть телевизор
+      - смотреть телевизор
+      - выключить телевизор
+    correct: 2
+
+  - question: read magazines
+    answers:
+      - читать журналы
+      - ходить по-магазинам
+      - искать магазины
+    correct: 1
+
+  - question: have children
+    answers:
+      - любить детей
+      - хотеть детей
+      - иметь детей
+    correct: 3
+
+  - question: eat fast food
+    answers:
+      - ненавидеть фастфуд
+      - любить фастфуд
+      - питаться фастфудом
+    correct: 3
+
+  - question: work in a bank
+    answers:
+      - ограбить банк
+      - ходить в банк
+      - работать в банке
+    correct: 3

@@ -1,0 +1,85 @@
+name: Common Verbs
+questions:
+  - question: $ TV
+    answers:
+      - watch
+      - listen to
+      - see
+    correct: 1
+
+  - question: $ Spanish
+    answers:
+      - live
+      - have
+      - study
+    correct: 3
+
+  - question: $ magazines
+    answers:
+      - read
+      - go
+      - watch
+    correct: 1
+
+  - question: $ children
+    answers:
+    - eat
+    - have
+    - drink
+    correct: 2
+
+  - question: $ in a bank
+    answers:
+      - work
+      - live
+      - have
+    correct: 1
+
+  - question: $ to the radio
+    answers:
+      - listen
+      - watch
+      - like
+    correct: 1
+
+  - question: $ a new car
+    answers:
+      - eat
+      - listen to
+      - want
+    correct: 3
+
+  - question: $ fast food
+    answers:
+      - drink
+      - eat
+      - read
+    correct: 2
+
+  - question: $ coffee
+    answers:
+      - eat
+      - drink
+      - read
+    correct: 2
+
+  - question: $ English
+    answers:
+      - speak
+      - watch
+      - work
+    correct: 1
+
+  - question: $ in an apartment
+    answers:
+      - like
+      - love
+      - live
+    correct: 3
+
+  - question: $ dogs
+    answers:
+      - like
+      - live
+      - speak
+    correct: 1

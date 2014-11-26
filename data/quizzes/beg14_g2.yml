@@ -1,0 +1,85 @@
+name: There was / there were
+questions:
+  - question: $ an airport in 1967?
+    answers:
+      - Were there
+      - There was
+      - Was there
+    correct: 3
+
+  - question: $ milk in the fridge yesterday.
+    answers:
+      - There is
+      - There was
+      - There were
+    correct: 2
+
+  - question: $ Wi-Fi in your hotel room?
+    answers:
+      - There was
+      - Were there
+      - Was there
+    correct: 3
+
+  - question: $ a lot of people at my birthday party last week.
+    answers:
+      - There were
+      - There was
+      - Was there
+    correct: 1
+
+  - question: $ a swimming pool?
+    answers:
+      - There was
+      - Were there
+      - Was there
+    correct: 3
+
+  - question: $ any cafes near our house when we lived in England.
+    answers:
+      - There was
+      - There wasn't
+      - There weren't
+    correct: 3
+
+  - question: $ a bank?
+    answers:
+      - There was
+      - Was there
+      - Were there
+    correct: 2
+
+  - question: $ the Internet in our office last month.
+    answers:
+      - There wasn't
+      - There weren't
+      - There isn't
+    correct: 1
+
+  - question: $ a bathtub in your bathroom?
+    answers:
+      - There was
+      - There were
+      - Was there
+    correct: 3
+
+  - question: $ any tourists in the museum yesterday.
+    answers:
+      - There were
+      - There wasn't
+      - There weren't
+    correct: 3
+
+  - question: $ any dictionaries in the classroom?
+    answers:
+      - Were there
+      - Was there
+      - There were
+    correct: 1
+
+  - question: $ a piano in the room.
+    answers:
+      - There were
+      - There was
+      - There are
+    correct: 2

@@ -1,0 +1,92 @@
+name: Adjectives
+questions:
+  - question: It's $.
+    answers:
+      - great hotel
+      - a hotel great
+      - a great hotel
+    correct: 3
+
+  - question: This car $.
+    answers:
+      - is expensive
+      - is an expensive
+      - expensive
+    correct: 1
+
+  - question: They're $.
+    answers:
+      - an orange umbrella
+      - oranges umbrellas
+      - orange umbrellas
+    correct: 3
+
+  - question: This isn't $.
+    answers:
+      - a good very hotel
+      - a very good hotel
+      - a hotel very good
+    correct: 2
+
+  - question: Mark's $.
+    answers:
+    - is mobile new
+    - mobile is new
+    - is new mobile
+    correct: 2
+
+  - question: It's $.
+    answers:
+      - a car fast
+      - fast car
+      - a fast car
+    correct: 3
+
+    - question: It's $.
+    answers:
+      - a terrible photo
+      - terrible photo
+      - a photo terrible
+    correct: 1
+
+  - question: They're $.
+    answers:
+      - books good
+      - goods books
+      - good books
+    correct: 3
+
+  - question: Maria is $.
+    answers:
+      - very beautiful girl
+      - a very beautiful girl
+      - a girl very beautiful
+    correct: 2
+
+  - question: This isn't $.
+    answers:
+      - a very good hotel
+      - very good hotel
+      - a hotel very good
+    correct: 1
+
+  -question: Their house $.
+    answers:
+      - is a very small
+      - is very small
+      - very is small
+    correct: 2
+
+  - question: Her $.
+    answers:
+      - white is bag
+      - white bag
+      - bag is white
+    correct: 3
+
+  - question: This train $.
+    answers:
+      - is a very slow
+      - very is small
+      - is very small
+    correct: 3
