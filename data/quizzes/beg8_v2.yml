@@ -1,0 +1,57 @@
+name: Profession - Job
+questions:
+  - question: A teacher works in $
+    answers:
+      - a hospital
+      - a restaurant
+      - a school
+    correct: 3
+
+  - question: A waitress works in $
+    answers:
+      - a restaurant
+      - a school
+      - an office
+    correct: 1
+
+  - question: A policeman works on $
+    answers:
+      - a school
+      - the street
+      - home
+    correct: 2
+
+  - question: A salesperson works in $
+    answers:
+      - a store
+      - a factory
+      - a university
+    correct: 1
+
+  - question: A doctor works in $
+    answers:
+      - the street
+      - home
+      - a hospital
+    correct: 3
+
+  - question: A lawyer works in $
+    answers:
+      - the street
+      - a school
+      - an office
+    correct: 3
+
+  - question: A factory worker works in $
+    answers:
+      - a school
+      - a store
+      - factory
+    correct: 3
+
+  - question: A student works at $
+    answers:
+      - the street
+      - home
+      - an office
+    correct: 1

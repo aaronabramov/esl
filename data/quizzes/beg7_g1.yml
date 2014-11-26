@@ -1,0 +1,71 @@
+name: Present Simple: I and You
+questions:
+  - question: We $ here. We live downtown.
+    answers:
+      - do live
+      - don't live
+      - not live
+    correct: 2
+
+  - question: 'A: $ you have children?\nB: No, I $.'
+    answers:
+      - Do; don't
+      - Do; do
+      - –; don't
+    correct: 1
+
+  - question: I $ like this photo. It's great!
+    answers:
+      - do
+      - don't
+      - –
+    correct: 3
+
+  - question: $ you want coffee?
+    answers:
+      - –
+      - don't
+      - do
+    correct: 3
+
+  - question: I $ have brothers and sisters. I'm an only child.
+    answers:
+      - do
+      - don't
+      - –
+    correct: 2
+
+  - question: 'A: $ you work here?\nB: No, I $.'
+    answers:
+      - Do; do
+      - Do; don't
+      - –; don't
+    correct: 2
+
+  - question: "A: $ you like my coat?\nB: Yes, I $. It's great!"
+    answers:
+      - Do; like
+      - –; do
+      - Do; do
+    correct: 3
+
+  - question: They $ live in a small house. It's nice.
+    answers:
+      - do
+      - –
+      - don't
+    correct: 2
+
+  - question: $ burgers?
+    answers:
+      - Do you like
+      - Like you
+      - Do like you
+    correct: 1
+
+  - question: We $ want a British car. We want an American car.
+    answers:
+      - do
+      - –
+      - don't
+    correct: 3

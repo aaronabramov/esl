@@ -1,0 +1,127 @@
+name: Family and people (Word - Translation)
+questions:
+  - question: daughter
+    answers:
+      - дочь
+      - сын
+      - сестра
+    correct: 1
+
+  - question: a boy
+    answers:
+      - девочка
+      - мальчик
+      - брат
+    correct: 2
+
+  - question: boyfriend
+    answers:
+      - брат
+      - парень / молодой человек
+      - подруга
+    correct: 2
+
+  - question: a person
+    answers:
+      - люди
+      - человек
+      - персона
+    correct: 2
+
+  - question: son
+    answers:
+      - мальчик
+      - парень
+      - сын
+    correct: 3
+
+  - question: mother
+    answers:
+      - мать
+      - отец
+      - сестра
+    correct: 1
+
+  - question: a woman
+    answers:
+      - мужчинв
+      - женщина
+      - женщины
+    correct: 2
+
+  - question: girlfriend
+    answers:
+      - девочка
+      - девушка / подруга
+      - друг
+    correct: 2
+
+  - question: friends
+    answers:
+      - друг
+      - подруга
+      - друзья
+    correct: 3
+
+  - question: husband
+    answers:
+      - муж
+      - мужчина
+      - отец
+    correct: 1
+
+  - question: brother
+    answers:
+      - отец
+      - брат
+      - друг
+    correct: 2
+
+  - question: a man
+    answers:
+      - муж
+      - мужчина
+      - отец
+    correct: 2
+
+  - question: children
+    answers:
+      - ребенок
+      - девочка
+      - дети
+    correct: 3
+
+  - question: a girl
+    answers:
+      - дочь
+      - девочка
+      - подруга
+    correct: 2
+
+  - question: family
+    answers:
+      - семья
+      - родственники
+      - друзья
+    correct: 1
+
+  - question: father
+    answers:
+      - отец
+      - мать
+      - брат
+    correct: 1
+
+  - question: sister
+    answers:
+      - подруга
+      - женщина
+      - сестра
+    correct: 3
+
+  - question: wife
+    answers:
+       - девушка
+       - женщина
+       - жена
+      correct: 3

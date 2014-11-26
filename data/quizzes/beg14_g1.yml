@@ -1,0 +1,85 @@
+name: There is / there are
+quesitions:
+  - question: Are there $ elevators?
+    answers:
+      - some
+      - any
+      - a
+    correct: 2
+
+  - question: $ any sodas in the kitchen.
+    answers:
+    - There isn't
+    - There are
+    - There aren't
+    correct: 3
+
+  - question: $ a computer in the room.
+    answers:
+      - There are
+      - There is
+      - There aren't
+    correct: 2
+
+  - question: Are there $ chairs in the office?
+    answers:
+      - any
+      - some
+      - a
+    correct: 1
+
+  - question: $ any elevators in the hotel.
+    answers:
+      - There isn't
+      - There are
+      - There aren't
+    correct: 3
+
+  - question: $ some towels on the floor.
+    answers:
+      - There are
+      - There is
+      - There aren't
+    correct: 1
+
+  - question: $ a swimming pool in the hotel?
+    answers:
+      - There is
+      - There are
+      - Is there
+    correct: 3
+
+  - question: There are $ stores near here.
+    answers:
+      - some
+      - any
+      - a
+    correct: 1
+
+  - question: $ a bathtub in the bathroom. It's very big.
+    answers:
+      - There are
+      - There is
+      - There aren't
+    correct: 2
+
+  - question: $ a TV in the restaurant?
+    answers:
+      - There is
+      - There are
+      - Is there
+    correct: 3
+
+  - question: $ any pictures in the room.
+    answers:
+      - isn't
+      - aren't
+      - are
+    correct: 2
+
+  - question: $ a meeting room in the hotel?
+    answers:
+      - Is there
+      - Are there
+      - There is
+    correct: 1

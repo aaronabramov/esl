@@ -1,0 +1,57 @@
+name: The Time
+questions:
+  - question: It's $.
+    answers:
+      - '9.30'
+      - 9 o'clock
+      - '1.09'
+    correct: 2
+
+  - question: It's $.
+    answers:
+      - '4.20'
+      - '3.45'
+      - '3.20'
+    correct: 3
+
+  question: It's $.
+    answers:
+      - '9.30'
+      - '9.13'
+      - 9 o'clock
+    correct: 1
+
+  - question: It's $.
+    answers:
+      - '10:10'
+      - '9:50'
+      - '10:50'
+    correct: 1
+
+  - question: It's $.
+    answers:
+      - '9:45'
+      - '8:45'
+      - '9:15'
+    correct: 3
+
+  - question: It's $.
+    answers:
+      - '12:25'
+      - '11:35'
+      - '11:25'
+    correct: 2
+
+  - question: It's $.
+    answers:
+      - '5:08'
+      - '7:55'
+      - '8:05'
+    correct: 3
+
+  - question: It's $.
+    answers:
+      - '5:45'
+      - '6:15'
+      - '6:45'
+    correct: 1

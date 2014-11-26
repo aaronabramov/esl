@@ -1,0 +1,92 @@
+name: Things in the classroom (Word – Translation)
+questions:
+  - question: Look at the board!
+    answers:
+      - Откройте окно!
+      - Посмотрите на доску!
+      - Закройте дверь!
+    correct: 2
+
+  - question: a window
+    answers:
+      - окно
+      - дверь
+      - доска
+    correct: 1
+
+  - question: the door
+    answers:
+      - окно
+      - дверь
+      - доска
+    correct: 2
+
+  - question: a piece of paper
+    answers:
+      - ножка стола
+      - часть доски
+      - лист бумаги
+    correct: 3
+
+  - question: Open the window!
+    answers:
+      - Откройте окно!
+      - Посмотрите на доску!
+      - Закройте дверь!
+    correct: 1
+
+  - question: Close the door!
+    answers:
+      - Откройте окно!
+      - Посмотрите на доску!
+      - Закройте дверь!
+    correct: 3
+
+  - question: a book
+    answers:
+      - словарь
+      - тетрадь
+      - книга
+    correct: 3
+
+  - question: a dictionary
+    answers:
+      - словарь
+      - тетрадь
+      - книга
+    correct: 1
+
+  - question: a chair
+    answers:
+      - стул
+      - стол
+      - дверь
+    correct: 1
+
+  - question: a table
+    answers:
+      - стул
+      - стол
+      - дверь
+    correct: 2
+
+  - question: a laptop
+    answers:
+      - книга
+      - ноутбук
+      - тетрадь
+    correct: 2
+
+  - question: Open the door!
+    answers:
+      - Откройте окно!
+      - Закройте дверь!
+      - Откройте дверь!
+    correct: 3
+
+  - question: Close the window!
+    answers:
+      - Откройте окно!
+      - Закройте окно!
+      - Закройте дверь!
+    correct: 2

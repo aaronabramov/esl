@@ -1,0 +1,78 @@
+name: 'Verb be: He, She, It'
+questions:
+  - question: Where’s Istanbul? $ in Turkey.
+    answers:
+      - She’s
+      - He’s
+      - It’s
+    correct: 3
+
+  - question: Where’s Carolina from? $ from Brazil.
+    answers:
+      - She’s
+      - He’s
+      - It’s
+    correct: 1
+
+  - question: Where’s Pedro from? $ from Spain.
+    answers:
+      - She’s
+      - He’s
+      - It’s
+    correct: 2
+
+  - question: Where’s Tokyo? $ in Japan.
+    answers:
+      - She’s
+      - He’s
+      - It’s
+    correct: 3
+
+  - question: A: Where’s Charles from?\nB: $ from England.
+    answers:
+      - She’s
+      - He’s
+      - It’s
+    correct: 2
+
+  - question: $ from Spain?
+    answers:
+      - Antonio
+      - Antonio is
+      - Is Antonio
+    correct: 3
+
+  - question: "No, he $ . He’s from Italy."
+    answers:
+      - is
+      - isn’t
+      - aren’t
+    correct: 2
+
+  - question: Where’s Maria from? $ from Mexico.
+    answers:
+      - She’s
+      - He’s
+      - It’s
+    correct: 1
+
+  - question: "A: Is Scarlett Johansson from England?\nB: No, $. Scarlett is from the United States."
+    answers:
+      - he is
+      - it isn’t
+      - she isn’t
+    correct: 3
+
+  - question: A: Where’s Paola from?\nB: $ from Italy.
+    answers:
+      - She’s
+      - He’s
+      - It’s
+    correct: 1
+
+  - question: Where $ Krakow?
+    answers:
+      - isn’t
+      - ‘s
+      - is it
+    correct: 2

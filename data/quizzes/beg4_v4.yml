@@ -1,0 +1,72 @@
+name: Small things (Translation - Worb)
+questions:
+  - question: ключ
+    answers:
+      - a bag
+      - a key
+      - a pen
+    correct: 2
+
+  - question: сумка
+    answers:
+      - a bag
+      - a key
+      - a pen
+    correct: 1
+
+  - question: часы
+    answers:
+      - glasses
+      - a watch
+      - keys
+    correct: 2
+
+  - question: очки
+    answers:
+      - glasses
+      - a watch
+      - keys
+    correct: 1
+
+  - question: удостоверение личности
+      - an ID card
+      - a credit card
+      - a debit card
+    correct: 1
+
+  - question: зонт
+    answers:
+      - a bag
+      - a key
+      - an umbrella
+    correct: 3
+
+  - question: ручка
+    answers:
+      - a pencil
+      - a pen
+      - a bag
+    correct: 2
+
+  - question: фотография
+    answers:
+      - a photographer
+      - a foto
+      - a photo
+    correct: 3
+
+  - question: кредитная карта
+    answers:
+      - an ID card
+      - a credit card
+      - a debit card
+    correct: 2
+
+  - question: сотовый телефон
+    answers:
+      - a phone
+      - a cell phone
+      - a mobile fone
+    correct: 2
+
+  - question:

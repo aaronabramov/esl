@@ -1,0 +1,127 @@
+name: 'in, at, on'
+questions:
+  - question: $ school
+    answers:
+      - in
+      - at
+      - on
+    correct: 2
+
+  - question: $ a bus
+    answers:
+      - in
+      - at
+      - on
+    correct: 3
+
+  - question: $ the street
+      answers:
+      - in
+      - at
+      - on
+    correct: 3
+
+  - question: $ the hairdresser
+    answers:
+      - in
+      - at
+      - on
+    correct: 2
+
+  - question: $ Chicago
+      answers:
+      - in
+      - at
+      - on
+    correct: 1
+
+  question: $ a meeting
+      answers:
+      - in
+      - at
+      - on
+    correct: 1
+
+  question: $ home
+    answers:
+      - in
+      - at
+      - on
+    correct: 2
+
+  - question: $ a train
+      answers:
+      - in
+      - at
+      - on
+    correct: 3
+
+  - question: $ the airport
+    answers:
+      - in
+      - at
+      - on
+    correct: 2
+
+  - question: $ the gym
+      answers:
+      - in
+      - at
+      - on
+    correct: 2
+
+  - question: $ the bedroom
+      answers:
+      - in
+      - at
+      - on
+    correct: 1
+
+  - question: $ plane
+    answers:
+      - in
+      - at
+      - on
+    correct: 3
+
+  - question: $ a car
+    answers:
+      - in
+      - at
+      - on
+    correct: 1
+
+  - question: $ work
+    answers:
+      - in
+      - at
+      - on
+    correct: 2
+
+   question: $ the park
+    answers:
+      - in
+      - at
+      - on
+    correct: 1
+
+   question: $ the theater
+    answers:
+      - in
+      - at
+      - on
+    correct: 2
+
+  - question: $ bed
+      answers:
+      - in
+      - at
+      - on
+    correct: 1
+
+  question: $ a restaurant
+    answers:
+      - in
+      - at
+      - on
+    correct: 1

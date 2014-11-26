@@ -1,0 +1,28 @@
+name: Listening
+questions:
+  - question: 'I start work at $, I finish work at $.'
+    answers:
+      - 9 o'clock; 5 o'clock
+      - 9 o'clock; 4 o'clock
+      - 4 o'clock; 9 o'clock
+    correct: 2
+
+  - question: I work $.
+    answers:
+      - 8 to 4
+      - 12 to 4
+      - 9 to 4
+
+  - question: 'I start at $ ,and I finish at $.'
+    answers:
+      - 6pm; 2am
+      - 6am; 2pm
+      - 6pm; 2pm
+    correct: 2
+
+  - question: 'I usually start work at about $, and I usually finish at around $.'
+    answers:
+      - 9am; 6pm
+      - 9pm; 6am
+      - 9am; 6am
+    correct: 1

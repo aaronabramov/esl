@@ -1,0 +1,85 @@
+name: Jobs (Word - Translation)
+questions:
+  - question: a student
+    answers:
+      - учитель
+      - студент
+      - учиться
+    correct: 2
+
+  - question: an assistant
+    answers:
+      - продавец
+      - менеджер
+      - ассистент / помощник
+    correct: 3
+
+  - question: a doctor
+    answers:
+      - медсестра
+      - медврач
+      - врач
+    correct: 3
+
+  - question: a factory worker
+    answers:
+      - фабричный рабочий
+      - грузчик
+      - офисный работник
+    correct: 1
+
+  - question: a waiter
+    answers:
+      - секретарь
+      - продавец
+      - официант
+    correct: 3
+
+  - question: a policewoman
+    answers:
+      - полицейский
+      - политик
+      - женщина-полицейский
+    correct: 3
+
+  - question: a teacher
+    answers:
+      - ученик
+      - учитель
+      - профессор
+    correct: 2
+
+  - question: a nurse
+    answers:
+      - медсестра
+      - врач
+      - секретарь
+    correct: 1
+
+  - question: a salesperson
+    answers:
+      - ассистент
+      - заводской рабочий
+      - продавец
+    correct: 3
+
+  - question: a lawyer
+    answers:
+      - юрист
+      - администратор
+      - официант
+    correct: 1
+
+  - question: waitress
+    answers:
+      - юрист
+      - официантка
+      - официант
+    correct: 2
+
+  - question: a policeman
+    answers:
+      - женщина-полицейский
+      - полицейский
+      - политик
+    correct: 2

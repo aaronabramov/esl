@@ -1,0 +1,57 @@
+name: Colors (Word – Translation)
+questions:
+  - question: black
+    answers:
+      - черный
+      - серый
+      - коничневый
+    correct: 1
+
+  - question: brown
+    answers:
+      - черный
+      - серый
+      - коничневый
+    correct: 3
+
+  - question: orange
+    answers:
+      - желтый
+      - коричневый
+      - оранджевый
+    correct: 3
+
+  - question: red
+    answers:
+      - желтый
+      - красный
+      - оранджевый
+    correct: 2
+
+  - question: blue
+    answers:
+      - синиий
+      - зеленый
+      - красный
+    correct: 1
+
+  - question: green
+    answers:
+      - синиий
+      - зеленый
+      - красный
+    correct: 2
+
+  - question: yellow
+    answers:
+      - белый
+      - зеленый
+      - желтый
+    correct: 3
+
+  - question: white
+    answers:
+      - белый
+      - зеленый
+      - желтый
+    correct: 1

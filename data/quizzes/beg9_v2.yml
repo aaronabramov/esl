@@ -1,0 +1,50 @@
+name: Days of the Week (Translation - Word)
+questions:
+  - question: среда
+    answers:
+      - Monday
+      - Friday
+      - Wednesday
+    correct: 3
+
+  - question: пятница
+    answers:
+      - Monday
+      - Friday
+      - Wednesday
+    correct: 2
+
+  - question: воскресенье
+    answers:
+      - Sunday
+      - Saturday
+      - Tuesday
+    correct: 1
+
+  - question: понедельник
+    answers:
+      - Monday
+      - Friday
+      - Wednesday
+    correct: 1
+
+  - question: четверг
+    answers:
+      - Sunday
+      - Tuesday
+      - Thursday
+    correct: 3
+
+  - question: суббота
+    answers:
+      - Sunday
+      - Saturday
+      - Wednesday
+    correct: 2
+
+  - question: вторник
+    answers:
+      - Tuesday
+      - Thursday
+      - Friday
+    correct: 1

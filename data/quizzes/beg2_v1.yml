@@ -1,0 +1,57 @@
+name: Countries
+questions:
+  - question: Lima
+    answers:
+      - Turkey
+      - Peru
+      - Korea
+    correct: 2
+
+  - question: Tokyo
+    answers:
+      - Peru
+      - China
+      - Japan
+    correct: 3
+
+  - question: Pyongyang
+    answers:
+      - Korea
+      - Peru
+      - Italy
+    correct: 1
+
+  - question: Madrid
+    answers:
+      - Italy
+      - Spain
+      - Brazil
+    correct: 2
+
+  - question: Ankara
+    answers:
+      - Brazil
+      - Spain
+      - Turkey
+    correct: 3
+
+  - question: Rome
+    answers:
+      - Italy
+      - Spain
+      - Turkey
+    correct: 1
+
+  - question: Beijing
+    answers:
+      - Japan
+      - Korea
+      - China
+    correct: 3
+
+  - question: "Washington, D.C."
+    answers:
+      - The United Kingdom
+      - The United States
+      - England
+    correct: 2

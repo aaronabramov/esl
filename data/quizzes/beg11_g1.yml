@@ -1,0 +1,85 @@
+name: Past Simple: be
+questions:
+  - question: We $ at home last night.
+    answers:
+      - wasn't
+      - didn't were
+      - weren't
+    correct: 3
+
+  - question: A: Where $ you last night?\nB: I $ at work all evening.
+    answers:
+      - was; was
+      - were; were
+      - were; was
+    correct: 3
+
+  question: 'A: $ she in the movies?\nB: No, she $.'
+    answers:
+      - was; was
+      - was; wasn't
+      - were; weren't
+    correct: 2
+
+  - question: 'A: $ the movie good?\nB: Yes, it $'
+    answers:
+      - was; was
+      - was; wasn't
+      - were; was
+    correct: 1
+
+  - question: I $ at work until 8pm today.
+    answers:
+      - were
+      - weren't
+      - was
+    correct: 3
+
+  - question: 'A: Were you in Orlando yesterday?\nB: No, we $. We $ in Miami.'
+    answers:
+      - wasn't; was
+      - were; weren't
+      - weren't; were
+    correct: 3
+
+  - question: $ a teacher?
+    answers:
+      - Was she
+      - Were she
+      - She was
+    correct: 1
+
+  - question: My brother $ in Rio last week.
+    answers:
+      - were
+      - was
+      - is
+    correct: 2
+
+  - question: We $ late yesterday.
+    answers:
+      - are
+      - were
+      - was
+    correct: 2
+
+  - question: 'I $ a teacher, I $ a translator.'
+    answers:
+      - weren't; were
+      - wasn't; were
+      - wasn't; was
+    correct: 3
+
+  - question: $ at school yesterday?
+    answers:
+      - was you
+      - you were
+      - were you
+    correct: 3
+
+  - question: 'A: $ it a good book?\nB: Yes, it $.'
+    answers:
+      - Was; is
+      - Was; was
+      - Were; was
+    correct: 2

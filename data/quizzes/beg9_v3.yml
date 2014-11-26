@@ -1,0 +1,106 @@
+name: A Typical Day
+questions:
+  - question: $ up at 6am
+    answers:
+      - go
+      - get
+      - have
+    correct: 2
+
+  - question: $ breakfast at home
+    answers:
+      - do
+      - take
+      - have
+    correct: 3
+
+  - question: $ a shower after the football game
+    answers:
+      - take
+      - have
+      - make
+    correct: 1
+
+  - question: $ to work by bus
+    answers:
+      - do
+      - have
+      - go
+    correct: 3
+
+  - question: $ a coffee at work
+    answers:
+      - take
+      - have
+      - do
+    correct: 2
+
+  - question: $ a sandwich for lunch
+    answers:
+      - do
+      - have
+      - drink
+    correct: 2
+
+  - question: I start work at 9am and $ work at 6pm.
+    answers:
+      - start
+      - do
+      - finish
+    correct: 3
+
+  - question: She $ home after work at 7pm.
+    answers:
+      - goes to
+      - goes at
+      - goes
+    correct: 3
+
+  - question: They $ shopping at weekends.
+    answers:
+      - go
+      - do
+      - make
+    correct: 1
+
+  - question: He $ the gym on Fridays.
+    answers:
+      - doesn't go
+      - doesn't go to
+      - doesn't do
+    correct: 2
+
+  - question: $ dinner in the evening
+    answers:
+      - do
+      - make
+      - take
+    correct: 2
+
+  - question: $ dinner with family
+    answers:
+      - have
+      - do
+      - take
+    correct: 1
+
+  - question: $ housework on Saturday mornings
+    answers:
+      - make
+      - take
+      - do
+    correct: 3
+
+  - question: $ TV after work
+    answers:
+      - see
+      - listen to
+      - watch
+    correct: 3
+
+  - question: $ to bed after 12pm
+    answers:
+      - go
+      - get
+      - do
+    correct: 1

@@ -1,0 +1,64 @@
+name: Small things (Word – Translation)
+questions:
+  - question: an ID card
+      answers:
+        - кредитная карточка
+        - удостоверение личности
+        - пропуск
+    correct: 2
+
+  - question: glasses
+    answers:
+      - ключи
+      - очки
+      - часы
+    correct: 2
+
+  - question: a bag
+    answers:
+      - сумка
+      - ручка
+      - кошелек
+    correct: 1
+
+  - question: a key
+    answers:
+      - сумка
+      - ручка
+      - ключ
+    correct: 3
+
+  - question: an umbrella
+    answers:
+      - ключ
+      - чемодан
+      - зонт
+    correct: 3
+
+  - question: a cell phone
+    answers:
+      - рабочий телефон
+      - сотовый телефон
+      - домашний телефон
+    correct: 2
+
+  - question: a pen
+    answers:
+      - ручка
+      - карандаш
+      - ключ
+    correct: 1
+
+  - question: a watch
+    answers:
+      - очки
+      - часы
+      - ключи
+    correct: 2
+
+  - question: a credit card
+    answers:
+      - кредитная карточка
+      - удостоверение личности
+      - пропуск
+    correct: 1

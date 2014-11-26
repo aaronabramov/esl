@@ -1,0 +1,29 @@
+name: Irregular Plurals
+questions:
+  - question: a child – $
+    answers:
+      - children
+      - childrens
+      - childs
+    correct: 1
+
+  - question: a man – $
+    answers:
+      - women
+      - mens
+      - men
+    correct: 3
+
+  - question: a person – $
+    answers:
+      - persons
+      - people
+      - peoples
+    correct: 2
+
+  - question: a woman – $
+    answers:
+      - womans
+      - womens
+      - women
+    correct: 3

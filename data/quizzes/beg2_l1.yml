@@ -1,0 +1,22 @@
+name: Listening Quiz
+questions:
+  - question: "A: Where's he from?\nB: He's from $."
+    answers:
+      - England
+      - the United Kingdom
+      - the United States
+    correct: 3
+
+  - question: 'Is she from $, too?'
+    answers:
+      - England
+      - the United Kingdom
+      - the United States
+    correct: 3
+
+  - question: "No, she isn't. She's from $."
+    answers:
+      - England
+      - the United Kingdom
+      - the United States
+    correct: 1
