@@ -1,10 +1,43 @@
 name: Lesson 1
 items:
     - type: video
-      id: 'beginner_1_4.m4a'
-
-    - type: quiz
-      id: quizzes/1
+      id: beginner1_1.mp4
 
     - type: audio
-      id: 111.mp3
+      id: 03 Pista 03.mp3
+
+    - type: video
+      id: beginner1_2.mp4
+
+    - type: audio
+      id: 04 Pista 04.mp3
+
+    - type: audio
+      id: 05 Pista 05.mp3
+
+    - type: quiz
+      id: quizzes/beg1_v1.yml
+
+    - type: quiz
+      id: quizzes/beg1_v2.yml
+
+    - type: video
+      id: beginner1_3.mp4
+
+    - type: video
+      id: beginner1_4.mp4
+
+    - type: audio
+      id: 08 Pista 08.mp3
+
+    - type: audio
+      id: 09 Pista 09.mp3
+
+    - type: video
+      id: beginner1_5.mp4
+
+    - type: audio
+      id: 11 Pista 11.mp3
+
+    - type: audio
+      id: 12 Pista 12.mp3
