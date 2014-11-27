@@ -1,0 +1,71 @@
+name: Common Verbs 3
+questions:
+  - question: "Call me when you $ the airport."
+    answers:
+      - arrive at
+      - arrive in
+      - arrive on
+    correct: 1
+
+  - question: If you fall from a bike you can $ your leg.
+    answers:
+      - change
+      - lose
+      - break
+    correct: 3
+
+  - question: "I want to $ a ticket to see my favorite movie, but it's too expensive."
+    answers:
+      - pay
+      - rent
+      - buy
+    correct: 3
+
+  - question: People usually don't want to $ from their vacation.
+    answers:
+      - come
+      - come back
+      - go
+    correct: 2
+
+  - question: I can't $ a job. Can you help me?
+    answers:
+      - seek
+      - look
+      - find
+    correct: 3
+
+  - question: I started to $ a new language - French. It's very hard.
+    answers:
+      - teach
+      - say
+      - learn
+    correct: 3
+
+  - question: Can you $ my friend at the airport tomorrow?
+    answers:
+      - meet
+      - see
+      - find
+    correct: 1
+
+  - question: You can $ a car if you don't have it.
+    answers:
+      - pay
+      - rent
+      - hire
+    correct: 2
+
+  - question: He always $ hello to people at work.
+    answers:
+      - speaks
+      - tells
+      - says
+    correct: 3
+
+  - question: We want to $ at a hotel for a night in New York.
+    answers:
+      - stand
+      - stay
+      - stop
+    correct: 2

@@ -1,0 +1,22 @@
+name: Listening Quiz
+questions:
+  - question: "A: Excuse me. Can you $ me?\nB: Sure."
+    answers:
+      - meet
+      - help
+      - save
+    correct: 2
+
+  - question: "A: Where’s the bus $, please?"
+    answers:
+      - stop
+      - platform
+      - station
+    correct: 3
+
+  - question: "B: Go $, and turn $. Turn $ again, and it’s on the $."
+    answers:
+      - right; right; left; left
+      - straight ahead; right; right; left
+      - straight ahead; left; left; right
+    correct: 2

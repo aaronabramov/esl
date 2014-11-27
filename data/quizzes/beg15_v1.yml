@@ -1,0 +1,127 @@
+name: Places
+questions:
+  - question: Chicago is a big $.
+    answers:
+      - town
+      - village
+      - city
+    correct: 3
+
+  - question: I grew up in a very small $. There were about 300 people.
+    answers:
+      - town
+      - village
+      - city
+    correct: 2
+
+  - question: If you go to Seattle by plane I can meet you at $.
+    answers:
+      - the train station
+      - the airport
+      - a bus stop
+    correct: 2
+
+  - question: I need to go to $ to get some cash.
+    answers:
+      - the church
+      - the post office
+      - the bank
+    correct: 3
+
+  - question: If it's warm and sunny in summer we usually go to $. You can lie in the sun and swim there.
+    answers:
+      - the beach
+      - the park
+      - the road
+    correct: 1
+
+  - question: "If you don't feel well, go to $ and buy some medicine."
+    answers:
+      - a store
+      - a hospital
+      - a pharmacy
+    correct: 3
+
+  - question: They go to $ every Sunday to pray God.
+    answers:
+      - the museum
+      - the hospital
+      - church
+    correct: 3
+
+  - question: Let's go to $ to watch this new film.
+    answers:
+      - the movie theater
+      - the theater
+      - the post office
+    correct: 1
+
+  - question: "A: I broke my leg!\nB: Oh no! Let's drive you to $!"
+    answers:
+      - the train station
+      - the hospital
+      - the pharmacy
+    correct: 2
+
+  - question: Let's go to $ to see some dinosaurs.
+    answers:
+      - the park
+      - the theater
+      - the museum
+    correct: 3
+
+  - question: There's a new $ by my house. We can take our dog for a walk there.
+    answers:
+      - park
+      - gas station
+      - road
+    correct: 1
+
+  - question: Can you go to $ to send my letter?
+    answers:
+      - the post office
+      - the police office
+      - the store
+    correct: 1
+
+  - question: Let's go swim in $!
+    answers:
+      - the  train station
+      - the road
+      - the river
+    correct: 3
+
+  - I live in San Francisco by the Pacific $.
+    answers:
+      - River
+      - Ocean
+      - Lake
+    correct: 2
+
+  - question: There's a new $ downtown. Now it's easy to drive.
+    answers:
+      - river
+      - road
+      - train station
+    correct: 2
+
+  - question: Are there any $ near here? I want to buy some new clothes.
+    answers:
+      - post office
+      - park
+      - store
+    correct: 3
+
+  - question: Can you meet me at $ tonight? My train arrives at 9pm.
+    answers:
+      - the airport
+      - the train station
+      - the train stop
+    correct: 2
+
+  - question: My parents went to $ to get some groceries.
+    answers:
+      - a supermarket
+      - a pharmacy
+      - a gas station
+    correct: 1

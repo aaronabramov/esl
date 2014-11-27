@@ -1,43 +1,29 @@
-name: True or False
+name: Listening Quiz
 questions:
-  - question: Liz and her friend finished their trip.
+  - question: "A: What exactly are your plans, Liz?\nB: I’m going to $ a bike from Ecuador to Argentina."
     answers:
-      - True
-      - False
-    correct: 1
-
-  - question: They rode bikes all the way.
-    answers:
-      - True
-      - False
+      - drive
+      - ride
+      - travel
     correct: 2
 
-  - question: They always camped in Ecuador and Peru.
+  - question: "A: Are you going to $ alone?\nB: No, I’m not. I’m going to $ with a friend."
     answers:
-      - True
-      - False
-    correct: 2
-
-  - question Liz’s bike broke when they were near La Paz.
-    answers:
-      - True
-      - False
+      - go
+      - travel
+      - ride
     correct: 1
 
-  - question: Liz’s friend repaired the bike.
+  - question: "A: Where are you going to $?\nB: We’re going to $, and maybe sometimes stay in small hotels."
     answers:
-      - True
-      - False
+      - camp; travel
+      - stay; camp
+      - stay; drive
     correct: 2
 
-  - question: Their favorite place was Patagonia.
+  - question: "A: When are you going to $ your trip?\nB: B: In October.
     answers:
-      - True
-      - False
-    correct: 1
-
-  - question: "For their next trip, they’re going to go to Australia."
-    answers:
-      - True
-      - False
+      - finish
+      - start
+      - begin
     correct: 2

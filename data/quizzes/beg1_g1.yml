@@ -1,4 +1,4 @@
-name: "Verb be: I and You"
+name: Verb be: I and You
 questions:
   - question: "A: Hello, $ Alex! What’s your name?\nB: Hi. $ Anna!"
     answers:
@@ -14,14 +14,14 @@ questions:
       - You’re
     correct: 3
 
-  - question: "Hello. $ your teacher (пер. - ваш учитель)."
+  - question: Hello. $ your teacher (пер. - ваш учитель).
     answers:
       - I’m
       - Am I
       - You’re
     correct: 1
 
-  - question: "A: $ late!\nB: Sorry!"
+  - question: A: $ late!\nB: Sorry!
     answers:
       - I’m
       - Are you

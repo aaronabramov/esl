@@ -1,0 +1,84 @@
+name: Hotels (Word - Translation)
+questions:
+  - question: the bathroom
+    answers:
+      - душ
+      - ванная комната
+      - спальня
+    correct: 2
+
+  - question: a bathtub
+    answers:
+      - ванная комната
+      - душ
+      - ванна
+    correct: 3
+
+  - question: a shower
+    answers:
+      - ванная комната
+      - душ
+      - ванна
+    correct: 2
+
+  - question: a towel
+    answers:
+      - полотенце
+      - подушка
+      - пол
+    correct: 1
+
+  - question: a bed
+    answers:
+      - спальня
+      - ванна
+      - кровать
+    correct: 3
+
+  - question: the floor
+    answers:
+      - пол
+      - ванна
+      - полотенце
+    correct: 1
+
+  - question: a pillow
+    answers:
+      - полотенце
+      - подушка
+      - пол
+    correct: 2
+
+  - question: a lamp
+    answers:
+      - люстра
+      - лампа
+      - лампочка
+    correct: 2
+
+  - question: a remote control
+    answers:
+      - домащний кинотеатр
+      - акустическая система
+      - дистанционный пульт
+    correct: 3
+
+  - question: a cabinet
+    answers:
+      - кабинет
+      - шкафчик
+      - чулан
+    correct: 2
+
+  - question: a yard
+    answers:
+      - парковка
+      - аллея
+      - двор
+    correct: 3
+
+  - question: a gift shop
+    answers:
+      - супермаркет
+      - магазин концтоваров
+      - магазин подарков
