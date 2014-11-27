@@ -6,7 +6,7 @@
     "start": "node ./run.js"
   },
   "dependencies": {
-    "aws-sdk": "^2.0.15",
+    "aws-sdk": "2.0.15",
     "bean": "^1.0.14",
     "body-parser": "~1.0.0",
     "config": "1.1.0",

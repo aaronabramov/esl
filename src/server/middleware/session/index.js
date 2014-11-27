@@ -17,10 +17,7 @@ module.exports = function(passport) {
 
     passport.deserializeUser(function(facebookId, done) {
         getUser(facebookId).then(function(user, results) {
-            getResults(user.id).then(function(results) {
-                user.quiz_results = results;
-                done(null, user);
-            }).catch(done)
+            done(null, user);
         }).catch(done);
     });
 };
@@ -33,18 +30,6 @@ function getUser(id) {
             }
         }).success(function(user) {
             resolve(user.dataValues);
-        }).error(reject);
-    });
-}
-
-function getResults(userId) {
-    return new Promise(function(resolve, reject) {
-        models.quiz_results.findAll({
-            where: {
-                user_id: userId
-            }
-        }).success(function(results) {
-            resolve(_.pluck(results, 'dataValues'));
         }).error(reject);
     });
 }
