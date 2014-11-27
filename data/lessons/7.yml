@@ -1,0 +1,61 @@
+name: Lesson 7
+items:
+    - type: quiz
+      id: quizzes/beg7_l1.yml
+
+    - type: video
+      id: beginner7_1.mp4
+
+    - type: audio
+      id: cd1_91_pista_91.mp3
+
+    - type: video
+      id: beginner7_2.mp4
+
+    - type: quiz
+      id: quizzes/beg7_g1.yml
+
+    - type: video
+      id: beginner7_3.mp4
+
+    - type: audio
+      id: cd2_03_pista_03.mp3
+
+    - type: audio
+      id: cd2_04_pista_04.mp3
+
+    - type: quiz
+      id: quizzes/beg7_v1.yml
+
+    - type: quiz
+      id: quizzes/beg7_v2.yml
+
+    - type: quiz
+      id: quizzes/beg7_l2.yml
+
+    - type: video
+      id: beginner7_4.mp4
+
+    - type: audio
+      id: cd2_06_pista_06.mp3
+
+    - type: video
+      id: beginner7_5.mp4
+
+    - type: audio
+      id: cd2_08_pista_08.mp3
+
+    - type: quiz
+      id: quizzes/beg7_v3.yml
+
+    - type: quiz
+      id: quizzes/beg7_v4.yml
+
+    - type: video
+      id: beginner7_6.mp4
+
+    - type: audio
+      id: cd2_12_pista_12.mp3
+
+    - type: audio
+      id: cd2_13_pista_13.mp3

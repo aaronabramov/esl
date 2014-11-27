@@ -1,0 +1,52 @@
+name: Lesson 5
+items:
+    - type: quiz
+      id: quizzes/beg5_l1.yml
+
+    - type: video
+      id: beginner5_1.mp4
+
+    - type: audio
+      id: 60 Pista 60.mp3
+
+    - type: video
+      id: beginner5_2.mp4
+
+    - type: quiz
+      id: beg5_g1.yml
+
+    - type: video
+      id: beginner5_3.mp4
+
+    - type: audio
+      id: 62 Pista 62.mp3
+
+    - type: audio
+      id: 63 Pista 63.mp3
+
+    - type: audio
+      id: 64 Pista 64.mp3
+
+    - type: quiz
+      id: quizzes/beg5_v1.yml
+
+    - type: quiz
+      id: quizzes/beg5_v2.yml
+
+    - type: quiz
+      id: quizzes/beg5_v3.yml
+
+    - type: video
+      id: beginner5_4.mp4
+
+    - type: audio
+      id: 65 Pista 65.mp3
+
+    - type: audio
+      id: 66 Pista 66.mp3
+
+    - type: video
+      id: beginner5_5.mp4
+
+    - type: quiz
+      id: quizzes/beg5_g2.yml
