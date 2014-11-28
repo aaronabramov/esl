@@ -1,0 +1,43 @@
+name: Lesson 13
+items:
+    - type: video
+      id: beginner13_1.mp4
+
+    - type: quiz
+      id: quizzes/beg13_v1.yml
+
+    - type: video
+      id: beginner13_2.mp4
+
+    - type: audio
+      id: cd3_11_pista_11.mp3
+
+    - type: quiz
+      id: quizzes/beg13_voc2.yml
+
+    - type: video
+      id: beginner13_3.mp4
+
+    - type: audio
+      id: cd3_08_pista_08.mp3
+
+    - type: video
+      id: beginner13_4.mp4
+
+    - type: audio
+      id: cd3_09_pista_09.mp3
+
+    - type: audio
+      id: cd3_10_pista_10.mp3
+
+    - type: audio
+      id: cd3_12_pista_12.mp3
+
+    - type: video
+      id: beginner13_5.mp4
+
+    - type: audio
+      id: cd3_13_pista_13.mp3
+
+    - type: quiz
+      id: quizzes/beg13_l7.yml
