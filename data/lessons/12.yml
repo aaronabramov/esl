@@ -1,0 +1,34 @@
+name: Lesson 12
+items:
+    - type: audio
+      id: cd2_76_pista_76.mp3
+
+    - type: video
+      id: beginner12_1.mp4
+
+    - type: video
+      id: beginner12_2.mp4
+
+    - type: quiz
+      id: quizzes/beg12_g1.yml
+
+    - type: video
+      id: beginner12_3.mp4
+
+    - type: quiz
+      id: quizzes/beg12_g2.yml
+
+    - type: video
+      id: beginner12_4.mp4
+
+    - type: audio
+      id: cd3_04_pista_04.mp3
+
+    - type: video
+      id: beginner12_5.mp4
+
+    - type: audio
+      id: cd3_06_pista_06.mp3
+
+    - type: quiz
+      id: quizzes/beg12_v1.yml
