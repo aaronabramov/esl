@@ -26,7 +26,7 @@ var LessonStore = {
         Dispatcher.register(function(payload) {
             var action = payload.action;
 
-            switch(action.actionType) {
+            switch (action.actionType) {
                 case LessonConstants.INITIALIZE:
                     _this.lesson = action.lesson;
                     _this.lessonContents = action.lesson.items;
@@ -38,7 +38,7 @@ var LessonStore = {
                     });
                     break;
                 default:
-                  return true;
+                    return true;
             }
 
             // This often goes in each case that should trigger a UI change. This store
