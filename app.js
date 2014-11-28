@@ -63,7 +63,8 @@ app.use('/lessons', Routes.Lesson);
 app.post('/logout', Routes.Logout);
 app.use('/s3', Routes.S3);
 app.use('/views', Routes.View);
-app.get('/', Routes.Index);
+app.get('/course', require('./src/server/routes/course'));
+app.get('/', require('./src/server/routes/landing'));
 
 app.use(Errors.PageNotFound);
 app.use(Errors.Handler);
