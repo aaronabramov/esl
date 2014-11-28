@@ -60,7 +60,11 @@ registerSession(passport);
 app.use('/quiz', Routes.Quiz);
 app.use('/login', Routes.Login(passport));
 app.use('/lessons', Routes.Lesson);
+
+// Use both post && get for now
 app.post('/logout', Routes.Logout);
+app.get('/logout', Routes.Logout);
+
 app.use('/s3', Routes.S3);
 app.use('/views', Routes.View);
 app.get('/course', require('./src/server/routes/course'));

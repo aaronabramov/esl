@@ -3,7 +3,6 @@ module.exports = function(req, res, next) {
         if (err) {
             return next(err);
         }
-        res.writeHead(204);
-        res.end();
+        res.redirect('/');
     });
 };

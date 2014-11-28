@@ -5,6 +5,12 @@ var ejs = require('ejs'),
     tmpl = ejs.compile(file);
 
 module.exports = function(req, res) {
-    res.write(tmpl());
+    var data = {
+        loggedIn: !!req.user,
+        user: req.user
+    };
+    res.write(tmpl({
+        data: data
+    }));
     res.end();
 };

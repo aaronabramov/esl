@@ -5,8 +5,8 @@ var models = require('../models'),
 module.exports = function(req, res, next) {
     var user;
     Promise.all([
-        // getResults(req.user.id),
-        // getViews(req.user.id)
+        getResults(req.user.id),
+        getViews(req.user.id)
     ]).then(function(data) {
 
         if (req.user) {

@@ -6,7 +6,17 @@
 </head>
 
 <body>
-    <a href="/login/facebook">Login</a>
+    <script>
+      window.data = <%- JSON.stringify(data) %>;
+    </script>
+    <% if (data.loggedIn) { %>
+      <p>Welcome, <%= data.user.display_name %></p>
+      <a href="/logout">Logout</a>
+      <br>
+      <a href="/course">Go to the Course</a>
+    <% } else { %>
+      <a href="/login/facebook">Login</a>
+    <% }; %>
     <h1>Test</h1>
 </body>
 
