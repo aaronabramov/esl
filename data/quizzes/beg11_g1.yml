@@ -1,4 +1,4 @@
-name: Past Simple: be
+name: "Past Simple: be"
 questions:
   - question: We $ at home last night.
     answers:
@@ -7,7 +7,7 @@ questions:
       - weren't
     correct: 3
 
-  - question: A: Where $ you last night?\nB: I $ at work all evening.
+  - question: "A: Where $ you last night?\nB: I $ at work all evening."
     answers:
       - was; was
       - were; were
