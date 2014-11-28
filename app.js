@@ -70,6 +70,8 @@ app.use('/views', Routes.View);
 app.get('/course', require('./src/server/routes/course'));
 app.get('/', require('./src/server/routes/landing'));
 
+app.use('/api', require('./src/server/api'));
+
 app.use(Errors.PageNotFound);
 app.use(Errors.Handler);
 
