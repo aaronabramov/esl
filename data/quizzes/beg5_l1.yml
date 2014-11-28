@@ -1,20 +1,21 @@
 name: Reading
 questions:
-  - question: Прощание на вечернке
+  -
+    question: 'Прощание на вечернке'
     answers:
       - '1'
       - '2'
       - '3'
     correct: 3
-
-  - question: Поиск багажа в аэропорту
+  -
+    question: 'Поиск багажа в аэропорту'
     answers:
       - '1'
       - '2'
       - '3'
     correct: 1
-
-  - question: Знакомство с семьей
+  -
+    question: 'Знакомство с семьей'
     answers:
       - '1'
       - '2'

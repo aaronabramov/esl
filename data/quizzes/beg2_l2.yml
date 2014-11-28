@@ -1,36 +1,37 @@
 name: Listening
 questions:
-  - question: Is $ from Italy?
+  -
+    question: 'Is $ from Italy?'
     answers:
       - he
       - she
     correct: 2
-
-  - question: $ from Russia.
+  -
+    question: '$ from Russia.'
     answers:
       - She’s
       - He’s
     correct: 2
-
-  - question: Where’s $ from?
+  -
+    question: 'Where’s $ from?'
     answers:
       - he
       - she
     correct: 1
-
-  - question: from Korea.
+  -
+    question: 'from Korea.'
     answers:
       - It’s
       - He’s
     correct: 1
-
-  - question: $ late.
+  -
+    question: '$ late.'
     answers:
       - She’s
       - He’s
     correct: 1
-
-  - question: Where is $ ?
+  -
+    question: 'Where is $ ?'
     answers:
       - he
       - she

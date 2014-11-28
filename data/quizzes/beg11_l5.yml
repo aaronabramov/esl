@@ -1,29 +1,30 @@
-name: People on the street
+name: 'People on the street'
 questions:
-  - question: How much is her lunch?
+  -
+    question: 'How much is her lunch?'
     answers:
       - £27.5
       - £2.75
       - £7.5
     correct: 2
-
-  - question: How much is his lunch?
+  -
+    question: 'How much is his lunch?'
     answers:
-      - About $9
-      - About $18
-      - About $8.
+      - 'About $9'
+      - 'About $18'
+      - 'About $8.'
     correct: 3
-
-  - question: How much is her lunch?
+  -
+    question: 'How much is her lunch?'
     answers:
-      - About £2.70
-      - About £2.17
-      - About £17
+      - 'About £2.70'
+      - 'About £2.17'
+      - 'About £17'
     correct: 2
-
-  - question: How much is his lunch?
+  -
+    question: 'How much is his lunch?'
     answers:
-      - About £7
-      - About $17
-      - About $7
+      - 'About £7'
+      - 'About $17'
+      - 'About $7'
     correct: 3

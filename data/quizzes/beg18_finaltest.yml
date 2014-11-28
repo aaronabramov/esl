@@ -1,286 +1,287 @@
-name: Final Test Starter
+name: 'Final Test Starter'
 questions:
-  - question: $ from Brazil?
+  -
+    question: '$ from Brazil?'
     answers:
-      - You're
-      - Are you
-      - Is you
+      - 'You''re'
+      - 'Are you'
+      - 'Is you'
     correct: 2
-
-  - question: Lisa and Luke are from California. $ American.
+  -
+    question: 'Lisa and Luke are from California. $ American.'
     answers:
-      - You're
-      - We're
-      - They're
+      - 'You''re'
+      - 'We''re'
+      - 'They''re'
     correct: 3
-
-  - question: She $ from Chicago. She's from Los Angeles.
+  -
+    question: 'She $ from Chicago. She''s from Los Angeles.'
     answers:
-      - isn't
-      - aren't
-      - are'nt
+      - 'isn''t'
+      - 'aren''t'
+      - 'are''nt'
     correct: 1
-
-  - question: "A: Hello, I'm Jim.\nB: Nice to $ you!"
+  -
+    question: "A: Hello, I'm Jim.\nB: Nice to $ you!"
     answers:
       - get
       - have
       - meet
     correct: 3
-
-  - question: "A: How do you $ your last name?\nB: T-H-O-M-A-S."
+  -
+    question: "A: How do you $ your last name?\nB: T-H-O-M-A-S."
     answers:
       - tell
       - say
       - spell
     correct: 3
-
-  - question: A: We $ a reservation.\nB: You're in room 4.
+  -
+    question: 'A: We $ a reservation.\nB: You''re in room 4.'
     answers:
       - know
       - have
       - write
     correct: 2
-
-  - question: It's $ email from my friend!
+  -
+    question: 'It''s $ email from my friend!'
     answers:
       - a
       - an
       - –
     correct: 2
-
-  - question: "A: Where's your ID card?\nB: $ in my bag."
+  -
+    question: "A: Where's your ID card?\nB: $ in my bag."
     answers:
-      - It's
-      - He's
+      - 'It''s'
+      - 'He''s'
       - Is
     correct: 1
-
-  - question: That's my sister and $ boyfriend.
+  -
+    question: 'That''s my sister and $ boyfriend.'
     answers:
       - his
       - their
       - her
     correct: 3
-
-  - question: "A: How $ is Jen?\n B: I think she's 23."
+  -
+    question: "A: How $ is Jen?\n B: I think she's 23."
     answers:
       - years
       - young
       - old
     correct: 3
-
-  - question: A: Where are you $?\nB: England.
+  -
+    question: 'A: Where are you $?\nB: England.'
     answers:
       - –
       - go
       - from
     correct: 3
-
-  - question: We have two $.
+  -
+    question: 'We have two $.'
     answers:
       - children
       - childs
       - childrens
     correct: 1
-
-  - question: $ you want a coffee?
+  -
+    question: '$ you want a coffee?'
     answers:
       - Are
       - Do
       - –
     correct: 2
-
-  - question: I $ fast food.
+  -
+    question: 'I $ fast food.'
     answers:
-      - don't eat
-      - not eat
-      - "'m not eat"
+      - 'don''t eat'
+      - 'not eat'
+      - '''m not eat'
     correct: 1
-
-  - question: "A: Does she speak English?\nB: Yes, she $."
+  -
+    question: "A: Does she speak English?\nB: Yes, she $."
     answers:
       - is
       - do
       - does
     correct: 3
-
-  - question: A: What $ is it?\nB: It's 6:30.
+  -
+    question: 'A: What $ is it?\nB: It''s 6:30.'
     answers:
       - hour
       - times
       - time
     correct: 3
-
-  - question: "A: What's her phone number?\nB: Sorry, I don't $."
+  -
+    question: "A: What's her phone number?\nB: Sorry, I don't $."
     answers:
       - know
       - see
       - want
     correct: 1
-
-  - question: How do you say the time? It's 7:40.
+  -
+    question: 'How do you say the time? It''s 7:40.'
     answers:
-      - It's quarter to eight
-      - It's twenty to eight
-      - It's twenty to seven
+      - 'It''s quarter to eight'
+      - 'It''s twenty to eight'
+      - 'It''s twenty to seven'
     correct: 2
-
-  - question: She $ to bed before 11:00.
+  -
+    question: 'She $ to bed before 11:00.'
     answers:
-      - never doesn't go
-      - doesn't never go
-      - never goes
+      - 'never doesn''t go'
+      - 'doesn''t never go'
+      - 'never goes'
     correct: 3
-
-  - question: What $ in summer?
+  -
+    question: 'What $ in summer?'
     answers:
-      - do people
-      - people do
-      - do people do
+      - 'do people'
+      - 'people do'
+      - 'do people do'
     correct: 3
-
-  - question: $ park here?
+  -
+    question: '$ park here?'
     answers:
-      - Do I can
-      - Can I
-      - Can I do
+      - 'Do I can'
+      - 'Can I'
+      - 'Can I do'
     correct: 2
-
-  - question: You can't $ photos in this museum.
+  -
+    question: 'You can''t $ photos in this museum.'
     answers:
       - take
       - do
       - make
     correct: 1
-
-  - question: I usually have lunch $ 2:30.
+  -
+    question: 'I usually have lunch $ 2:30.'
     answers:
       - at
       - in
       - on
     correct: 1
-
-  - question: "A: How $ is that?\nB: It's one pound fifty."
+  -
+    question: "A: How $ is that?\nB: It's one pound fifty."
     answers:
       - many
       - cheap
       - much
     correct: 3
-
-  - question: It $ very cold last summer.
+  -
+    question: 'It $ very cold last summer.'
     answers:
-      - "'s"
+      - '''s'
       - was
       - were
     correct: 2
-
-  - question: "I got up late, and I $ breakfast."
+  -
+    question: 'I got up late, and I $ breakfast.'
     answers:
-      - didn't had
-      - didn't have
-      - don't had
+      - 'didn''t had'
+      - 'didn''t have'
+      - 'don''t had'
     correct: 2
-
-  - question: What time $?
+  -
+    question: 'What time $?'
     answers:
-      - did they arrive
-      - did they arrived
-      - do they arrived
+      - 'did they arrive'
+      - 'did they arrived'
+      - 'do they arrived'
     correct: 1
-
-  - question: A: Did you $ a good day?\nB: It was OK.
+  -
+    question: 'A: Did you $ a good day?\nB: It was OK.'
     answers:
       - have
       - do
       - be
     correct: 1
-
-  - question: A: What's the $ today?\nB: It's October 1st.
+  -
+    question: 'A: What''s the $ today?\nB: It''s October 1st.'
     answers:
       - time
       - month
       - date
     correct: 3
-
-  - question: There $ two beds in the room.
+  -
+    question: 'There $ two beds in the room.'
     answer:
       - –
       - are
       - is
     correct: 2
-
-  - question: There aren't $ elevators.
+  -
+    question: 'There aren''t $ elevators.'
     answers:
       - the
       - some
       - any
     correct: 3
-
-  - question: "He was in my class, but I don't remember $."
+  -
+    question: 'He was in my class, but I don''t remember $.'
     answers:
       - her
       - him
       - his
     correct: 2
-
-  - question: What did your sister $ you for your birthday?
+  -
+    question: 'What did your sister $ you for your birthday?'
     answers:
       - take
       - do
       - give
     correct: 3
-
-  - question: Remember to $ your cell phone before you go into class.
+  -
+    question: 'Remember to $ your cell phone before you go into class.'
     answers:
-      - turn on
-      - turn off
+      - 'turn on'
+      - 'turn off'
       - turn
     correct: 2
-
-  - question: Did you $ her an email about the party?
+  -
+    question: 'Did you $ her an email about the party?'
     answers:
       - give
       - get
       - send
     correct: 3
-
-  - question: Are you $ right now?
+  -
+    question: 'Are you $ right now?'
     answers:
       - reading
       - read
       - readed
     correct: 1
-
-  - question: She $ get married next month.
+  -
+    question: 'She $ get married next month.'
     answers:
-      - "'s going to"
-      - goes to
-      - "'s going"
+      - '''s going to'
+      - 'goes to'
+      - '''s going'
     correct: 1
-
-  - question: "A: Are they going to come tonight?\nB: Yes, they $."
+  -
+    question: "A: Are they going to come tonight?\nB: Yes, they $."
     answers:
-      - are going
+      - 'are going'
       - are
       - do
     correct: 2
-
-  - question: "There's a bank $ the museum."
+  -
+    question: 'There''s a bank $ the museum.'
     answers:
       - next
-      - next with
-      - next to
+      - 'next with'
+      - 'next to'
     correct: 3
-
-  - question: "A: Excuse me, where's the bus station?\nB: Go straight ahead and $ right."
+  -
+    question: "A: Excuse me, where's the bus station?\nB: Go straight ahead and $ right."
     answers:
       - walk
       - turn
-      - turn off
+      - 'turn off'
     correct: 2
-
-  - question: "A: Do you think it's going to be a nice day?\nB: No, I think it's going to $."
+  -
+    question: "A: Do you think it's going to be a nice day?\nB: No, I think it's going to $."
     answers:
       - cold
       - sunny

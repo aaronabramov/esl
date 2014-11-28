@@ -1,20 +1,21 @@
 name: Listening
 questions:
-  - question: Знакомство в лифте
+  -
+    question: 'Знакомство в лифте'
     answers:
       - '1'
       - '2'
       - '3'
     correct: 3
-
-  - question: Раннее утро в отеле
+  -
+    question: 'Раннее утро в отеле'
     answers:
       - '1'
       - '2'
       - '3'
     correct: 2
-
-  - question: Регистрация в отеле
+  -
+    question: 'Регистрация в отеле'
     answers:
       - '1'
       - '2'

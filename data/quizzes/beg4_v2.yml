@@ -1,64 +1,65 @@
-name: Things in the classroom (Translation – Word)
+name: 'Things in the classroom (Translation – Word)'
 questions:
-  - question: стол
+  -
+    question: стол
     answers:
-      - a chair
-      - a laptop
-      - a table
+      - 'a chair'
+      - 'a laptop'
+      - 'a table'
     correct: 3
-
-  - question: книга
+  -
+    question: книга
     answers:
-      - a laptop
-      - a book
-      - a dictionary
+      - 'a laptop'
+      - 'a book'
+      - 'a dictionary'
     correct: 2
-
-  - question: словарь
+  -
+    question: словарь
     answers:
-      - a laptop
-      - a book
-      - a dictionary
+      - 'a laptop'
+      - 'a book'
+      - 'a dictionary'
     correct: 3
-
-  - question: Закройте окно!
+  -
+    question: 'Закройте окно!'
     answers:
-      - Close the window!
-      - Open the window!
-      - Close the door!
+      - 'Close the window!'
+      - 'Open the window!'
+      - 'Close the door!'
     correct: 1
-
-  - question: Откройте дверь!
+  -
+    question: 'Откройте дверь!'
     answers:
-      - Close the window!
-      - Close the door!
-      - Open the door!
+      - 'Close the window!'
+      - 'Close the door!'
+      - 'Open the door!'
     correct: 3
-
-  - question: Посмотрите на доску!
+  -
+    question: 'Посмотрите на доску!'
     answers:
-      - Look at the window!
-      - Look at the door
-      - Look at the board!
+      - 'Look at the window!'
+      - 'Look at the door'
+      - 'Look at the board!'
     correct: 3
-
-  - question: лист бумаги
+  -
+    question: 'лист бумаги'
     answers:
-      - a piece of a book
-      - a piece of a paper
-      - a piece of paper
+      - 'a piece of a book'
+      - 'a piece of a paper'
+      - 'a piece of paper'
     correct: 2
-
-  - question: стул
+  -
+    question: стул
     answers:
-      - a chair
-      - a laptop
-      - a table
+      - 'a chair'
+      - 'a laptop'
+      - 'a table'
     correct: 1
-
-  - question: ноутбук
+  -
+    question: ноутбук
     answers:
-      - a laptop
-      - a book
-      - a dictionary
+      - 'a laptop'
+      - 'a book'
+      - 'a dictionary'
     correct: 1

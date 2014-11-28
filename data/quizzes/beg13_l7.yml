@@ -1,57 +1,58 @@
-name: When's Your Birthday?
+name: 'When''s Your Birthday?'
 questions:
-  - question: When's his birthday?
+  -
+    question: 'When''s his birthday?'
     answers:
-      - May 3rd
-      - March 4th
-      - May 4th
+      - 'May 3rd'
+      - 'March 4th'
+      - 'May 4th'
     correct: 2
-
-  - question: What did he do on his last birthday?
+  -
+    question: 'What did he do on his last birthday?'
     answers:
-      - He had dinner at home.
-      - "He went to a club, but didn't have dinner."
-      - He went to a club and had dinner.
+      - 'He had dinner at home.'
+      - 'He went to a club, but didn''t have dinner.'
+      - 'He went to a club and had dinner.'
     correct: 3
-
-  - question: When's his birthday?
+  -
+    question: 'When''s his birthday?'
     answers:
-      - January 8th
-      - January 28th
-      - June 28th
+      - 'January 8th'
+      - 'January 28th'
+      - 'June 28th'
     correct: 2
-
-  - question: What did he do on his last birthday?
+  -
+    question: 'What did he do on his last birthday?'
     answers:
-      - He saw a movie.
-      - He spoke to a friend.
-      - He had dinner.
+      - 'He saw a movie.'
+      - 'He spoke to a friend.'
+      - 'He had dinner.'
     correct: 1
-
-  - question: When's his birthday?
+  -
+    question: 'When''s his birthday?'
     answers:
-      - August 5th
-      - August 25th
-      - August 6th
+      - 'August 5th'
+      - 'August 25th'
+      - 'August 6th'
     correct: 1
-
-  - question: What did he do on his last birthday?
+  -
+    question: 'What did he do on his last birthday?'
     answers:
-      - He went to a club.
-      - He had a party.
-      - He can't remember.
+      - 'He went to a club.'
+      - 'He had a party.'
+      - 'He can''t remember.'
     correct: 3
-
-  - question: When's her birthday?
+  -
+    question: 'When''s her birthday?'
     answers:
-      - June 11th
-      - January 12th
-      - July 11th
+      - 'June 11th'
+      - 'January 12th'
+      - 'July 11th'
     correct: 3
-
-  - question: What did she do on her last birthday?
+  -
+    question: 'What did she do on her last birthday?'
     answers:
-      - She saw a movie with some friends
-      - She had a party with some friends
-      - She had dinner with some friends
+      - 'She saw a movie with some friends'
+      - 'She had a party with some friends'
+      - 'She had dinner with some friends'
     correct: 2

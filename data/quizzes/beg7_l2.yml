@@ -1,61 +1,62 @@
 name: Listening
 questions:
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
       - 'Geary street, please.'
       - 'Kearny street, please.'
     correct: 1
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - The traffic is bad.
-      - The traffic is good.
+      - 'The traffic is bad.'
+      - 'The traffic is good.'
     correct: 1
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - Do you live in San Francisco?
-      - Do you like San Francisco?
+      - 'Do you live in San Francisco?'
+      - 'Do you like San Francisco?'
     correct: 1
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - What's the problem?
-      - No problem.
+      - 'What''s the problem?'
+      - 'No problem.'
     correct: 1
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - I like my new haircut.
-      - I don't like my new haircut.
+      - 'I like my new haircut.'
+      - 'I don''t like my new haircut.'
     correct: 2
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - Why not? I like it.
-      - Why not? It's fantastic!
+      - 'Why not? I like it.'
+      - 'Why not? It''s fantastic!'
     correct: 1
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - Where do you want to go?
-      - Where do you want to stop?
+      - 'Where do you want to go?'
+      - 'Where do you want to stop?'
     correct: 2
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - I want a new coat.
-      - I want a new bag.
+      - 'I want a new coat.'
+      - 'I want a new bag.'
     correct: 2
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - That's 14.50.
-      - That's 16.00.
+      - 'That''s 14.50.'
+      - 'That''s 16.00.'
     correct: 2
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - Have a good day.
-      - Have a nice day.
+      - 'Have a good day.'
+      - 'Have a nice day.'
     correct: 2

@@ -1,41 +1,42 @@
 name: Listening
 questions:
-  - question: '1'
+  -
+    question: '1'
     answers:
       - Lenda
       - Linda
       - Linde
     correct: 2
-
-  - question: '2'
+  -
+    question: '2'
     answers:
       - Carah
       - Sara
       - Sarah
     correct: 3
-
-  - question: '3'
+  -
+    question: '3'
     answers:
       - Joshua
       - Goshua
       - Jochua
     correct: 1
-
-  - question: '4'
+  -
+    question: '4'
     answers:
       - Elena
       - Ilina
       - Elene
     correct: 1
-
-  - question: '5'
+  -
+    question: '5'
     answers:
       - Padma
       - Padme
       - Pedma
     correct: 1
-
-  - question: '6'
+  -
+    question: '6'
     answers:
       - Tom
       - Ton

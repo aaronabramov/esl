@@ -1,167 +1,168 @@
-name: Food and Drink (Translation - Word)
+name: 'Food and Drink (Translation - Word)'
 questions:
-  - question: кофе
+  -
+    question: кофе
     answers:
       - cafe
       - coffee
       - coffe
     correct: 2
-
-  - question: фрукты
+  -
+    question: фрукты
     answers:
       - grapefruit
       - vegetables
       - fruit
     correct: 3
-
-  - question: рис
+  -
+    question: рис
     answers:
       - rice
       - rye
       - rise
     correct: 1
-
-  - question: масло
+  -
+    question: масло
     answers:
       - bread
       - beer
       - butter
     correct: 3
-
-  - question: рыба
+  -
+    question: рыба
     answers:
       - meat
       - vegetable
       - fish
     correct: 3
-
-  - question: шоколад
+  -
+    question: шоколад
     answers:
-    - chocolate
-    - shocolate
-    - chocolat
+      - chocolate
+      - shocolate
+      - chocolat
     correct: 1
-
-  - question: сахар
+  -
+    question: сахар
     answers:
       - salt
       - sugar
       - sweatener
     correct: 2
-
-  - question: сэндвич
+  -
+    question: сэндвич
     answers:
-      - a sendwich
-      - a sandwich
-      - a sandwitch
+      - 'a sendwich'
+      - 'a sandwich'
+      - 'a sandwitch'
     correct: 2
-
-  - question: апельсиновый сок
+  -
+    question: 'апельсиновый сок'
     answers:
-      - apple juice
-      - orange juice
-      - peach juice
+      - 'apple juice'
+      - 'orange juice'
+      - 'peach juice'
     correct: 2
-
-  - question: газировонная вода
+  -
+    question: 'газировонная вода'
     answers:
       - soda
       - water
-      - mineral water
+      - 'mineral water'
     correct: 1
-
-  - question: картофель
+  -
+    question: картофель
     answers:
       - vegetables
       - carrots
       - potatoes
     correct: 3
-
-  - question: хлопья
+  -
+    question: хлопья
     answers:
       - potatoes
       - corn
       - cereal
     correct: 3
-
-  - question: вино
+  -
+    question: вино
     answers:
       - wine
       - vine
       - grape
     correct: 1
-
-  - question: яйца
+  -
+    question: яйца
     answers:
       - potatoes
       - eggs
       - vegetables
     correct: 2
-
-  - question: вода
+  -
+    question: вода
     answers:
       - beer
       - drink
       - water
     correct: 3
-
-  - question: овощи
+  -
+    question: овощи
     answers:
       - potatoes
       - vegetables
       - carrots
     correct: 2
-
-  - question: паста
+  -
+    question: паста
     answers:
       - paste
       - pesto
       - pasta
     correct: 3
-
-  - question: молоко
+  -
+    question: молоко
     answers:
       - milk
       - mole
       - milko
     correct: 1
-
-  - question: еда
+  -
+    question: еда
     answers:
       - drink
       - food
       - fruit
     correct: 2
-
-  - question: пиво
+  -
+    question: пиво
     answers:
       - beer
       - bear
       - bread
     correct: 1
-
-  - question: мясо
+  -
+    question: мясо
     answers:
       - meat
       - meet
       - fish
     correct: 1
-
-  - question: хлеб
+  -
+    question: хлеб
     answers:
       - beer
       - bear
       - bread
     correct: 3
-
-  - question: сыр
+  -
+    question: сыр
     answers:
       - butter
       - bread
       - cheese
     correct: 3
-
-  - question: чай
+  -
+    question: чай
     answers:
       - tee
       - tea

@@ -1,64 +1,65 @@
-name: Small things (Word – Translation)
+name: 'Small things (Word – Translation)'
 questions:
-  - question: an ID card
+  -
+    question: 'an ID card'
     answers:
-      - кредитная карточка
-      - удостоверение личности
+      - 'кредитная карточка'
+      - 'удостоверение личности'
       - пропуск
     correct: 2
-
-  - question: glasses
+  -
+    question: glasses
     answers:
       - ключи
       - очки
       - часы
     correct: 2
-
-  - question: a bag
+  -
+    question: 'a bag'
     answers:
       - сумка
       - ручка
       - кошелек
     correct: 1
-
-  - question: a key
+  -
+    question: 'a key'
     answers:
       - сумка
       - ручка
       - ключ
     correct: 3
-
-  - question: an umbrella
+  -
+    question: 'an umbrella'
     answers:
       - ключ
       - чемодан
       - зонт
     correct: 3
-
-  - question: a cell phone
+  -
+    question: 'a cell phone'
     answers:
-      - рабочий телефон
-      - сотовый телефон
-      - домашний телефон
+      - 'рабочий телефон'
+      - 'сотовый телефон'
+      - 'домашний телефон'
     correct: 2
-
-  - question: a pen
+  -
+    question: 'a pen'
     answers:
       - ручка
       - карандаш
       - ключ
     correct: 1
-
-  - question: a watch
+  -
+    question: 'a watch'
     answers:
       - очки
       - часы
       - ключи
     correct: 2
-
-  - question: a credit card
+  -
+    question: 'a credit card'
     answers:
-      - кредитная карточка
-      - удостоверение личности
+      - 'кредитная карточка'
+      - 'удостоверение личности'
       - пропуск
     correct: 1

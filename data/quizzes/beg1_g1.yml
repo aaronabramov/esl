@@ -1,62 +1,63 @@
-name: "Verb be: I and You"
+name: 'Verb be: I and You'
 questions:
-  - question: "A: Hello, $ Alex! What’s your name?\nB: Hi. $ Anna!"
+  -
+    question: "A: Hello, $ Alex! What’s your name?\nB: Hi. $ Anna!"
     answers:
       - You’re
       - I’m
-      - Am I
+      - 'Am I'
     correct: 2
-
-  - question: "A: $ in room 3.\nB: OK, thank you."
+  -
+    question: "A: $ in room 3.\nB: OK, thank you."
     answers:
-      - Are you
-      - You am
+      - 'Are you'
+      - 'You am'
       - You’re
     correct: 3
-
-  - question: "Hello. $ your teacher (пер. - ваш учитель)."
+  -
+    question: 'Hello. $ your teacher (пер. - ваш учитель).'
     answers:
       - I’m
-      - Am I
+      - 'Am I'
       - You’re
     correct: 1
-
-  - question: "A: $ late!\nB: Sorry!"
+  -
+    question: "A: $ late!\nB: Sorry!"
     answers:
       - I’m
-      - Are you
+      - 'Are you'
       - You’re
     correct: 3
-
-  - question: "A: Hello. Are you Helen?\nB: No, I’m not. $ Lily."
+  -
+    question: "A: Hello. Are you Helen?\nB: No, I’m not. $ Lily."
     answers:
       - I’m
-      - Am I
-      - I’m not
+      - 'Am I'
+      - 'I’m not'
     correct: 1
-
-  - question: "A: Am I in room 2?\nB: No, you $. You’re in room 3."
+  -
+    question: "A: Am I in room 2?\nB: No, you $. You’re in room 3."
     answers:
       - am
       - are
       - aren’t
     correct: 3
-
-  - question: "A: Are you in class 1?\nB: No, I $. I’m in class 2."
+  -
+    question: "A: Are you in class 1?\nB: No, I $. I’m in class 2."
     answers:
       - am
-      - ‘m not
+      - '‘m not'
       - aren’t
     correct: 2
-
-  - question: "A: $ you Ben?\nB: Yes, I am! Nice to meet you."
+  -
+    question: "A: $ you Ben?\nB: Yes, I am! Nice to meet you."
     answers:
       - Are
       - Am
       - Aren’t
     correct: 1
-
-  - question: "A: $ I late?\nB: Yes, you $ !"
+  -
+    question: "A: $ I late?\nB: Yes, you $ !"
     answers:
       - am
       - are

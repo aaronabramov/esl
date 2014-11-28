@@ -1,71 +1,72 @@
 name: 'Present Simple: He, She, It'
 questions:
-  - question: He $ magazines.
+  -
+    question: 'He $ magazines.'
     answers:
       - read
-      - does read
+      - 'does read'
       - reads
     correct: 3
-
-  - question: My mom $ TV.
+  -
+    question: 'My mom $ TV.'
     answers:
-      - don't watch
-      - doesn't watch
-      - don't watches
+      - 'don''t watch'
+      - 'doesn''t watch'
+      - 'don''t watches'
     correct: 2
-
-  - question: They $ near here.
+  -
+    question: 'They $ near here.'
     answers:
-      - doesn't live
-      - don't live
-      - don't lives
+      - 'doesn''t live'
+      - 'don''t live'
+      - 'don''t lives'
     correct: 2
-
-  - question: Tom $ two brothers.
+  -
+    question: 'Tom $ two brothers.'
     answers:
       - have
       - haves
       - has
     correct: 3
-
-  - question: $ tea or coffe?
+  -
+    question: '$ tea or coffe?'
     answers:
-      - Does she want
-      - Does she wants
-      - Do she wants
+      - 'Does she want'
+      - 'Does she wants'
+      - 'Do she wants'
     correct: 1
-
-  - question: What $ for breakfast?
+  -
+    question: 'What $ for breakfast?'
     answers:
-      - they have
-      - does they have
-      - do they have
+      - 'they have'
+      - 'does they have'
+      - 'do they have'
     correct: 3
-
-  - question: My sister $ big cars.
+  -
+    question: 'My sister $ big cars.'
     answers:
-      - doesn't likes
-      - doesn't like
-      - don't like
+      - 'doesn''t likes'
+      - 'doesn''t like'
+      - 'don''t like'
     correct: 2
-
-  - question: $ cats?
+  -
+    question: '$ cats?'
     answers:
-      - Do you like
-      - Does you like
-      - Like you
+      - 'Do you like'
+      - 'Does you like'
+      - 'Like you'
     correct: 1
-
-  - question: She $ to the BBC Radio 1.
+  -
+    question: 'She $ to the BBC Radio 1.'
     answers:
       - listen
-      - does listen
+      - 'does listen'
       - listens
     correct: 3
-
-  - question: I $ fish.
+  -
+    question: 'I $ fish.'
     answers:
-      - not eat
-      - don't eat
-      - doesn't eat
+      - 'not eat'
+      - 'don''t eat'
+      - 'doesn''t eat'
     correct: 2

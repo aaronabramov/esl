@@ -1,125 +1,126 @@
 name: 'in, at, on'
 questions:
-  - question: $ school
+  -
+    question: '$ school'
     answers:
       - in
       - at
       - on
     correct: 2
-
-  - question: $ a bus
+  -
+    question: '$ a bus'
     answers:
       - in
       - at
       - on
     correct: 3
-
-  - question: $ the street
+  -
+    question: '$ the street'
     answers:
       - in
       - at
       - on
     correct: 3
-
-  - question: $ the hairdresser
+  -
+    question: '$ the hairdresser'
     answers:
       - in
       - at
       - on
     correct: 2
-
-  - question: $ Chicago
+  -
+    question: '$ Chicago'
     answers:
       - in
       - at
       - on
     correct: 1
-
-  - question: $ a meeting
+  -
+    question: '$ a meeting'
     answers:
       - in
       - at
       - on
     correct: 1
-
-  - question: $ home
+  -
+    question: '$ home'
     answers:
       - in
       - at
       - on
     correct: 2
-
-  - question: $ a train
+  -
+    question: '$ a train'
     answers:
       - in
       - at
       - on
     correct: 3
-
-  - question: $ the airport
+  -
+    question: '$ the airport'
     answers:
       - in
       - at
       - on
     correct: 2
-
-  - question: $ the gym
+  -
+    question: '$ the gym'
     answers:
       - in
       - at
       - on
     correct: 2
-
-  - question: $ the bedroom
+  -
+    question: '$ the bedroom'
     answers:
       - in
       - at
       - on
     correct: 1
-
-  - question: $ plane
+  -
+    question: '$ plane'
     answers:
       - in
       - at
       - on
     correct: 3
-
-  - question: $ a car
+  -
+    question: '$ a car'
     answers:
       - in
       - at
       - on
     correct: 1
-
-  - question: $ work
+  -
+    question: '$ work'
     answers:
       - in
       - at
       - on
     correct: 2
-
-  - question: $ the park
+  -
+    question: '$ the park'
     answers:
       - in
       - at
       - on
     correct: 1
-
-  - question: $ the theater
+  -
+    question: '$ the theater'
     answers:
       - in
       - at
       - on
     correct: 2
-
-  - question: $ bed
+  -
+    question: '$ bed'
     answers:
       - in
       - at
       - on
     correct: 1
-
-  - question: $ a restaurant
+  -
+    question: '$ a restaurant'
     answers:
       - in
       - at

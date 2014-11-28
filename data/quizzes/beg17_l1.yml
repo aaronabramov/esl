@@ -1,33 +1,34 @@
 name: Listening
 questions:
-  - question: It’s going to be cold. It’s going to snow.
+  -
+    question: 'It’s going to be cold. It’s going to snow.'
     answers:
-      - San Francisco
+      - 'San Francisco'
       - Miami
       - Chicago
-      - New York
+      - 'New York'
     correct: 3
-
-  - question: It’s going to be sunny. It’s going to be hot.
+  -
+    question: 'It’s going to be sunny. It’s going to be hot.'
     answers:
-      - San Francisco
+      - 'San Francisco'
       - Miami
       - Chicago
-      - New York
+      - 'New York'
     correct: 2
-
-  - question: It’s going to be sunny.
+  -
+    question: 'It’s going to be sunny.'
     answers:
-      - San Francisco
+      - 'San Francisco'
       - Miami
       - Chicago
-      - New York
+      - 'New York'
     correct: 1
-
-  - question: It’s going to rain.
+  -
+    question: 'It’s going to rain.'
     answers:
-      - San Francisco
+      - 'San Francisco'
       - Miami
       - Chicago
-      - New York
+      - 'New York'
     correct: 4

@@ -1,85 +1,86 @@
 name: 'Past Simple: have, get, go'
 questions:
-  - question: She $ cereal for breakfast yesterday.
+  -
+    question: 'She $ cereal for breakfast yesterday.'
     answers:
       - has
       - haved
       - had
     correct: 3
-
-  - question: $ to the movies last week?
+  -
+    question: '$ to the movies last week?'
     answers:
-      - Did you went
-      - Did you go
-      - Do you went
+      - 'Did you went'
+      - 'Did you go'
+      - 'Do you went'
     correct: 2
-
-  - question: We $ lunch.
+  -
+    question: 'We $ lunch.'
     answers:
-      - didn't had
-      - didn't have
-      - don't had
+      - 'didn''t had'
+      - 'didn''t have'
+      - 'don''t had'
     correct: 2
-
-  - question: What time $?
+  -
+    question: 'What time $?'
     answers:
-      - did the children get up?
-      - the children got up?
-      - did the children got up?
+      - 'did the children get up?'
+      - 'the children got up?'
+      - 'did the children got up?'
     correct: 1
-
-  - question: I $ to bed at 9:30!
+  -
+    question: 'I $ to bed at 9:30!'
     answers:
-      - did go
-      - did went
+      - 'did go'
+      - 'did went'
       - went
     correct: 3
-
-  - question: Jane $ to her English class yesterday.
+  -
+    question: 'Jane $ to her English class yesterday.'
     answers:
-      - didn't want
-      - don't went
-      - didn't go
+      - 'didn''t want'
+      - 'don''t went'
+      - 'didn''t go'
     correct: 3
-
-  - question: What $ for lunch today?
+  -
+    question: 'What $ for lunch today?'
     answers:
-      - did you have
-      - did you had
-      - you had
+      - 'did you have'
+      - 'did you had'
+      - 'you had'
     correct: 1
-
-  - question: He $ to school by bus last week.
+  -
+    question: 'He $ to school by bus last week.'
     answers:
-      - didn't went
-      - didn't go
-      - don't went
+      - 'didn''t went'
+      - 'didn''t go'
+      - 'don''t went'
     correct: 2
-
-  - question: They $ home at 8:00.
+  -
+    question: 'They $ home at 8:00.'
     answers:
-      - did go
-      - did went
+      - 'did go'
+      - 'did went'
       - went
     correct: 3
-
-  - question: $ to the gym last week?
+  -
+    question: '$ to the gym last week?'
     answers:
-      - Did they went
-      - Did they go
-      - Do they went
+      - 'Did they went'
+      - 'Did they go'
+      - 'Do they went'
     correct: 2
-
-  - question: I $ at 12:00 today!
+  -
+    question: 'I $ at 12:00 today!'
     answers:
-      - got up
-      - did get up
-      - did got up
+      - 'got up'
+      - 'did get up'
+      - 'did got up'
     correct: 1
-
-  - question: $ your homework?
+  -
+    question: '$ your homework?'
     answers:
-      - Did you do
-      - Did you
-      - Do you did
+      - 'Did you do'
+      - 'Did you'
+      - 'Do you did'
     correct: 1

@@ -1,85 +1,86 @@
-name: Present Continuous
+name: 'Present Continuous'
 questions:
-  - question: "I can't have lunch now, I'm $."
+  -
+    question: 'I can''t have lunch now, I''m $.'
     answers:
       - work
       - worked
       - working
     correct: 3
-
-  - question: What $ you eating?
+  -
+    question: 'What $ you eating?'
     answers:
       - do
       - are
       - –
     correct: 2
-
-  - question: 'A: What are you doing here?\nB: I $ for my friend.'
+  -
+    question: 'A: What are you doing here?\nB: I $ for my friend.'
     answers:
       - wait
       - waiting
-      - "'m waiting"
+      - '''m waiting'
     correct: 3
-
-  - question: I can go shopping with you. I $ today!
+  -
+    question: 'I can go shopping with you. I $ today!'
     answers:
-      - "'m not work"
-      - "'m not working"
-      - "don't working"
+      - '''m not work'
+      - '''m not working'
+      - 'don''t working'
     correct: 2
-
-  - question: "A: Excuse me! You $ in my seat.\nB: Sorry!"
+  -
+    question: "A: Excuse me! You $ in my seat.\nB: Sorry!"
     answers:
-      - "'re sitting"
-      - "'re sit"
-      - "sit"
+      - '''re sitting'
+      - '''re sit'
+      - sit
     correct: 1
-
-  - question: "A: $ her homework?\nB: No, she $."
+  -
+    question: "A: $ her homework?\nB: No, she $."
     answers:
-      - Is Jane do
-      - Does Jane doing
-      - Is Jane doing
+      - 'Is Jane do'
+      - 'Does Jane doing'
+      - 'Is Jane doing'
     correct: 3
-
-  - question: She $ to her boifriend on the phone now.
+  -
+    question: 'She $ to her boifriend on the phone now.'
     answers:
       - talking
       - talks
-      - "'s talking"
+      - '''s talking'
     correct: 3
-
-  - question: "Look! It $!"
+  -
+    question: 'Look! It $!'
     answers:
       - snows
-      - "'s snowing"
-      - "'s snows"
+      - '''s snowing'
+      - '''s snows'
     correct: 2
-
-  - question: "A: Where $?\nB: To the beach!"
+  -
+    question: "A: Where $?\nB: To the beach!"
     answers:
-      - do you going
-      - you're going
-      - are you going
+      - 'do you going'
+      - 'you''re going'
+      - 'are you going'
     correct: 3
-
-  - question: A: Where $ in New York?\nB: At a hotel.
+  -
+    question: 'A: Where $ in New York?\nB: At a hotel.'
     answers:
-      - is your sister staying
-      - your sister is staying
-      - does your sister staying
+      - 'is your sister staying'
+      - 'your sister is staying'
+      - 'does your sister staying'
     correct: 1
-
-  - question: A: What are your children doing?\nB: They $ games.
+  -
+    question: 'A: What are your children doing?\nB: They $ games.'
     answers:
       - play
-      - are play
-      - are playing
+      - 'are play'
+      - 'are playing'
     correct: 3
-
-  - question: A: What $?\nB: Harry Potter!
+  -
+    question: 'A: What $?\nB: Harry Potter!'
     answers:
-      - are you reading
-      - do you reading
-      - you're reading
+      - 'are you reading'
+      - 'do you reading'
+      - 'you''re reading'
     correct: 1

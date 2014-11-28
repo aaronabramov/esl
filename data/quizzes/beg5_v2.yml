@@ -1,120 +1,121 @@
-name: Family and people (Translation – Word)
+name: 'Family and people (Translation – Word)'
 questions:
-  - question: девочка
+  -
+    question: девочка
     answers:
       - daughter
-      - a woman
-      - a girl
+      - 'a woman'
+      - 'a girl'
     correct: 3
-
-  - question: муж
+  -
+    question: муж
     answers:
-      - a man
+      - 'a man'
       - husband
-      - a boy
+      - 'a boy'
     correct: 2
-
-  - question: брат
+  -
+    question: брат
     answers:
-      - a man
+      - 'a man'
       - brother
       - husband
     correct: 2
-
-  - question: парень
+  -
+    question: парень
     answers:
       - husband
-      - a boy
-      - a boyfriend
+      - 'a boy'
+      - 'a boyfriend'
     correct: 3
-
-  - question: мама
+  -
+    question: мама
     answers:
       - mother
       - sister
-      - a woman
+      - 'a woman'
     correct: 1
-
-  - question: человек
+  -
+    question: человек
     answers:
       - people
-      - a people
-      - a person
+      - 'a people'
+      - 'a person'
     correct: 3
-
-  - question: дети
+  -
+    question: дети
     answers:
-      - a children
-      - a child
+      - 'a children'
+      - 'a child'
       - children
     correct: 3
-
-  - question: дочь
+  -
+    question: дочь
     answers:
-      - a girl
+      - 'a girl'
       - daughter
-      - a woman
+      - 'a woman'
     correct: 2
-
-  - question: папа
+  -
+    question: папа
     answers:
-      - a man
+      - 'a man'
       - mother
       - father
     correct: 3
-
-  - question: сын
+  -
+    question: сын
     answers:
-      - a boy
-      - a son
-      - a boyfriend
+      - 'a boy'
+      - 'a son'
+      - 'a boyfriend'
     correct: 2
-
-  - question: жена
+  -
+    question: жена
     answers:
       - wife
-      - a woman
-      - a women
+      - 'a woman'
+      - 'a women'
     correct: 1
-
-  - question: сестра
+  -
+    question: сестра
     answers:
       - sister
       - brother
       - mother
     correct: 1
-
-  - question: друзья
+  -
+    question: друзья
     answers:
       - brothers
       - friends
       - families
     correct: 2
-
-  - question: подруга / девушка
+  -
+    question: 'подруга / девушка'
     answers:
-      - a woman
-      - a girlfriend
-      - a boyfriend
+      - 'a woman'
+      - 'a girlfriend'
+      - 'a boyfriend'
     correct: 2
-
-  - question: семья
+  -
+    question: семья
     answers:
       - friends
       - people
       - Family
     correct: 3
-
-  - question: мальчик
+  -
+    question: мальчик
     answers:
-      - a boy
-      - a man
-      - a person
+      - 'a boy'
+      - 'a man'
+      - 'a person'
     correct: 1
-
-  - question: мужчина
+  -
+    question: мужчина
     answers:
-      - a boyfriend
-      - a men
-      - a man
+      - 'a boyfriend'
+      - 'a men'
+      - 'a man'
     correct: 3

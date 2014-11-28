@@ -1,69 +1,70 @@
 name: 'be: we, you, they, negatives'
 questions:
-  - question: 1. $ you from the United States?
+  -
+    question: '1. $ you from the United States?'
     answers:
       - is
       - are
       - am
     correct: 2
-
-  - question: "No, we $ American. We’re English."
+  -
+    question: 'No, we $ American. We’re English.'
     answers:
       - are
-      - not are
+      - 'not are'
       - aren’t
     correct: 3
-
-  - question: $ they Spanish?
+  -
+    question: '$ they Spanish?'
     answers:
       - are
       - is
       - am
     correct: 1
-
-  - question: They $ from Madrid.
+  -
+    question: 'They $ from Madrid.'
     answers:
       - is
       - am
       - are
     correct: 3
-
-  - question: "Nikolai $ from Moscow, he’s from St. Petersburg."
+  -
+    question: 'Nikolai $ from Moscow, he’s from St. Petersburg.'
     answers:
       - is
       - isn’t
       - aren’t
     correct: 2
-
-  - question: "Sorry, you $ in room 6, you’re in room 8."
+  -
+    question: 'Sorry, you $ in room 6, you’re in room 8.'
     answers:
       - aren’t
       - are
-      - not are
+      - 'not are'
     correct: 1
-
-  - question: "I $ Sara Smith, I’m Sara Simpson."
+  -
+    question: 'I $ Sara Smith, I’m Sara Simpson.'
     answers:
       - ‘m
-      - ‘m not
-      - not am
+      - '‘m not'
+      - 'not am'
     correct: 2
-
-  - question: They $ from New York. they’re from Texis.
+  -
+    question: 'They $ from New York. they’re from Texis.'
     answers:
       - are
-      - not are
+      - 'not are'
       - aren’t
     correct: 3
-
-  - question: Jim and I $ from Oxford.
+  -
+    question: 'Jim and I $ from Oxford.'
     answers:
       - is
       - am
       - are
     correct: 3
-
-  - question: Where $ Rosa from?
+  -
+    question: 'Where $ Rosa from?'
     answers:
       - is
       - are

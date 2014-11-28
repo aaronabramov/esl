@@ -1,76 +1,77 @@
-name: Possessive Adjectives
+name: 'Possessive Adjectives'
 questions:
-  - question: I'm English. $ name is William.
+  -
+    question: 'I''m English. $ name is William.'
     answers:
       - Your
       - Our
       - My
     correct: 3
-
-  - question: We're from Russia. $ names are Anton and Masha.
+  -
+    question: 'We''re from Russia. $ names are Anton and Masha.'
     answers:
       - Our
       - Your
       - My
     correct: 1
-
-  - question: A: What's $ name?\nI'm Tom. Nice to meet you.
+  -
+    question: 'A: What''s $ name?\nI''m Tom. Nice to meet you.'
     answers:
       - our
       - my
       - your
     correct: 3
-
-  - question: He's American. $ name is Nick.
+  -
+    question: 'He''s American. $ name is Nick.'
     answers:
       - My
       - His
       - Your
     correct: 2
-
-  - question: We're Mexican. $ names are Martha and Antonio.
+  -
+    question: 'We''re Mexican. $ names are Martha and Antonio.'
     answers:
       - My
       - Their
       - Our
     correct: 3
-
-  - question: That's their cat. $ name is Diamond.
+  -
+    question: 'That''s their cat. $ name is Diamond.'
     answers:
       - His
       - Its
       - Her
     correct: 2
-
-  - question: $ name is Tina. She's Brazilian.
+  -
+    question: '$ name is Tina. She''s Brazilian.'
     answers:
       - Her
       - His
       - Your
     correct: 1
-
-  - question: A: We're Jane and Justin Thomas.\nB: Romm 34. This is $ key.
+  -
+    question: 'A: We''re Jane and Justin Thomas.\nB: Romm 34. This is $ key.'
     answers:
       - my
       - our
       - your
     correct: 3
-
-  - question: "I'm Kate, and this is $ dog, Rover."
+  -
+    question: 'I''m Kate, and this is $ dog, Rover.'
     answers:
       - my
       - our
       - your
     correct: 1
-
-  - question: "A: It's $ bag!\nB: No, your bag's there."
+  -
+    question: "A: It's $ bag!\nB: No, your bag's there."
     answers:
       - your
       - my
       - our
     correct: 2
-
-  - question: They're British. $ names are Brian and Naomi.
+  -
+    question: 'They''re British. $ names are Brian and Naomi.'
     answers:
       - my
       - their

@@ -1,36 +1,37 @@
-name: Translation - Phrase
+name: 'Translation - Phrase'
 questions:
-  - question: Приятно познакомиться!
+  -
+    question: 'Приятно познакомиться!'
     answers:
-      - You’re late!
-      - Nice to meet you!
-      - Excuse me!
+      - 'You’re late!'
+      - 'Nice to meet you!'
+      - 'Excuse me!'
     correct: 2
-
-  - question: Простите?
+  -
+    question: 'Простите?'
     answers:
-      - You’re late!
-      - Nice to meet you!
-      - Excuse me?
+      - 'You’re late!'
+      - 'Nice to meet you!'
+      - 'Excuse me?'
     correct: 3
-
-  - question: Как вас зовут?
+  -
+    question: 'Как вас зовут?'
     answers:
-      - Am I late?
-      - What’s your name?
-      - Excuse me?
+      - 'Am I late?'
+      - 'What’s your name?'
+      - 'Excuse me?'
     correct: 2
-
-  - question: Я опоздал?
+  -
+    question: 'Я опоздал?'
     answers:
-      - Am I late?
-      - What’s your name?
-      - Excuse me?
+      - 'Am I late?'
+      - 'What’s your name?'
+      - 'Excuse me?'
     correct: 1
-
-  - question: Прошу прощения!
+  -
+    question: 'Прошу прощения!'
     answers:
-      - Nice to meet you!
+      - 'Nice to meet you!'
       - Sorry!
-      - Thank you!
+      - 'Thank you!'
     correct: 2

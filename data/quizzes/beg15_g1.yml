@@ -1,80 +1,81 @@
-name: Object Pronouns
+name: 'Object Pronouns'
 questions:
-  - question: She speaks very fast. I can't understand $.
+  -
+    question: 'She speaks very fast. I can''t understand $.'
     answers:
       - him
       - her
       - his
     correct: 2
-
-  - question: 'I bought a new phone, but I left $ in the store.'
+  -
+    question: 'I bought a new phone, but I left $ in the store.'
     answers:
       - him
       - its
       - it
     correct: 3
-
-  - question: "Jack loves Rachel, but she doesn't love $."
+  -
+    question: 'Jack loves Rachel, but she doesn''t love $.'
     answers:
       - him
       - her
       - his
     correct: 1
-
-  - question: I don't have my car today. Can I go with $?
+  -
+    question: 'I don''t have my car today. Can I go with $?'
     answers:
       - you
       - your
       - yours
     correct: 1
-
-  - question: I don't see Nina. Did you tell $ about the meeting?
+  -
+    question: 'I don''t see Nina. Did you tell $ about the meeting?'
     answers:
       - him
       - her
       - his
     correct: 2
-
-  - question: My children love stories. I read to $ every night.
+  -
+    question: 'My children love stories. I read to $ every night.'
     answers:
-      -  they
+      - they
       - their
       - them
     correct: 3
-
-  - question: "I'm hungry. Can you make $ dinner, please?"
+  -
+    question: 'I''m hungry. Can you make $ dinner, please?'
     answers:
       - my
       - I
       - me
     correct: 3
-
-  - question: 'A: Did you read this book?\nB: Yes, I read $ last year.'
+  -
+    question: 'A: Did you read this book?\nB: Yes, I read $ last year.'
     answers:
       - it
       - its
       - her
     correct: 1
-
-  - question: "We saw them at the airport, but they didn't see $."
+  -
+    question: 'We saw them at the airport, but they didn''t see $.'
     answers:
       - we
       - us
       - our
     correct: 2
-
-  - question: Emma said goodbye to Nick and he kissed $.
+  -
+    question: 'Emma said goodbye to Nick and he kissed $.'
     answers:
       - him
       - her
       - she
     correct: 2
-
-  - question: I can't find my keys. Did you see $?
+  -
+    question: 'I can''t find my keys. Did you see $?'
     answers:
       - them
       - their
       - they
     correct: 1
-
-  - question: "A: We were at this restaurant yesterday, too! Did you see $?\nB: No, I didn't."
+  -
+    question: "A: We were at this restaurant yesterday, too! Did you see $?\nB: No, I didn't."

@@ -1,19 +1,20 @@
 name: Listening
 questions:
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - Sofia and her husband live in the US.
-      - Sofia and her husband live in Mexico.
+      - 'Sofia and her husband live in the US.'
+      - 'Sofia and her husband live in Mexico.'
     correct: 2
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - Sofia's husband is a teacher.
-      - Sofia's husband is a tour guide.
+      - 'Sofia''s husband is a teacher.'
+      - 'Sofia''s husband is a tour guide.'
     correct: 2
-
-  - question: Выберите правильный ответ:
+  -
+    question: 'Выберите правильный ответ:'
     answers:
-      - They like their jobs.
-      - They don't like their jobs.
+      - 'They like their jobs.'
+      - 'They don''t like their jobs.'
     correct: 1

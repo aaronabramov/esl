@@ -1,85 +1,86 @@
-name: Common Verbs
+name: 'Common Verbs'
 questions:
-  - question: like dogs
+  -
+    question: 'like dogs'
     answers:
-      - любить кошек
-      - любить собак
-      - иметь собак
+      - 'любить кошек'
+      - 'любить собак'
+      - 'иметь собак'
     correct: 3
-
-  - question: live in an apartment
+  -
+    question: 'live in an apartment'
     answers:
-      - жить в доме
-      - жить в квартире
-      - снимать квартиру
+      - 'жить в доме'
+      - 'жить в квартире'
+      - 'снимать квартиру'
     correct: 2
-
-  - question: speak English
+  -
+    question: 'speak English'
     answers:
-      - говорить по-английски
-      - учить английский
-      - знать английский
+      - 'говорить по-английски'
+      - 'учить английский'
+      - 'знать английский'
     correct: 1
-
-  - question: drink coffee
+  -
+    question: 'drink coffee'
     answers:
-      - делать кофе
-      - пить кофе
-      - покупать кофе
+      - 'делать кофе'
+      - 'пить кофе'
+      - 'покупать кофе'
     correct: 2
-
-  - question: listen to the radio
+  -
+    question: 'listen to the radio'
     answers:
-      - любить радио
-      - слушать радио
-      - выключить радио
+      - 'любить радио'
+      - 'слушать радио'
+      - 'выключить радио'
     correct: 2
-
-  - question: study Spanish
+  -
+    question: 'study Spanish'
     answers:
-      - говорить по-испански
-      - понимать испанский
-      - изучать испанский
+      - 'говорить по-испански'
+      - 'понимать испанский'
+      - 'изучать испанский'
     correct: 3
-
-  - question: want a new car
+  -
+    question: 'want a new car'
     answers:
-      - любить новую машину
-      - иметь новую машину
-      - хотеть новую машину
+      - 'любить новую машину'
+      - 'иметь новую машину'
+      - 'хотеть новую машину'
     correct: 3
-
-  - question: watch TV
+  -
+    question: 'watch TV'
     answers:
-      - хотеть телевизор
-      - смотреть телевизор
-      - выключить телевизор
+      - 'хотеть телевизор'
+      - 'смотреть телевизор'
+      - 'выключить телевизор'
     correct: 2
-
-  - question: read magazines
+  -
+    question: 'read magazines'
     answers:
-      - читать журналы
-      - ходить по-магазинам
-      - искать магазины
+      - 'читать журналы'
+      - 'ходить по-магазинам'
+      - 'искать магазины'
     correct: 1
-
-  - question: have children
+  -
+    question: 'have children'
     answers:
-      - любить детей
-      - хотеть детей
-      - иметь детей
+      - 'любить детей'
+      - 'хотеть детей'
+      - 'иметь детей'
     correct: 3
-
-  - question: eat fast food
+  -
+    question: 'eat fast food'
     answers:
-      - ненавидеть фастфуд
-      - любить фастфуд
-      - питаться фастфудом
+      - 'ненавидеть фастфуд'
+      - 'любить фастфуд'
+      - 'питаться фастфудом'
     correct: 3
-
-  - question: work in a bank
+  -
+    question: 'work in a bank'
     answers:
-      - ограбить банк
-      - ходить в банк
-      - работать в банке
+      - 'ограбить банк'
+      - 'ходить в банк'
+      - 'работать в банке'
     correct: 3

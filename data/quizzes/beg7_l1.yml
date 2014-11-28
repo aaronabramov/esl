@@ -1,41 +1,42 @@
-name: Listetning Quiz
+name: 'Listetning Quiz'
 questions:
-  - question: "A: Do you live near here?\nB: No, I don't . I live $."
+  -
+    question: "A: Do you live near here?\nB: No, I don't . I live $."
     answers:
-      - near here
+      - 'near here'
       - downtown
-      - not in the city
+      - 'not in the city'
     correct: 2
-
-  - question: "A: Do you want a $? \nB: No, thanks. I don't drink $."
+  -
+    question: "A: Do you want a $? \nB: No, thanks. I don't drink $."
     answers:
       - water
       - tea
       - coffee
     correct: 3
-
-  - question: "A: Do you want a $? Yes, please. Oh, look. Demi Moore’s children."
+  -
+    question: 'A: Do you want a $? Yes, please. Oh, look. Demi Moore’s children.'
     answers:
       - book
       - coffee
       - magazine
     correct: 3
-
-  - question: "A: Do you have $?\nB: Yes, I do. I have two $."
+  -
+    question: "A: Do you have $?\nB: Yes, I do. I have two $."
     answers:
-      - children; boys
-      - chdildren; girls
-      - a child; boys
+      - 'children; boys'
+      - 'chdildren; girls'
+      - 'a child; boys'
     correct: 1
-
-  - question: "A: How old are they?\nB: $ and $."
+  -
+    question: "A: How old are they?\nB: $ and $."
     answers:
-      - Eight and nine
-      - Eight and ten
-      - Eleven and eight
+      - 'Eight and nine'
+      - 'Eight and ten'
+      - 'Eleven and eight'
     correct: 2
-
-  - question: "A: It's very $!\nB: Don't worry. Wait."
+  -
+    question: "A: It's very $!\nB: Don't worry. Wait."
     answers:
       - long
       - short

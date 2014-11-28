@@ -1,171 +1,172 @@
-name: Food and Drink (Word - Translation)
+name: 'Food and Drink (Word - Translation)'
 questions:
-  - question: salad
+  -
+    question: salad
     answers:
       - соль
       - сало
       - салад
     correct: 3
-
-  - question: soda
+  -
+    question: soda
     answers:
-      - пищевая сода
-      - газировонная вода
-      - негазированная вода
+      - 'пищевая сода'
+      - 'газировонная вода'
+      - 'негазированная вода'
     correct: 2
-
-  - question: coffee
+  -
+    question: coffee
     answers:
       - кафе
       - кофе
-
-  - question: potatoes
+  -
+    question: potatoes
     answers:
       - помидор
       - картофель
       - капуста
     correct: 2
-
-  - question: orange juice
+  -
+    question: 'orange juice'
     answers:
-      - апельсиновый сок
-      - томатный сок
-      - персиковый сок
+      - 'апельсиновый сок'
+      - 'томатный сок'
+      - 'персиковый сок'
     correct: 1
-
-  - question: cereal
+  -
+    question: cereal
     answers:
       - хлопья
       - морковь
       - каша
     correct: 1
-
-  - question: wine
+  -
+    question: wine
     answers:
       - виноград
-      - виноградная лоза
+      - 'виноградная лоза'
       - вино
     correct: 3
-
-  - question: eggs
+  -
+    question: eggs
     answers:
       - масло
       - яйца
       - хлопья
     correct: 2
-
-  - question: water
+  -
+    question: water
     answers:
       - чай
       - вино
       - вода
     correct: 3
-
-  - question: sugar
+  -
+    question: sugar
     answers:
       - соль
       - сода
       - сахар
     correct: 3
-
-  - question: a sandwich
+  -
+    question: 'a sandwich'
     answers:
       - сосиска
-      - песочное печенье
+      - 'песочное печенье'
       - сэндвич
     correct: 3
-
-  - question: vegetables
+  -
+    question: vegetables
     answers:
       - овощи
       - зелень
       - фрукты
     correct: 1
-
-  - question: pasta
+  -
+    question: pasta
     answers:
-      - зубная паста
-      - паста (макароны)
+      - 'зубная паста'
+      - 'паста (макароны)'
     correct: 2
-
-  - question: milk
+  -
+    question: milk
     answers:
       - мука
       - мускат
       - молоко
     correct: 3
-
-  - question: food
+  -
+    question: food
     answers:
       - еда
       - напитки
       - фрукты
     correct: 1
-
-  - question: fish
+  -
+    question: fish
     answers:
       - рыба
       - мясо
       - хлеб
     correct: 1
-
-  - question: beer
+  -
+    question: beer
     answers:
       - вино
       - пиво
       - вода
     correct: 2
-
-  - question: meat
+  -
+    question: meat
     answers:
       - рыба
       - овощ
       - мясо
     correct: 3
-
-  - question: rice
+  -
+    question: rice
     answers:
       - ржаной
       - рис
       - лед
     correct: 2
-
-  - question: fruit
+  -
+    question: fruit
     answers:
       - грейпфрут
       - йогурт
       - фрукты
     correct: 3
-
-  - question: bread
+  -
+    question: bread
     answers:
       - хлеб
       - масло
       - пиво
     correct: 1
-
-  - question: butter
+  -
+    question: butter
     answers:
       - хлеб
       - масло
       - сыр
     correct: 2
-
-  - question: cheese
+  -
+    question: cheese
     answers:
       - масло
       - хлеб
       - сыр
     correct: 3
-
-  - question: chocolate
+  -
+    question: chocolate
     answers:
       - орех
       - шоколад
       - сахар
     correct: 2
-
-  - question: tea
+  -
+    question: tea
     answers:
       - кофе
       - чай

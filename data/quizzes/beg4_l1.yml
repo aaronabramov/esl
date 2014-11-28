@@ -1,48 +1,49 @@
 name: Listening
 questions:
-  - question: '1'
+  -
+    question: '1'
     answers:
       - M
       - N
     correct: 2
-
-  - question: '2'
+  -
+    question: '2'
     answers:
       - K
       - Q
     correct: 2
-
-  - question: '3'
+  -
+    question: '3'
     answers:
       - G
       - J
     correct: 2
-
-  - question: '4'
+  -
+    question: '4'
     answers:
       - E
       - I
     correct: 1
-
-  - question: '5'
+  -
+    question: '5'
     answers:
       - Y
       - I
     correct: 1
-
-  - question: '6'
+  -
+    question: '6'
     answers:
       - U
       - W
     correct: 2
-
-  - question: '7'
+  -
+    question: '7'
     answers:
       - B
       - V
     correct: 1
-
-  - question: '8'
+  -
+    question: '8'
     answers:
       - E
       - A

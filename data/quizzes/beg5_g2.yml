@@ -1,57 +1,58 @@
-name: Possessive s
+name: 'Possessive s'
 questions:
-  - question: David is $.
+  -
+    question: 'David is $.'
     answers:
-      - brother Angela's
-      - Angela's brother
-      - brother's Angela.
+      - 'brother Angela''s'
+      - 'Angela''s brother'
+      - 'brother''s Angela.'
     correct: 2
-
-  - question: This is $ .
+  -
+    question: 'This is $ .'
     answers:
-      - Antonio book's.
-      - book Anotnio's.
-      - Antonio's book.
+      - 'Antonio book''s.'
+      - 'book Anotnio''s.'
+      - 'Antonio''s book.'
     correct: 3
-
-  - question: Ann is $.
+  -
+    question: 'Ann is $.'
     answers:
-      - Mark mother
-      - Mark's mother
-      - Mark mother's.
+      - 'Mark mother'
+      - 'Mark''s mother'
+      - 'Mark mother''s.'
     correct: 2
-
-  - question: They're $.
+  -
+    question: 'They''re $.'
     answers:
-      - Sarah's children.
-      - children Sarah's.
-      - Sarah children's.
+      - 'Sarah''s children.'
+      - 'children Sarah''s.'
+      - 'Sarah children''s.'
     correct: 1
-
-  - question: $ is BMW.
+  -
+    question: '$ is BMW.'
     answers:
-      - My brother car's
-      - My brother's car's
-      - My brother's car
+      - 'My brother car''s'
+      - 'My brother''s car''s'
+      - 'My brother''s car'
     correct: 3
-
-  - question: Jim is $.
+  -
+    question: 'Jim is $.'
     answers:
-      - Sally boyfriend's.
-      - boyfriend Sally's.
-      - Sally's boyfriend.
+      - 'Sally boyfriend''s.'
+      - 'boyfriend Sally''s.'
+      - 'Sally''s boyfriend.'
     correct: 3
-
-  - question: This is $.
+  -
+    question: 'This is $.'
     answers:
-      - Tim's laptop.
-      - laptop Tim's.
-      - laptop's Tim's.
+      - 'Tim''s laptop.'
+      - 'laptop Tim''s.'
+      - 'laptop''s Tim''s.'
     correct: 1
-
-  - question: They're $.
+  -
+    question: 'They''re $.'
     answers:
-      - My sister's key's.
-      - My sister's keys.
-      - keys my sister's.
+      - 'My sister''s key''s.'
+      - 'My sister''s keys.'
+      - 'keys my sister''s.'
     correct: 2

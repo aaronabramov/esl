@@ -1,57 +1,58 @@
-name: Profession - Job
+name: 'Profession - Job'
 questions:
-  - question: A teacher works in $
+  -
+    question: 'A teacher works in $'
     answers:
-      - a hospital
-      - a restaurant
-      - a school
+      - 'a hospital'
+      - 'a restaurant'
+      - 'a school'
     correct: 3
-
-  - question: A waitress works in $
+  -
+    question: 'A waitress works in $'
     answers:
-      - a restaurant
-      - a school
-      - an office
+      - 'a restaurant'
+      - 'a school'
+      - 'an office'
     correct: 1
-
-  - question: A policeman works on $
+  -
+    question: 'A policeman works on $'
     answers:
-      - a school
-      - the street
+      - 'a school'
+      - 'the street'
       - home
     correct: 2
-
-  - question: A salesperson works in $
+  -
+    question: 'A salesperson works in $'
     answers:
-      - a store
-      - a factory
-      - a university
+      - 'a store'
+      - 'a factory'
+      - 'a university'
     correct: 1
-
-  - question: A doctor works in $
+  -
+    question: 'A doctor works in $'
     answers:
-      - the street
+      - 'the street'
       - home
-      - a hospital
+      - 'a hospital'
     correct: 3
-
-  - question: A lawyer works in $
+  -
+    question: 'A lawyer works in $'
     answers:
-      - the street
-      - a school
-      - an office
+      - 'the street'
+      - 'a school'
+      - 'an office'
     correct: 3
-
-  - question: A factory worker works in $
+  -
+    question: 'A factory worker works in $'
     answers:
-      - a school
-      - a store
+      - 'a school'
+      - 'a store'
       - factory
     correct: 3
-
-  - question: A student works at $
+  -
+    question: 'A student works at $'
     answers:
-      - the street
+      - 'the street'
       - home
-      - an office
+      - 'an office'
     correct: 1

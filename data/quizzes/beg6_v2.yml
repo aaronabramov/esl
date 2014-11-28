@@ -1,55 +1,56 @@
-name: Colors (Translation - Word)
+name: 'Colors (Translation - Word)'
 questions:
-  - question: голубой
+  -
+    question: голубой
     answers:
       - white
       - blue
       - green
     correct: 2
-
-  - question: красный
+  -
+    question: красный
     answers:
       - blue
       - green
       - red
     correct: 3
-
-  - question: белый
+  -
+    question: белый
     answers:
       - white
       - blue
       - green
     correct: 1
-
-  - question: желтый
+  -
+    question: желтый
     answers:
       - brown
       - black
       - yellow
     correct: 3
-
-  - question: коричневый
+  -
+    question: коричневый
     answers:
       - brown
       - black
       - yellow
     correct: 1
-
-  - question: черный
+  -
+    question: черный
     answers:
       - brown
       - black
       - yellow
     correct: 2
-
-  - question: оранжевый
+  -
+    question: оранжевый
     answers:
       - green
       - yellow
       - orange
     correct: 3
-
-  - question: зеленый
+  -
+    question: зеленый
     answers:
       - green
       - yellow
