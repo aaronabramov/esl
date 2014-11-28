@@ -95,7 +95,7 @@ questions:
     answers:
       - don't eat
       - not eat
-      - 'm not eat
+      - "'m not eat"
     correct: 1
 
   - question: "A: Does she speak English?\nB: Yes, she $."
@@ -170,7 +170,7 @@ questions:
 
   - question: It $ very cold last summer.
     answers:
-      - 's
+      - "'s"
       - was
       - were
     correct: 2
@@ -254,9 +254,9 @@ questions:
 
   - question: She $ get married next month.
     answers:
-      - 's going to
+      - "'s going to"
       - goes to
-      - 's going
+      - "'s going"
     correct: 1
 
   - question: "A: Are they going to come tonight?\nB: Yes, they $."

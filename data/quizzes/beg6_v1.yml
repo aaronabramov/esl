@@ -18,14 +18,14 @@ questions:
     answers:
       - желтый
       - коричневый
-      - оранджевый
+      - оранжевый
     correct: 3
 
   - question: red
     answers:
       - желтый
       - красный
-      - оранджевый
+      - оранжевый
     correct: 2
 
   - question: blue

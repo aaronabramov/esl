@@ -14,25 +14,25 @@ questions:
       - –
     correct: 2
 
-  - question: A: What are you doing here?\nB: I $ for my friend.
+  - question: 'A: What are you doing here?\nB: I $ for my friend.'
     answers:
       - wait
       - waiting
-      - 'm waiting
+      - "'m waiting"
     correct: 3
 
   - question: I can go shopping with you. I $ today!
     answers:
-      - 'm not work
-      - 'm not working
-      - don't working
+      - "'m not work"
+      - "'m not working"
+      - "don't working"
     correct: 2
 
-  - question: A: Excuse me! You $ in my seat.\nB: Sorry!
+  - question: "A: Excuse me! You $ in my seat.\nB: Sorry!"
     answers:
-      - 're sitting
-      - 're sit
-      - sit
+      - "'re sitting"
+      - "'re sit"
+      - "sit"
     correct: 1
 
   - question: "A: $ her homework?\nB: No, she $."
@@ -46,17 +46,17 @@ questions:
     answers:
       - talking
       - talks
-      - 's talking
+      - "'s talking"
     correct: 3
 
-  - question: Look! It $!
+  - question: "Look! It $!"
     answers:
       - snows
-      - 's snowing
-      - 's snows
+      - "'s snowing"
+      - "'s snows"
     correct: 2
 
-  - question: A: Where $?\nB: To the beach!
+  - question: "A: Where $?\nB: To the beach!"
     answers:
       - do you going
       - you're going

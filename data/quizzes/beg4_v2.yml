@@ -49,7 +49,7 @@ questions:
       - a piece of paper
     correct: 2
 
-    - question: стул
+  - question: стул
     answers:
       - a chair
       - a laptop

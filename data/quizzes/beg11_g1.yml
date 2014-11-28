@@ -14,7 +14,7 @@ questions:
       - were; was
     correct: 3
 
-  question: 'A: $ she in the movies?\nB: No, she $.'
+  - question: 'A: $ she in the movies?\nB: No, she $.'
     answers:
       - was; was
       - was; wasn't

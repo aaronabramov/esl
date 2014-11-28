@@ -12,11 +12,11 @@ questions:
       - '1'
       - '2'
       - '3'
-correct: 2
+    correct: 2
 
   - question: Регистрация в отеле
     answers:
       - '1'
       - '2'
       - '3'
-correct: 1
+    correct: 1

@@ -15,7 +15,7 @@ questions:
     correct: 3
 
   - question: $ the street
-      answers:
+    answers:
       - in
       - at
       - on
@@ -29,20 +29,20 @@ questions:
     correct: 2
 
   - question: $ Chicago
-      answers:
+    answers:
       - in
       - at
       - on
     correct: 1
 
-  question: $ a meeting
-      answers:
+  - question: $ a meeting
+    answers:
       - in
       - at
       - on
     correct: 1
 
-  question: $ home
+  - question: $ home
     answers:
       - in
       - at
@@ -50,7 +50,7 @@ questions:
     correct: 2
 
   - question: $ a train
-      answers:
+    answers:
       - in
       - at
       - on
@@ -64,14 +64,14 @@ questions:
     correct: 2
 
   - question: $ the gym
-      answers:
+    answers:
       - in
       - at
       - on
     correct: 2
 
   - question: $ the bedroom
-      answers:
+    answers:
       - in
       - at
       - on
@@ -98,14 +98,14 @@ questions:
       - on
     correct: 2
 
-   question: $ the park
+  - question: $ the park
     answers:
       - in
       - at
       - on
     correct: 1
 
-   question: $ the theater
+  - question: $ the theater
     answers:
       - in
       - at
@@ -113,13 +113,13 @@ questions:
     correct: 2
 
   - question: $ bed
-      answers:
+    answers:
       - in
       - at
       - on
     correct: 1
 
-  question: $ a restaurant
+  - question: $ a restaurant
     answers:
       - in
       - at

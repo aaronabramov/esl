@@ -70,7 +70,7 @@ questions:
       - lived
     correct: 3
 
-  question: I $ tennis yesterday.
+  - question: I $ tennis yesterday.
     answers:
       - didn't played
       - didn't play

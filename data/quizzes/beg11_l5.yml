@@ -14,12 +14,12 @@ questions:
       - About $8.
     correct: 3
 
-  -question: How much is her lunch?
+  - question: How much is her lunch?
     answers:
       - About £2.70
       - About £2.17
       - About £17
-    correct:2
+    correct: 2
 
   - question: How much is his lunch?
     answers:

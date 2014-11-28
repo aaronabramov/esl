@@ -7,7 +7,7 @@ questions:
     correct: 2
 
   - question: '2'
-answers:
+    answers:
       - K
       - Q
     correct: 2

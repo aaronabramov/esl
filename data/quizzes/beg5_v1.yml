@@ -121,7 +121,7 @@ questions:
 
   - question: wife
     answers:
-       - девушка
-       - женщина
-       - жена
-      correct: 3
+      - девушка
+      - женщина
+      - жена
+    correct: 3

@@ -37,9 +37,9 @@ questions:
 
   - question: I'm tired. I $ to bed early this evening.
     answers:
-      - 'm going go
-      - 'm go to going
-      - 'm going to go
+      - "'m going go"
+      - "'m go to going"
+      - "'m going to go"
     correct: 3
 
   - question: It's cold outside. $ a coat?
@@ -58,9 +58,9 @@ questions:
 
   - question: He $ us outside the theater at 8:00.
     answers:
-      - 's go to meeting
-      - 's going meeting
-      - 's going to meet
+      - "'s go to meeting"
+      - "'s going meeting"
+      - "'s going to meet"
     correct: 3
 
   - question: $ out for dinner?

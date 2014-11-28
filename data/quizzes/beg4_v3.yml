@@ -1,10 +1,10 @@
 name: Small things (Word – Translation)
 questions:
   - question: an ID card
-      answers:
-        - кредитная карточка
-        - удостоверение личности
-        - пропуск
+    answers:
+      - кредитная карточка
+      - удостоверение личности
+      - пропуск
     correct: 2
 
   - question: glasses

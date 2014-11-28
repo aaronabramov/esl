@@ -10,8 +10,8 @@ questions:
   - question: She $ a pizza.
     answers:
       - going to make
-      - 's going make
-      - 's going to make
+      - "'s going make"
+      - "'s going to make"
     correct: 3
 
   - question: I think the plane $ soon! Hurry up!
@@ -23,16 +23,16 @@ questions:
 
   - question: Don't do this! You $ your leg!
     answers:
-      - 're going break
+      - "'re going break"
       - going to break
-      - 're going to break
+      - "'re going to break"
     correct: 3
 
   - question: Wake up! You $ late for school!
     answers:
-      - 're going be
-      - 're going to be
-      - going to be
+      - "'re going be"
+      - "'re going to be"
+      - "going to be"
     correct: 2
 
   - question: Yay! Our dad $ us a story!
@@ -42,9 +42,9 @@ questions:
       - going to tell
     correct: 2
 
-   -question: They $ in the river.
+  - question: They $ in the river.
     answers:
-    - are going to swim
-    - are going swim
-    - going to swim
+      - are going to swim
+      - are going swim
+      - going to swim
     correct: 1

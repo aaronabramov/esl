@@ -42,7 +42,7 @@ questions:
       - a fast car
     correct: 3
 
-    - question: It's $.
+  - question: It's $.
     answers:
       - a terrible photo
       - terrible photo
@@ -70,7 +70,7 @@ questions:
       - a hotel very good
     correct: 1
 
-  -question: Their house $.
+  - question: Their house $.
     answers:
       - is a very small
       - is very small

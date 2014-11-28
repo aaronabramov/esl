@@ -36,20 +36,20 @@ questions:
     correct: 1
 
   - question: черный
-      answers:
+    answers:
       - brown
       - black
       - yellow
     correct: 2
 
-  - question: оранджевый
+  - question: оранжевый
     answers:
       - green
       - yellow
       - orange
     correct: 3
 
-    - question: зеленый
+  - question: зеленый
     answers:
       - green
       - yellow

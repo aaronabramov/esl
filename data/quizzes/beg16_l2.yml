@@ -1,4 +1,4 @@
-name: True or False
+name: "True or False"
 questions:
   - question: Liz and her friend finished their trip.
     answers:
@@ -18,7 +18,7 @@ questions:
       - False
     correct: 2
 
-  - question Liz’s bike broke when they were near La Paz.
+  - question: Liz’s bike broke when they were near La Paz.
     answers:
       - True
       - False

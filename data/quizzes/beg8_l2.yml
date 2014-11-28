@@ -3,7 +3,7 @@ questions:
   - question: It's $.
     answers:
       - '9.30'
-      - 9 o'clock
+      - "9 o'clock"
       - '1.09'
     correct: 2
 
@@ -14,7 +14,7 @@ questions:
       - '3.20'
     correct: 3
 
-  question: It's $.
+  - question: It's $.
     answers:
       - '9.30'
       - '9.13'

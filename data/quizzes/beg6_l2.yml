@@ -21,7 +21,7 @@ questions:
       - 1 borther and 1 sister: 32 and 36 years old
     correct: 2
 
-  -question: Выберите правильный ответ:
+  - question: Выберите правильный ответ:
     answers:
       - 2 brothers; 17 years old
       - 1 brother; 7 years old
@@ -35,7 +35,7 @@ questions:
       - '3 sisters; 26, 38 and 39'
     correct: 2
 
-  -question: Выберите правильный ответ:
+  - question: Выберите правильный ответ:
     answers:
       - '4 brothers; 46, 44, 43 and 36'
       - '4 brothers; 36, 44, 43 and 46'

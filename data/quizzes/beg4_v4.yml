@@ -29,6 +29,7 @@ questions:
     correct: 1
 
   - question: удостоверение личности
+    answers:
       - an ID card
       - a credit card
       - a debit card
@@ -68,5 +69,3 @@ questions:
       - a cell phone
       - a mobile fone
     correct: 2
-
-  - question:

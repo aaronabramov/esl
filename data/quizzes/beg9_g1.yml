@@ -63,7 +63,7 @@ questions:
       - have lunch usually
     correct: 2
 
-  question: $ at work
+  - question: $ at work
     answers:
       - I never speak English
       - I never don't speak English

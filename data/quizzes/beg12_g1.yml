@@ -49,7 +49,7 @@ questions:
       - you had
     correct: 1
 
-   question: He $ to school by bus last week.
+  - question: He $ to school by bus last week.
     answers:
       - didn't went
       - didn't go
@@ -70,7 +70,7 @@ questions:
       - Do they went
     correct: 2
 
-  question: I $ at 12:00 today!
+  - question: I $ at 12:00 today!
     answers:
       - got up
       - did get up

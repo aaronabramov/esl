@@ -43,7 +43,7 @@ questions:
     correct: 1
 
   - question: сахар
-      answers:
+    answers:
       - salt
       - sugar
       - sweatener
