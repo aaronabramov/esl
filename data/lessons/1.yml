@@ -16,10 +16,10 @@ items:
       id: 05 Pista 05.mp3
 
     - type: quiz
-      id: quizzes/beg1_v1.yml
+      id: quizzes/beg1_v1
 
     - type: quiz
-      id: quizzes/beg1_v2.yml
+      id: quizzes/beg1_v2
 
     - type: video
       id: beginner1_3.mp4

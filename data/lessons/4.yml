@@ -7,7 +7,7 @@ items:
       id: 39 Pista 39.mp3
 
     - type: quiz
-      id: quizzes/beg4_l1.yml
+      id: quizzes/beg4_l1
 
     - type: audio
       id: 42 Pista 42.mp3
@@ -16,7 +16,7 @@ items:
       id: beginner4_2.mp4
 
     - type: quiz
-      id: quizzes/beg4_l4.yml
+      id: quizzes/beg4_l4
 
     - type: video
       id: beginner4_3.mp4
@@ -25,10 +25,10 @@ items:
       id: 48 Pista 48.mp3
 
     - type: quiz
-      id: quizzes/beg4_v1.yml
+      id: quizzes/beg4_v1
 
     - type: quiz
-      id: quizzes/beg4_v2.yml
+      id: quizzes/beg4_v2
 
     - type: video
       id: beginner4_4.mp4
@@ -37,16 +37,16 @@ items:
       id: 53 Pista 53.mp3
 
     - type: quiz
-      id: quizzes/beg4_v3.yml
+      id: quizzes/beg4_v3
 
     - type: quiz
-      id: quizzes/beg4_v4.yml
+      id: quizzes/beg4_v4
 
     - type: video
       id: beginner4_5.mp4
 
     - type: quiz
-      id: quizzes/beg4_g1.yml
+      id: quizzes/beg4_g1
 
     - type: video
       id: beginner4_6.mp4

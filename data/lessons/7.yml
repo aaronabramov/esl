@@ -1,7 +1,7 @@
 name: Lesson 7
 items:
     - type: quiz
-      id: quizzes/beg7_l1.yml
+      id: quizzes/beg7_l1
 
     - type: video
       id: beginner7_1.mp4
@@ -13,7 +13,7 @@ items:
       id: beginner7_2.mp4
 
     - type: quiz
-      id: quizzes/beg7_g1.yml
+      id: quizzes/beg7_g1
 
     - type: video
       id: beginner7_3.mp4
@@ -25,13 +25,13 @@ items:
       id: cd2_04_pista_04.mp3
 
     - type: quiz
-      id: quizzes/beg7_v1.yml
+      id: quizzes/beg7_v1
 
     - type: quiz
-      id: quizzes/beg7_v2.yml
+      id: quizzes/beg7_v2
 
     - type: quiz
-      id: quizzes/beg7_l2.yml
+      id: quizzes/beg7_l2
 
     - type: video
       id: beginner7_4.mp4
@@ -46,10 +46,10 @@ items:
       id: cd2_08_pista_08.mp3
 
     - type: quiz
-      id: quizzes/beg7_v3.yml
+      id: quizzes/beg7_v3
 
     - type: quiz
-      id: quizzes/beg7_v4.yml
+      id: quizzes/beg7_v4
 
     - type: video
       id: beginner7_6.mp4

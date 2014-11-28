@@ -16,10 +16,10 @@ items:
       id: cd2_33_pista_33.mp3
 
     - type: quiz
-      id: quizzes/beg9_v1.yml
+      id: quizzes/beg9_v1
 
     - type: quizz
-      id: quizzes/beg9_v2.yml
+      id: quizzes/beg9_v2
 
     - type: video
       id: beginner9_3.mp4
@@ -37,10 +37,10 @@ items:
       id: cd2_41_pista_41.mp3
 
     - type: quizz
-      id: quizzes/beg9_v3.yml
+      id: quizzes/beg9_v3
 
     - type: video
       id: beginner9_5.mp4
 
     - type: quizz
-      id: quizzes/beg8_g1.yml
+      id: quizzes/beg8_g1

@@ -19,19 +19,19 @@ items:
       id: cd1_73_pista_73.mp3
 
     - type: quiz
-      id: quizzes/beg6_v1.yml
+      id: quizzes/beg6_v1
 
     - type: quiz
-      id: quizzes/beg6_v2.yml
+      id: quizzes/beg6_v2
 
     - type: quiz
-      id: quizzes/beg6_v3.yml
+      id: quizzes/beg6_v3
 
     - type: video
       id: beginner6_3.mp4
 
     - type: quiz
-      id: quizzes/beg6_g1.yml
+      id: quizzes/beg6_g1
 
     - type: video
       id: beginner6_4.mp4
@@ -58,4 +58,4 @@ items:
       id: cd1_83_pista_83.mp3
 
     - type: quiz
-      id: quizzes/beg6_l2.yml
+      id: quizzes/beg6_l2

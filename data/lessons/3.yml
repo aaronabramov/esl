@@ -13,7 +13,7 @@ items:
       id: 26 Pista 26.mp3
 
     - type: quiz
-      id: quizzes/beg3_l3.yml
+      id: quizzes/beg3_l3
 
     - type: audio
       id: 27 Pista 27.mp3
@@ -28,7 +28,7 @@ items:
       id: beginner3_4.mp4
 
     - type: quiz
-      id: quizzes/beg3_g2.yml
+      id: quizzes/beg3_g2
 
     - type: video
       id: beginner3_5.mp4
