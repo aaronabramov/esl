@@ -26,6 +26,8 @@ a:focus {
 .sidebar {
     background: rgb(61, 79, 93);
     color: #fff;
+    padding-bottom: 45px;
+    overflow-y: scroll;
 }
 
 .brand-title {
