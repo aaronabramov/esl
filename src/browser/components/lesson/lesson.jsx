@@ -33,7 +33,6 @@ Lesson = React.createClass({
     // },
 
     render: function() {
-        console.log(this.props);
         var lessonIndex = this.props.lessonIndex,
             lesson = CourseStore.getData()[lessonIndex];
 
@@ -48,7 +47,7 @@ Lesson = React.createClass({
 
         lessonItemComponents = lesson.items.map(function(item) {
             // var active = (activeId === item.id) ? true : false;
-            return <LessonItem key={item.id} item={item} active={false}/>
+            return <LessonItem key={item.uniqId} item={item} active={false}/>
         });
 
         return (

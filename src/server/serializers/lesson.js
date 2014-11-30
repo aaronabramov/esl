@@ -1,6 +1,7 @@
 var data = require('../utils/data.js'),
     // item types that are stored in yml files
-    TYPES_IN_YML = ['quiz'];
+    TYPES_IN_YML = ['quiz'],
+    uniqId = 1;
 
 /**
  * @param {Immutable#Map} lesson
@@ -33,8 +34,15 @@ module.exports = function(lesson) {
         if (!!~TYPES_IN_YML.indexOf(item.get('type'))) {
             return item.set(item.get('type'), data.getIn(item.get('id').split('/')));
         }
-        return item;
+        return item.set('uniqId', generateUniqId());
     });
 
     return lesson.set('items', items);
+};
+
+
+// Generate temp uniq id to distinguish elements
+function generateUniqId() {
+    uniqId > 100000 && (uniqId = 1); // rotate
+    return uniqId++;
 };

@@ -1,6 +1,6 @@
 var _ = require('lodash');
 
 module.exports = {
-    INITIALIZE: _.uniqueId(),
-    SET_ACTIVE_CONTENT: _.uniqueId()
+    INITIALIZE: _.uniqueId('lesson-initialize'),
+    SET_ACTIVE_CONTENT: _.uniqueId('lesson-set-active-content')
 };

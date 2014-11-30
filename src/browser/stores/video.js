@@ -14,13 +14,13 @@ var Video = {
         Dispatcher.register(function(payload) {
             var action = payload.action;
 
-            switch(action.actionType) {
+            switch (action.actionType) {
                 case VideoConstants.GET_VIDEO_LINK:
                     _this.link = action.link;
                     break;
 
                 default:
-                  return true;
+                    return true;
             }
             bean.fire(_this, 'changed');
             return true; // No errors.  Needed by promise in Dispatcher.

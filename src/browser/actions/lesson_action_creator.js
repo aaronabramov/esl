@@ -35,15 +35,26 @@ module.exports = {
         });
     },
 
-    changeActiveLesson: function(id) {
+    // changeActiveLesson: function(id) {
+    //     Dispatcher.handleViewAction({
+    //         actionType: LessonConstants.SET_ACTIVE_CONTENT,
+    //         id: id
+    //     });
+    //     // after action has been handled
+    //     // track the view and don't wait for it to return
+    //     superagent.post('/views').send({
+    //         content_id: id
+    //     }).end();
+    // },
+    changeActiveItem: function(item) {
         Dispatcher.handleViewAction({
             actionType: LessonConstants.SET_ACTIVE_CONTENT,
-            id: id
+            item: item
         });
         // after action has been handled
         // track the view and don't wait for it to return
         superagent.post('/views').send({
-            content_id: id
+            content_id: item.id
         }).end();
     }
 };

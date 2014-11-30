@@ -1,5 +1,5 @@
 var _ = require('lodash');
 
 module.exports = {
-    INITIALIZE: _.uniqueId()
+    INITIALIZE: _.uniqueId('course-initialize')
 };

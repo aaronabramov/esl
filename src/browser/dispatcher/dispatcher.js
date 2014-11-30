@@ -7,6 +7,7 @@ module.exports = (function() {
         },
 
         dispatch: function(payload) {
+            // console.log(payload);
             _callbacks.forEach(function(callback) {
                 callback(payload);
             });

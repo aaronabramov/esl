@@ -24,7 +24,7 @@ module.exports = React.createClass({
     },
     render: function() {
         var lessons = CourseStore.getData().map(function(lesson, index) {
-            return <Lesson lessonIndex={index} />
+            return <Lesson key={index} lessonIndex={index} />
         });
 
         return (

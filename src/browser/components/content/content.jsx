@@ -3,29 +3,30 @@
 var React = require('react'),
     Sidebar = require('../sidebar.jsx'),
     QuizContainer = require('../quiz/quiz_container.jsx'),
-    VideoContainer = require('../video/video_container.jsx'),
+    Video = require('../video/video.jsx'),
     AudioContainer = require('../audio/audio_container.jsx'),
     Login = require('../login.jsx'),
     LessonStore = require('../../stores/lesson.js'),
+    CourseStore = require('../../stores/course.js'),
     bean = require('bean');
 
 var Content = React.createClass({
     getInitialState: function() {
         return {
-            activeContent: LessonStore.getActiveLessonContent() || null
+            activeContent: CourseStore.getActiveItem()
         };
     },
 
     componentDidMount: function() {
-        bean.on(LessonStore, 'changed', this.handleChange);
+        bean.on(CourseStore, 'changed', this.handleChange);
     },
 
     componentWillUnmount: function() {
-        bean.off(LessonStore, 'changed', this.handleChange);
+        bean.off(CourseStore, 'changed', this.handleChange);
     },
 
     handleChange: function() {
-        var activeContent = LessonStore.getActiveLessonContent();
+        var activeContent = CourseStore.getActiveItem();
 
         this.setState({
             activeContent: activeContent
@@ -33,14 +34,16 @@ var Content = React.createClass({
     },
 
     render: function() {
-        var component;
+        var component,
+        activeContent = this.state.activeContent,
+        activeContentType = activeContent && activeContent.type;
 
-        switch(this.state.activeContent.type) {
+        switch(activeContentType) {
             case "quiz":
                 component = <QuizContainer />
                 break;
             case "video":
-                component = <VideoContainer />
+                component = <Video item={activeContent} />
                 break;
             case "audio":
                 component = <AudioContainer />

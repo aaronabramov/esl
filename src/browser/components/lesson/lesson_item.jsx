@@ -8,6 +8,7 @@ var React = require('react'),
 var LessonItem = React.createClass({
     render: function() {
         var id = this.props.item.id,
+            uniqId = this.props.item.uniqId,
             name = this.getName(),
             classes = 'lesson-piece';
 
@@ -17,7 +18,7 @@ var LessonItem = React.createClass({
 
         return <a href='#'
                   className={classes}
-                  key={id}
+                  key={uniqId}
                   onClick={this.handleClick}>
                     {name}
                 </a>;
@@ -39,7 +40,7 @@ var LessonItem = React.createClass({
     },
 
     handleClick: function() {
-        LessonActionCreator.changeActiveLesson(this.props.item.id);
+        LessonActionCreator.changeActiveItem(this.props.item);
         return false; // stop propagation
     }
 });
