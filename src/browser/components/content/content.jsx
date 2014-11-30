@@ -4,9 +4,8 @@ var React = require('react'),
     Sidebar = require('../sidebar.jsx'),
     QuizContainer = require('../quiz/quiz_container.jsx'),
     Video = require('../video/video.jsx'),
-    AudioContainer = require('../audio/audio_container.jsx'),
+    Audio = require('../audio/audio.jsx'),
     Login = require('../login.jsx'),
-    LessonStore = require('../../stores/lesson.js'),
     CourseStore = require('../../stores/course.js'),
     bean = require('bean');
 
@@ -46,7 +45,7 @@ var Content = React.createClass({
                 component = <Video item={activeContent} />
                 break;
             case "audio":
-                component = <AudioContainer />
+                component = <Audio item={activeContent} />
                 break;
             default:
                 component = null;

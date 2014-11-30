@@ -1,5 +1,8 @@
 name: Lesson 1
 items:
+    - type: audio
+      id: 111.mp3
+
     - type: video
       id: beginner1_1.mp4
 
