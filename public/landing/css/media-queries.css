@@ -1,0 +1,287 @@
+/**
+ *
+ *
+ *
+ *
+/***************************************************************************/
+/****************************  $Media Queries  *****************************/
+/*
+ * The styles by default are for desktops devices with resolutions
+ * than 1200px of width or more.
+ */
+/**
+ *
+ *
+/*****************  $Medium devices (Desktops) <= 1200px  ******************/
+@media handheld, only screen and (max-width: 1200px) {
+  .bannercontainer p {
+    font-size: 45px;
+  }
+  .btn.btn-slider {
+    padding: 10px 30px;
+  }
+  .donation-item .content,
+  .donation-item .foot {
+    padding: 10px;
+  }
+  .donation-item span.time {
+    clear: both;
+    text-align: center;
+    width: 100%;
+  }
+  .donation-item span.people,
+  .donation-item span.views {
+    width: 49%;
+    text-align: center;
+    margin: 0 0 10px 0;
+  }
+  .events-item .yt-video {
+    height: 288px;
+  }
+  .flickr-feed li {
+    height: 60px;
+    width: 60px;
+  }
+  .gallery .gallery-item figcaption a {
+    padding: 70px 30px;
+  }
+  .navbar-nav>li>a {
+    margin: 55px 10px;
+  }
+  .news .yt-video {
+    height: 150px;
+  }
+  .social li a {
+    font-size: 0.95em;
+  }
+  .tabs-horizontal.nav-tabs>li a {
+    padding: 15px 20px;
+  }
+  .team .team-item {
+    padding: 10px;
+  }
+}
+/**
+ *
+ *
+/*******************  $Small devices (Tablets) <= 992px  *******************/
+@media handheld, only screen and (max-width: 992px) {
+  .bannercontainer p {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .bannercontainer .caption {
+    width: 700px !important;
+  }
+  .btn.btn-donation {
+    margin: 10px 15px;
+  }
+  .events-item .yt-video {
+    height: 221px;
+  }
+  .navbar .navbar-brand {
+    margin: 15px 0 !important;
+    width: 100px;
+  }
+  .navbar-nav {
+    text-align: center;
+    width: 550px;
+  }
+  .navbar-nav>li {
+    display: inline-block;
+    float: none;
+  }
+  .navbar-nav>li>a {
+    margin: 15px 10px;
+  }
+  .team .team-item {
+    padding: 30px;
+  }
+}
+/*
+ *
+ *
+/****************  $Extra Small devices (Phones) <= 768px  *****************/
+@media handheld, only screen and (max-width: 768px) {
+  .container>.navbar-collapse,
+  .container-fluid>.navbar-collapse {
+    background-color: #333;
+    padding: 0;
+  }
+  .navbar {
+    height: 90px;
+  }
+  .navbar-nav {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  .navbar-nav>li {
+    width: 100%;
+  }
+  .navbar-nav>li a {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+  }
+  .navbar-nav>li a:hover {
+    background-color: rgba(255,255,255,0.3);
+  }
+  .navbar-nav>li:last-child {
+    padding: 10px 20px;
+  }
+  .navbar-nav>li .btn.btn-donation {
+    margin: 0;
+  }
+  header {
+    min-height: 0;
+  }
+  header h1 {
+    font-size: 2em;
+    margin-top: 100px;
+  }
+  h2 {
+    font-size: 70px;
+  }
+  .tabs-horizontal.nav-tabs>li {
+    width: 100%;
+  }
+  .timeline:before {
+    display: none;
+  }
+  .timeline .columns>li,
+  .timeline .columns>li:nth-child(2n+1),
+  .timeline .columns>li:nth-child(2n+2) {
+    width: 100%;
+    float: none;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  .timeline .columns>li .timeline-item,
+  .timeline .columns>li:nth-child(2n+1) .timeline-item,
+  .timeline .columns>li:nth-child(2n+2) .timeline-item {
+    margin: 10px 0;
+    float: none;
+  }
+  .timeline .columns>li .timeline-item:after,
+  .timeline .columns>li:nth-child(2n+1) .timeline-item:after,
+  .timeline .columns>li:nth-child(2n+2) .timeline-item:after,
+  .timeline .columns>li .timeline-item:before,
+  .timeline .columns>li:nth-child(2n+1) .timeline-item:before,
+  .timeline .columns>li:nth-child(2n+2) .timeline-item:before {
+    display: none;
+  }
+  .news .news-item,
+  .news .news-item:nth-child(2n),
+  .news .news-item:nth-child(2n+3),
+  .events-item {
+    width: 100%;
+    float: none;
+  }
+  .bannercontainer p {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .bannercontainer .caption {
+    width: 100% !important;
+    margin-top: -20px;
+  }
+  .bannercontainer .btn.btn-slider {
+    margin: 10px 0 0 0;
+    padding: 6px 20px;
+  }
+  footer .address,
+  footer .copy {
+    float: none;
+    text-align: center;
+  }
+  .prev-next {
+    margin: 0 0 80px 0;
+  }
+}
+/*
+ *
+ *
+/****************  $Extra Small devices (Phones) <= 500px  *****************/
+@media handheld, only screen and (max-width: 510px) {
+  .navbar {
+    position: relative;
+    margin: 0;
+    background-color: #333;
+  }
+  .bannercontainer p {
+    margin-top: 0;
+  }
+  .bannercontainer .caption {
+    margin-top: -20px;
+  }
+  .bannercontainer .btn.btn-slider {
+    display: none;
+  }
+  .about-us {
+    padding-top: 0;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .about-us>div>p {
+    width: 95%;
+  }
+  .owl-theme .owl-controls .owl-page span {
+    width: 30px;
+  }
+  .partners {
+    padding-top: 0;
+  }
+  blockquote {
+    padding: 30px 30px 30px 30px;
+  }
+  blockquote i {
+    display: none;
+  }
+  .events-single .table td:nth-child(2n+1) {
+    padding: 0;
+  }
+  .social li a {
+    font-size: 0.8em;
+  }
+  .flickr-feed li {
+    height: 50px;
+    width: 50px;
+  }
+  .news.news-single .share a {
+    float: none;
+    display: inline-block;
+    margin: 5px 2px;
+    text-align: center;
+  }
+  .news.news-single .author {
+    padding: 20px;
+  }
+  .news.news-single .author figure {
+    position: static;
+    margin-bottom: 20px;
+  }
+  .comments .comment {
+    padding: 40px 0 40px 20px;
+  }
+  .comments .comment figure {
+    width: 50px;
+    position: static;
+    margin-bottom: 10px;
+  }
+  .comments .comment.reply {
+    margin-left: 30px;
+  }
+  .pagination li a {
+    padding: 9px 12px;
+  }
+  .btn.btn-make-donation {
+    font-size: 0.875em;
+  }
+}

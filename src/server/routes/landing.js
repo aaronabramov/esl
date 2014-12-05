@@ -1,8 +1,11 @@
 var ejs = require('ejs'),
     fs = require('fs'),
     path = require('path'),
-    file = fs.readFileSync(path.resolve(__dirname, '../views/landing.ejs')).toString(),
-    tmpl = ejs.compile(file);
+    templatePath = path.resolve(__dirname, '../views/landing/index.ejs'),
+    file = fs.readFileSync(templatePath).toString(),
+    tmpl = ejs.compile(file, {
+        filename: templatePath
+    });
 
 module.exports = function(req, res) {
     var data = {
