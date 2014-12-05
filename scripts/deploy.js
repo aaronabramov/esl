@@ -14,7 +14,7 @@ ssh.exec('mkdir -p ~/esl_deploy_tmp');
 ssh.exec('git clone git@github.com:dmitriiabramov/esl.git ~/esl_deploy_tmp');
 
 // install packages
-ssh.exec('cd ~/esl_deploy_tmp && npm install --production');
+ssh.exec('cd ~/esl_deploy_tmp && npm install');
 
 // if it exists and was deployed before then try to stop all forever daemons
 ssh.exec('cd ~/esl_deploy_tmp && [ -f ./node_modules/forever/bin/forever ] && ./node_modules/forever/bin/forever stopall');
