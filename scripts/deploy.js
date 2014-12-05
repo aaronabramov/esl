@@ -7,7 +7,10 @@ ssh.set('username', 'dmitriiabramov');
 ssh.set('host', 'turboenglish.net');
 // ssh.set('sshKey', '~/.ssh/dmitrii');
 
-// create dir if it does not exist yet
+// remove if exists
+ssh.exec('rm -rf ~/esl_deploy_tmp');
+
+// create dir
 ssh.exec('mkdir -p ~/esl_deploy_tmp');
 
 // clone master branch of the repo
