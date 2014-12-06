@@ -32,6 +32,19 @@
                     </li>
                     <li><a href="#news">News</a>
                     </li>
+                    <% if (data.loggedIn) { %>
+                      <li>
+                        <!-- <p>Welcome, <%= data.user.display_name %></p> -->
+                        <a href="/logout">Logout</a>
+                      </li>
+                      <li>
+                        <a href="/course">Go to the Course</a>
+                      </li>
+                    <% } else { %>
+                      <li>
+                        <a href="/login/facebook">Login</a>
+                      </li>
+                    <% }; %>
                     <li><a class="btn btn-donation" href="donations_single.html">Donation</a>
                     </li>
                 </ul>
