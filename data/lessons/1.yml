@@ -4,7 +4,7 @@ items:
       id: 111.mp3
 
     - type: video
-      id: beginner1_1.mp4
+      id: beginner/1_1.mp4
 
     - type: audio
       id: 03 Pista 03.mp3

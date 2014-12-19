@@ -1,6 +1,6 @@
 var AWS = require('aws-sdk'),
     config = require('config'),
-    BUCKET_NAME = 'esl-videos-alice';
+    BUCKET_NAME = 'turboenglish';
 
 AWS.config.accessKeyId = config.get('aws.access_key_id');
 AWS.config.secretAccessKey = config.get('aws.secret_access_key');

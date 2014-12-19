@@ -9,7 +9,7 @@ var Video = React.createClass({
         // if link is not there yet or the id is different from what was there before
         // then make another request and get the link.
         if (!this.state || this.state.id !== this.props.item.id) {
-            superagent.get('/s3/' + this.props.item.id).end(function(error, res) {
+            superagent.get('/s3/videos/' + this.props.item.id).end(function(error, res) {
                 if (error) {
                     throw error;
                 }

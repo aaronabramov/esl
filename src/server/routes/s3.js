@@ -2,8 +2,10 @@ var express = require('express'),
     router = express.Router(),
     S3Client = require('../s3_client.js');
 
-router.get('/:id', function(req, res, next) {
-    S3Client.getSignedUrl(req.params.id, function(err, link) {
+router.use('/*', function(req, res, next) {
+    var id = req.params[0];
+
+    S3Client.getSignedUrl(id, function(err, link) {
         if (err) {
             return next(err);
         };
