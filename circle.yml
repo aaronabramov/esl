@@ -11,4 +11,5 @@ test:
 deployment:
   production:
     branch: master
-    command: node ./scripts/deploy.js
+    commands:
+      - node ./scripts/deploy.js
