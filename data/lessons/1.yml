@@ -4,6 +4,7 @@ items:
       id: 111.mp3
 
     - type: video
+      title: MY first video! vaaa!
       id: beginner/1_1.mp4
 
     - type: audio

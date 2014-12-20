@@ -31,7 +31,7 @@ var LessonItem = React.createClass({
             case 'quiz':
                 return 'Quiz';
             case 'video':
-                return 'Video';
+                return this.props.item.title || 'Video';
             case 'audio':
                 return 'Audio';
             default:
