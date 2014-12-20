@@ -3,5 +3,13 @@ machine:
     version: 0.10.30
 
 test:
+  post:
+    - env
   override:
     - ./node_modules/grunt-cli/bin/grunt test
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - node ./scripts/deploy.js
