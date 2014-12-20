@@ -3,6 +3,6 @@ var React = require('react'),
 
 require('./actions/course.js').initialize();
 
-window.onload = function() {
+window.onload = () => {
     React.renderComponent(App(null), document.getElementById('container'));
 };

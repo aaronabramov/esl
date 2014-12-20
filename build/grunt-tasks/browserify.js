@@ -5,6 +5,7 @@ var browserify = require('browserify'),
     through = require('through'),
     react = require('react-tools'),
     _ = require('lodash'),
+    es6ify = require('es6ify'),
     SRC_ENTRY_FILE = path.resolve(process.cwd(), 'src/browser/application.js'),
     ASSETS_DIR = path.resolve(process.cwd(), 'public/js'),
     LIBS_FILE = path.resolve(ASSETS_DIR, 'their_stuff.js'),
@@ -60,6 +61,7 @@ function bundleSrc(grunt, done) {
         });
 
     transformJsx(b);
+    b.transform(es6ify);
 
     LIBS.forEach(function(pkgName) {
         b.external(pkgName);
