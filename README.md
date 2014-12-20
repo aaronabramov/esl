@@ -1,6 +1,8 @@
 interactive-esl-tests
 =====================
 
+[![Circle CI](https://circleci.com/gh/dmitriiabramov/esl.svg?style=svg)](https://circleci.com/gh/dmitriiabramov/esl)
+
 #### Initial Setup
 
 1. Set up Node (see below)
