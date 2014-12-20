@@ -28,7 +28,7 @@ var Video = React.createClass({
             ' <source src=' + this.state.link + ' type="video/mp4" /></video>';
         return (
             <div className="content pure-u-1 pure-u-md-3-4">
-                <h1>{this.props.item.title}</h1>
+                <h1>{this.props.item.title || this.props.item.id}</h1>
                 <div dangerouslySetInnerHTML={{__html: html}}></div>
             </div>
         );

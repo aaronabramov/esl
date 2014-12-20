@@ -1,7 +1,6 @@
 /** @jsx React.DOM */
 var React = require('react'),
     UserStore = require('../stores/user.js'),
-    UserActionCreator = require('../actions/user_action_creator.js'),
     bean = require('bean'),
     LOGOUT_URL = '/logout';
 
