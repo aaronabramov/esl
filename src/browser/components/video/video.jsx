@@ -5,7 +5,6 @@ var React = require('react');
 var Video = React.createClass({
     render: function() {
         var _this = this;
-        console.log(this.props.item)
 
         // if link is not there yet or the id is different from what was there before
         // then make another request and get the link.
