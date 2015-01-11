@@ -5,7 +5,7 @@ var SSH = require('ssh-kit'),
 // open stack host and username
 ssh.set('username', 'dmitriiabramov');
 ssh.set('host', 'turboenglish.net');
-// ssh.set('sshKey', '~/.ssh/dmitrii');
+ssh.set('sshKey', '~/.ssh/id_turboenglish.net');
 
 // remove if exists
 ssh.exec('rm -rf ~/esl_deploy_tmp');
