@@ -12,4 +12,8 @@ deployment:
   production:
     branch: master
     commands:
-      - node ./scripts/deploy.js
+      - ./node_modules/grunt-cli/bin/grunt browserify
+      - npm prune --production
+      - tar -cvf esl.tar.gz .
+      - scp esl.tar.gz dmitriiabramov@turboenglish.net:~
+      - node ./scripts/circle_deploy.js

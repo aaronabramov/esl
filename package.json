@@ -32,11 +32,11 @@
     "react": "^0.11.1",
     "sequelize": "^1.7.10",
     "static-favicon": "~1.0.0",
+    "forever": "^0.13.0",
     "superagent": "^0.18.2"
   },
   "devDependencies": {
     "browserify": "^5.11.0",
-    "forever": "^0.13.0",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-watch": "^0.6.1",
