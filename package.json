@@ -34,6 +34,7 @@
     "static-favicon": "~1.0.0",
     "forever": "^0.13.0",
     "sequelize-cli": "^0.2.5",
+    "ssh-kit": "0.0.3",
     "superagent": "^0.18.2"
   },
   "devDependencies": {
@@ -46,7 +47,6 @@
     "migrate": "^0.1.4",
     "mkdirp": "^0.5.0",
     "react-tools": "^0.11.1",
-    "ssh-kit": "0.0.3",
     "through": "^2.3.4"
   }
 }
