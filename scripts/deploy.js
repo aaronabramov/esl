@@ -1,7 +1,6 @@
 var SSH = require('ssh-kit'),
     ssh = new SSH();
 
-
 // open stack host and username
 ssh.set('username', 'dmitriiabramov');
 ssh.set('host', 'turboenglish.net');
