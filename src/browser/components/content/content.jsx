@@ -37,6 +37,8 @@ var Content = React.createClass({
         activeContent = this.state.activeContent,
         activeContentType = activeContent && activeContent.type;
 
+        console.log(activeContent);
+
         switch(activeContentType) {
             case "quiz":
                 component = <QuizContainer />

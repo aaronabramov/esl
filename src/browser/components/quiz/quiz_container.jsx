@@ -75,6 +75,8 @@ var QuizContainer = React.createClass({
     render: function() {
         var component;
 
+        console.log('quiz', this.state);
+
         if(!this.state.end) {
             component = <Quiz question={this.state.question} />;
         } else {

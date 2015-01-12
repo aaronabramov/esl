@@ -32,7 +32,9 @@ module.exports = function(lesson) {
      */
     items = items.map(function(item) {
         if (!!~TYPES_IN_YML.indexOf(item.get('type'))) {
-            return item.set(item.get('type'), data.getIn(item.get('id').split('/')));
+            return item
+                .set(item.get('type'), data.getIn(item.get('id').split('/')))
+                .set('uniqId', generateUniqId());
         }
         return item.set('uniqId', generateUniqId());
     });

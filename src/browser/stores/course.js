@@ -16,6 +16,7 @@ module.exports = {
                     _this._data = payload.action.data;
                     break;
                 case LessonConstants.SET_ACTIVE_CONTENT:
+                    console.log('store', payload.action);
                     _this.activeContent = payload.action.item.uniqId;
                     break;
                 default:
