@@ -3,14 +3,16 @@
 var React = require('react');
 
 var Audio = React.createClass({
+    componentDidUpdate: function() {
+        audiojs.createAll();
+    },
     render: function() {
-        console.log(this.state);
         var _this = this;
 
         // if link is not there yet or the id is different from what was there before
         // then make another request and get the link.
         if (!this.state || this.state.id !== this.props.item.id) {
-            superagent.get('/s3/' + this.props.item.id).end(function(error, res) {
+            superagent.get('/s3/audios/' + this.props.item.id).end(function(error, res) {
                 if (error) {
                     throw error;
                 }
