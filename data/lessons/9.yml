@@ -1,7 +1,7 @@
 name: Lesson 9
 items:
     - type: video
-      id: beginner9_1.mp4
+      id: beginner/9_1.mp4
 
     - type: audio
       id: cd2_32_pista_32.mp3
@@ -10,7 +10,7 @@ items:
       id: cd2_33_pista_33.mp3
 
     - type: video
-      id: beginner9_2.mp4
+      id: beginner/9_2.mp4
 
     - type: audio
       id: cd2_33_pista_33.mp3
@@ -22,7 +22,7 @@ items:
       id: quizzes/beg9_v2
 
     - type: video
-      id: beginner9_3.mp4
+      id: beginner/9_3.mp4
 
     - type: audio
       id: cd2_35_pista_35.mp3
@@ -31,7 +31,7 @@ items:
       id: cd2_36_pista_36.mp3
 
     - type: video
-      id: beginner9_4.mp4
+      id: beginner/9_4.mp4
 
     - type: audio
       id: cd2_41_pista_41.mp3
@@ -40,7 +40,7 @@ items:
       id: quizzes/beg9_v3
 
     - type: video
-      id: beginner9_5.mp4
+      id: beginner/9_5.mp4
 
     - type: quizz
       id: quizzes/beg8_g1

@@ -1,7 +1,7 @@
 name: Lesson 4
 items:
     - type: video
-      id: beginner4_1.mp4
+      id: beginner/4_1.mp4
 
     - type: audio
       id: 39 Pista 39.mp3
@@ -13,13 +13,13 @@ items:
       id: 42 Pista 42.mp3
 
     - type: video
-      id: beginner4_2.mp4
+      id: beginner/4_2.mp4
 
     - type: quiz
       id: quizzes/beg4_l4
 
     - type: video
-      id: beginner4_3.mp4
+      id: beginner/4_3.mp4
 
     - type: audio
       id: 48 Pista 48.mp3
@@ -31,7 +31,7 @@ items:
       id: quizzes/beg4_v2
 
     - type: video
-      id: beginner4_4.mp4
+      id: beginner/4_4.mp4
 
     - type: audio
       id: 53 Pista 53.mp3
@@ -43,13 +43,13 @@ items:
       id: quizzes/beg4_v4
 
     - type: video
-      id: beginner4_5.mp4
+      id: beginner/4_5.mp4
 
     - type: quiz
       id: quizzes/beg4_g1
 
     - type: video
-      id: beginner4_6.mp4
+      id: beginner/4_6.mp4
 
     - type: audio
       id: 57 Pista 57.mp3

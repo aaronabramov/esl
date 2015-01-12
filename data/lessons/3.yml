@@ -1,10 +1,10 @@
 name: Lesson 3
 items:
     - type: video
-      id: beginner3_1.mp4
+      id: beginner/3_1.mp4
 
     - type: video
-      id: beginner3_2
+      id: beginner/3_2
 
     - type: audio
       id: 25 Pista 25.mp3
@@ -19,19 +19,19 @@ items:
       id: 27 Pista 27.mp3
 
     - type: video
-      id: beginner3_3.mp4
+      id: beginner/3_3.mp4
 
     - type: audio
       id: 28 Pista 28.mp3
 
     - type: video
-      id: beginner3_4.mp4
+      id: beginner/3_4.mp4
 
     - type: quiz
       id: quizzes/beg3_g2
 
     - type: video
-      id: beginner3_5.mp4
+      id: beginner/3_5.mp4
 
     - type: audio
       id: 32 Pista 32.mp3
@@ -40,7 +40,7 @@ items:
       id: 33 Pista 33.mp3
 
     - type: video
-      id: beginner3_6.mp4
+      id: beginner/3_6.mp4
 
     - type: audio
       id: 35 Pista 35.mp3

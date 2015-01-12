@@ -8,10 +8,10 @@ items:
       id: cd2_15_pista_15.mp3
 
     - type: video
-      id: beginner8_1.mp4
+      id: beginner/8_1.mp4
 
     - type: video
-      id: beginner8_2.mp4
+      id: beginner/8_2.mp4
 
     - type: quiz
       id: quizzes/beg8_g1
@@ -20,7 +20,7 @@ items:
       id: cd2_18_pista_18.mp3
 
     - type: video
-      id: beginner8_3.mp4
+      id: beginner/8_3.mp4
 
     - type: audio
       id: cd2_19_pista_19.mp3
@@ -44,13 +44,13 @@ items:
       id: cd2_24_pista_24.mp3
 
     - type: video
-      id: beginner8_4.mp4
+      id: beginner/8_4.mp4
 
     - type: audio
       id: cd2_25_pista_25.mp3
 
     - type: video
-      id: beginner8_5.mp4
+      id: beginner/8_5.mp4
 
     - type: quiz
       id: quizzes/beg 8_l2

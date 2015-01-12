@@ -4,19 +4,19 @@ items:
       id: quizzes/beg5_l1
 
     - type: video
-      id: beginner5_1.mp4
+      id: beginner/5_1.mp4
 
     - type: audio
       id: 60 Pista 60.mp3
 
     - type: video
-      id: beginner5_2.mp4
+      id: beginner/5_2.mp4
 
     - type: quiz
       id: beg5_g1
 
     - type: video
-      id: beginner5_3.mp4
+      id: beginner/5_3.mp4
 
     - type: audio
       id: 62 Pista 62.mp3
@@ -37,7 +37,7 @@ items:
       id: quizzes/beg5_v3
 
     - type: video
-      id: beginner5_4.mp4
+      id: beginner/5_4.mp4
 
     - type: audio
       id: 65 Pista 65.mp3
@@ -46,7 +46,7 @@ items:
       id: 66 Pista 66.mp3
 
     - type: video
-      id: beginner5_5.mp4
+      id: beginner/5_5.mp4
 
     - type: quiz
       id: quizzes/beg5_g2
