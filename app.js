@@ -11,6 +11,7 @@ var SERVER_SRC_DIR = './src/server',
     registerSession = require(SERVER_SRC_DIR + '/middleware/session'),
     Strategies = require(SERVER_SRC_DIR + '/middleware/strategies'),
     Errors = require(SERVER_SRC_DIR + '/middleware/errors'),
+    authorize = require('./src/server/middleware/authorize.js'),
     pg = require('pg'),
     app = express(),
     config = require('./config/config.json')[app.get('env')];
@@ -67,7 +68,7 @@ app.get('/logout', Routes.Logout);
 
 app.use('/s3', Routes.S3);
 app.use('/views', Routes.View);
-app.get('/course', require('./src/server/routes/course'));
+app.get('/course', authorize, require('./src/server/routes/course'));
 app.get('/', require('./src/server/routes/landing'));
 
 app.use('/api', require('./src/server/api'));
