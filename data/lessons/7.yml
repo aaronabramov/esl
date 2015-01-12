@@ -7,7 +7,7 @@ items:
       id: beginner/7_1.mp4
 
     - type: audio
-      id: cd1_91_pista_91.mp3
+      id: beginner/aef_1/91.mp3
 
     - type: video
       id: beginner/7_2.mp4
@@ -19,10 +19,10 @@ items:
       id: beginner/7_3.mp4
 
     - type: audio
-      id: cd2_03_pista_03.mp3
+      id: beginner/aef_2/03.mp3
 
     - type: audio
-      id: cd2_04_pista_04.mp3
+      id: beginner/aef_2/04.mp3
 
     - type: quiz
       id: quizzes/beg7_v1
@@ -37,13 +37,13 @@ items:
       id: beginner/7_4.mp4
 
     - type: audio
-      id: cd2_06_pista_06.mp3
+      id: beginner/aef_2/06.mp3
 
     - type: video
       id: beginner/7_5.mp4
 
     - type: audio
-      id: cd2_08_pista_08.mp3
+      id: beginner/aef_2/08.mp3
 
     - type: quiz
       id: quizzes/beg7_v3
@@ -55,7 +55,7 @@ items:
       id: beginner/7_6.mp4
 
     - type: audio
-      id: cd2_12_pista_12.mp3
+      id: beginner/aef_2/12.mp3
 
     - type: audio
-      id: cd2_13_pista_13.mp3
+      id: beginner/aef_2/13.mp3

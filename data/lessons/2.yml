@@ -7,16 +7,16 @@ items:
       id: beginner/2_1.mp4
 
     - type: audio
-      id: 14 Pista 14.mp3
+      id: beginner/aef_1/14.mp3
 
     - type: audio
-      id: 15 Pista 15.mp3
+      id: beginner/aef_1/15.mp3
 
     - type: quiz
       id: quizzes/beg2_l1
 
     - type: audio
-      id: 17 Pista 17.mp3
+      id: beginner/aef_1/17.mp3
 
     - type: video
       id: beginner/2_3.mp4
@@ -31,10 +31,10 @@ items:
       id: beginner/2_5
 
     - type: audio
-      id: 21 Pista 21.mp3
+      id: beginner/aef_1/21.mp3
 
     - type: audio
-      id: 22 Pista 22.mp3
+      id: beginner/aef_1/22.mp3
 
     - type: quiz
       id: beg2_l2

@@ -7,22 +7,22 @@ items:
       id: beginner/3_2
 
     - type: audio
-      id: 25 Pista 25.mp3
+      id: beginner/aef_1/25.mp3
 
     - type: audio
-      id: 26 Pista 26.mp3
+      id: beginner/aef_1/26.mp3
 
     - type: quiz
       id: quizzes/beg3_l3
 
     - type: audio
-      id: 27 Pista 27.mp3
+      id: beginner/aef_1/27.mp3
 
     - type: video
       id: beginner/3_3.mp4
 
     - type: audio
-      id: 28 Pista 28.mp3
+      id: beginner/aef_1/28.mp3
 
     - type: video
       id: beginner/3_4.mp4
@@ -34,13 +34,13 @@ items:
       id: beginner/3_5.mp4
 
     - type: audio
-      id: 32 Pista 32.mp3
+      id: beginner/aef_1/32.mp3
 
     - type: audio
-      id: 33 Pista 33.mp3
+      id: beginner/aef_1/33.mp3
 
     - type: video
       id: beginner/3_6.mp4
 
     - type: audio
-      id: 35 Pista 35.mp3
+      id: beginner/aef_1/35.mp3

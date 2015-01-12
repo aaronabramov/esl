@@ -4,43 +4,43 @@ items:
       id: beginner/9_1.mp4
 
     - type: audio
-      id: cd2_32_pista_32.mp3
+      id: beginner/aef_2/32.mp3
 
     - type: audio
-      id: cd2_33_pista_33.mp3
+      id: beginner/aef_2/33.mp3
 
     - type: video
       id: beginner/9_2.mp4
 
     - type: audio
-      id: cd2_33_pista_33.mp3
+      id: beginner/aef_2/33.mp3
 
     - type: quiz
       id: quizzes/beg9_v1
 
-    - type: quizz
+    - type: quiz
       id: quizzes/beg9_v2
 
     - type: video
       id: beginner/9_3.mp4
 
     - type: audio
-      id: cd2_35_pista_35.mp3
+      id: beginner/aef_2/35.mp3
 
     - type: audio
-      id: cd2_36_pista_36.mp3
+      id: beginner/aef_2/36.mp3
 
     - type: video
       id: beginner/9_4.mp4
 
     - type: audio
-      id: cd2_41_pista_41.mp3
+      id: beginner/aef_2/41.mp3
 
-    - type: quizz
+    - type: quiz
       id: quizzes/beg9_v3
 
     - type: video
       id: beginner/9_5.mp4
 
-    - type: quizz
+    - type: quiz
       id: quizzes/beg8_g1

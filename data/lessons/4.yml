@@ -4,13 +4,13 @@ items:
       id: beginner/4_1.mp4
 
     - type: audio
-      id: 39 Pista 39.mp3
+      id: beginner/aef_1/39.mp3
 
     - type: quiz
       id: quizzes/beg4_l1
 
     - type: audio
-      id: 42 Pista 42.mp3
+      id: beginner/aef_1/42.mp3
 
     - type: video
       id: beginner/4_2.mp4
@@ -22,7 +22,7 @@ items:
       id: beginner/4_3.mp4
 
     - type: audio
-      id: 48 Pista 48.mp3
+      id: beginner/aef_1/48.mp3
 
     - type: quiz
       id: quizzes/beg4_v1
@@ -34,7 +34,7 @@ items:
       id: beginner/4_4.mp4
 
     - type: audio
-      id: 53 Pista 53.mp3
+      id: beginner/aef_1/53.mp3
 
     - type: quiz
       id: quizzes/beg4_v3
@@ -52,7 +52,7 @@ items:
       id: beginner/4_6.mp4
 
     - type: audio
-      id: 57 Pista 57.mp3
+      id: beginner/aef_1/57.mp3
 
     - type: audio
-      id: 58 Pista 58.mp3
+      id: beginner/aef_1/58.mp3
