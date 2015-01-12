@@ -11,7 +11,8 @@ ENABLED_USERS_DEV = [
         '10204961219574652', // Dmitrii Abramov
     ],
     ENABLED_USERS = ENABLED_USERS_DEV.concat([
-        '10205312732642259' // Dmitrii Abramov
+        '10205312732642259', // Dmitrii Abramov
+        '722025461216302' // Alice
     ]);
 
 module.exports = function(req, res, next) {
