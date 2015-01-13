@@ -6,6 +6,11 @@ items:
 
     - type: audio
       id: beginner/aef_1/03.mp3
+      text: |
+          my test text alalalal
+          alalalal alalalala lalala
+          ololollolol loolollololoo
+          ktotkotkotkotkotkotktoktokt
 
     - type: video
       id: beginner/1_2.mp4

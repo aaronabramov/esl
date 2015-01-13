@@ -28,10 +28,13 @@ var Audio = React.createClass({
 
         var html = '<audio src=' + this.state.link + ' preload="auto" />';
 
+        console.log(this.props.item);
+
         return (
             <div className="content pure-u-1 pure-u-md-3-4">
                 <h1>{this.props.item.id}</h1>
                 <div dangerouslySetInnerHTML={{__html: html}}></div>
+                <pre>{this.props.item.text}</pre>
             </div>
         );
     }
