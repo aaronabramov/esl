@@ -18,10 +18,8 @@ module.exports = {
 
     saveResults: function(numCorrect, numTotal, id) {
         QuizService.saveResults(numCorrect, numTotal, id).then(function(data) {
-            console.log('results saved!');
-            console.log(data);
         }, function(error) {
-            console.log('error: results not saved');
+            console.error('error: results not saved');
         });
     }
 

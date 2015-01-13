@@ -40,6 +40,10 @@ var QuizStore = {
             var action = payload.action;
 
             switch (action.actionType) {
+                case LessonConstants.SET_ACTIVE_CONTENT:
+                    _this.questions = payload.action.item.quiz.questions;
+                    console.log('QUIZ STORE', _this.questions);
+                    break;
                 case LessonConstants.INITIALIZE:
                     var item, questions;
 
