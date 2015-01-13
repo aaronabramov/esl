@@ -16,8 +16,7 @@ module.exports = React.createClass({
         // clear the focus immediately after receiving a click.
         // otherwise, the answer the user clicked on stays
         // in a different color for the next question.
-        this.refs.answerButton.getDOMNode().blur();
-        console.log(this.refs.answerButton.getDOMNode());
+        // this.refs.answerButton.getDOMNode().blur();
 
         QuizActionCreator.submitAnswer(this.props.answer);
     },

@@ -41,6 +41,8 @@ var QuizStore = {
             switch (action.actionType) {
                 case LessonConstants.SET_ACTIVE_CONTENT:
                     _this.questions = payload.action.item.quiz.questions;
+                    _this.id = payload.action.item.id;
+                    bean.fire(_this, 'reset');
                     break;
 
                 case QuizConstants.SUBMIT_ANSWER:
