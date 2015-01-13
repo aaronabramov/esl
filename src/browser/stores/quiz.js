@@ -21,8 +21,7 @@ var QuizStore = {
 
     _saveAnswer: function(submittedAnswer) {
         var question = this.questions[this.index],
-            correctAnswer = question.answers[question.correctAnswer];
-
+            correctAnswer = question.answers[question.correct - 1];
         question.state = (submittedAnswer === correctAnswer) ? QuestionState.CORRECT : QuestionState.INCORRECT;
     },
 
@@ -42,27 +41,6 @@ var QuizStore = {
             switch (action.actionType) {
                 case LessonConstants.SET_ACTIVE_CONTENT:
                     _this.questions = payload.action.item.quiz.questions;
-                    console.log('QUIZ STORE', _this.questions);
-                    break;
-                case LessonConstants.INITIALIZE:
-                    var item, questions;
-
-                    item = _.find(action.lesson.items, function(item) {
-                        return item.type === 'quiz';
-                    });
-                    questions = item.quiz.questions;
-
-                    _this.id = item.id;
-
-                    _this.questions = questions.map(function(question) {
-                        return {
-                            answers: question.answers,
-                            correctAnswer: question.correct - 1,
-                            question: question.question,
-                            topic: question.topic,
-                            state: QuestionState.NOT_ANSWERED
-                        };
-                    });
                     break;
 
                 case QuizConstants.SUBMIT_ANSWER:

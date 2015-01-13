@@ -17,6 +17,7 @@ module.exports = React.createClass({
         // otherwise, the answer the user clicked on stays
         // in a different color for the next question.
         this.refs.answerButton.getDOMNode().blur();
+        console.log(this.refs.answerButton.getDOMNode());
 
         QuizActionCreator.submitAnswer(this.props.answer);
     },
