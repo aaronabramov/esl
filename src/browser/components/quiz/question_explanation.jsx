@@ -15,7 +15,7 @@ module.exports = React.createClass({
         return (
             <div className="question-footer">
                 <div className="question-next">
-                    <div className="question-explanation">You need to use the interrogative form.</div>
+                    <div className="question-explanation"></div>
 
                     <button onClick={this.handleClick} className="question-next-button">
                         <span className="glyphicon glyphicon-chevron-right"></span>
