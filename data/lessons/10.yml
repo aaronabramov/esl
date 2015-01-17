@@ -4,28 +4,28 @@ items:
       id: beginner/10_1.mp4
 
     - type: quiz
-      id: quizzes/beg10_g1.yml
+      id: quizzes/beg10_g1
 
     - type: video
       id: beginner/10_2.mp4
 
     - type: audio
-      id: cd2_47_pista_47.mp3
+      id: beginner/aef_2/47.mp3
 
     - type: quiz
-      id: quizzes/beg10_v1.yml
+      id: quizzes/beg10_v1
 
     - type: video
       id: beginner/10_3.mp4
 
     - type: audio
-      id: cd2_48_pista_48.mp3
+      id: beginner/aef_2/48.mp3
 
     - type: audio
-      id: cd2_49_pista_49.mp3
+      id: beginner/aef_2/49.mp3
 
     - type: audio
-      id: cd2_50_pista_50.mp3
+      id: beginner/aef_2/50.mp3
 
     - type: video
       id: beginner/10_4.mp4
@@ -34,19 +34,19 @@ items:
       id: beginner/10_5.mp4
 
     - type: quiz
-      id: quizzes/beg10_g2.yml
+      id: quizzes/beg10_g2
 
     - type: video
       id: beginner/10_6.mp4
 
     - type: audio
-      id: cd2_52_pista_52.mp3
+      id: beginner/aef_2/52.mp3
 
     - type: video
       id: beginner/10_7.mp4
 
     - type: audio
-      id: cd2_55_pista_55.mp3
+      id: beginner/aef_2/55.mp3
 
     - type: quiz
-      id: quizzes/beg10_v2.yml
+      id: quizzes/beg10_v2

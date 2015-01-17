@@ -4,34 +4,34 @@ items:
       id: beginner/15_1.mp4
 
     - type: audio
-      id: cd3_24_pista_24.mp3
+      id: beginner/aef_3/24.mp3
 
     - type: quiz
-      id: quizzes/beg15_v1.yml
+      id: quizzes/beg15_v1
 
     - type: video
       id: beginner/15_2.mp4
 
     - type: audio
-      id: cd3_28_pista_28.mp3
+      id: beginner/aef_3/28.mp3
 
     - type: video
       id: beginner/15_3.mp4
 
     - type: audio
-      id: cd3_30_pista_30.mp3
+      id: beginner/aef_3/30.mp3
 
     - type: quiz
-      id: quizzes/beg15_v2.yml
+      id: quizzes/beg15_v2
 
     - type: video
       id: beginner/15_4.mp4
 
     - type: quiz
-      id: quizzes/beg15_v3.yml
+      id: quizzes/beg15_v3
 
     - type: video
       id: beginner/15_5.mp4
 
     - type: quiz
-      id: quizzes/beg15_g1.yml
+      id: quizzes/beg15_g1

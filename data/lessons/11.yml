@@ -4,49 +4,49 @@ items:
       id: beginner/11_1.mp4
 
     - type: audio
-      id: cd2_57_pista_57.mp3
+      id: beginner/aef_2/57.mp3
 
     - type: quiz
-      id: quizzes/beg11_l2.yml
+      id: quizzes/beg11_l2
 
     - type: video
       id: beginner/11_2.mp4
 
     - type: audio
-      id: cd2_59_pista_59.mp3
+      id: beginner/aef_2/59.mp3
 
     - type: audio
-      id: cd2_60_pista_60.mp3
+      id: beginner/aef_2/60.mp3
 
     - type: audio
-      id: cd2_61_pista_61.mp3
+      id: beginner/aef_2/61.mp3
 
     - type: quiz
-      id: quizzes/beg11_l5.yml
+      id: quizzes/beg11_l5
 
     - type: quiz
-      id: quizzes/beg11_l3.yml
+      id: quizzes/beg11_l3
 
     - type: video
       id: beginner/11_3.mp4
 
     - type: quiz
-      id: quizzes/beg11_g1.yml
+      id: quizzes/beg11_g1
 
     - type: video
       id: beginner/11_4.mp4
 
     - type: audio
-      id: cd2_72_pista_72.mp3
+      id: beginner/aef_2/72.mp3
 
     - type: audio
-      id: cd2_73_pista_73.mp3
+      id: beginner/aef_2/73.mp3
 
     - type: quiz
-      id: quizzes/beg11_v1.yml
+      id: quizzes/beg11_v1
 
     - type: video
       id: beginner/11_5.mp4
 
     - type: quiz
-      id: quizzes/beg11_v2.yml
+      id: quizzes/beg11_v2

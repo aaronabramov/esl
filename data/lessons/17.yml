@@ -4,31 +4,31 @@ items:
       id: beginner/17_1.mp4
 
     - type: quiz
-      id: quizzes/beg17_l1.yml
+      id: quizzes/beg17_l1
 
     - type: video
       id: beginner/17_2.mp4
 
     - type: quiz
-      id: quizzes/beg17_g1.yml
+      id: quizzes/beg17_g1
 
     - type: video
       id: beginner/17_3.mp4
 
     - type: audio
-      id: cd3_59_pista_59.mp3
+      id: beginner/aef_3/59.mp3
 
     - type: quiz
-      id: quizzes/beg17_v1.yml
+      id: quizzes/beg17_v1
 
     - type: video
       id: beginner/17_4.mp4
 
     - type: quiz
-      id: quizzes/beg17_l2.yml
+      id: quizzes/beg17_l2
 
     - type: quiz
-      id: quizzes/beg17_l3.yml
+      id: quizzes/beg17_l3
 
     - type: quiz
-      id: quizzes/beg17_l4.yml
+      id: quizzes/beg17_l4

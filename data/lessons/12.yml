@@ -1,7 +1,7 @@
 name: Lesson 12
 items:
     - type: audio
-      id: cd2_76_pista_76.mp3
+      id: beginner/aef_2/76.mp3
 
     - type: video
       id: beginner/12_1.mp4
@@ -10,25 +10,25 @@ items:
       id: beginner/12_2.mp4
 
     - type: quiz
-      id: quizzes/beg12_g1.yml
+      id: quizzes/beg12_g1
 
     - type: video
       id: beginner/12_3.mp4
 
     - type: quiz
-      id: quizzes/beg12_g2.yml
+      id: quizzes/beg12_g2
 
     - type: video
       id: beginner/12_4.mp4
 
     - type: audio
-      id: cd3_04_pista_04.mp3
+      id: beginner/aef_3/04.mp3
 
     - type: video
       id: beginner/12_5.mp4
 
     - type: audio
-      id: cd3_06_pista_06.mp3
+      id: beginner/aef_3/06.mp3
 
     - type: quiz
-      id: quizzes/beg12_v1.yml
+      id: quizzes/beg12_v1
