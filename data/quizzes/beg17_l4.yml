@@ -1,0 +1,30 @@
+name: 'Listening Quiz'
+questions:
+  -
+    question: "A: Is there a coffee shop near here?\nB: Yes. Turn $, it’s $, $."
+    answers:
+      - 'right; on the right; next to the hotel'
+      - 'left; on the left; across the hotel'
+      - 'right; on the left; next to the hotel'
+    correct: 1
+  -
+    question: "A: Is there a bank near here?\nB: Yes, there’s one on West 61st Street, $."
+    answers:
+      - 'across the restaurant'
+      - 'next to the restaurant'
+      - 'near to the restaurant'
+    correct: 2
+  -
+    question: "A: Is there a pharmacy near here?\nB: Yes, there’s one on London Road,$."
+    answers:
+      - 'next to the bookstore'
+      - 'next to the coffee shop'
+      - 'next to the gift shop'
+    correct: 2
+  -
+    question: "A: Is there a bookstore near here?\nB: Yeah, it’s $."
+    answers:
+      - 'across the bank'
+      - 'next to the coffee shop'
+      - 'next to the bank'
+    correct: 3

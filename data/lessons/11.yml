@@ -1,0 +1,52 @@
+name: Lesson 11
+items:
+    - type: video
+      id: beginner/11_1.mp4
+
+    - type: audio
+      id: beginner/aef_2/57.mp3
+
+    - type: quiz
+      id: quizzes/beg11_l2
+
+    - type: video
+      id: beginner/11_2.mp4
+
+    - type: audio
+      id: beginner/aef_2/59.mp3
+
+    - type: audio
+      id: beginner/aef_2/60.mp3
+
+    - type: audio
+      id: beginner/aef_2/61.mp3
+
+    - type: quiz
+      id: quizzes/beg11_l5
+
+    - type: quiz
+      id: quizzes/beg11_l3
+
+    - type: video
+      id: beginner/11_3.mp4
+
+    - type: quiz
+      id: quizzes/beg11_g1
+
+    - type: video
+      id: beginner/11_4.mp4
+
+    - type: audio
+      id: beginner/aef_2/72.mp3
+
+    - type: audio
+      id: beginner/aef_2/73.mp3
+
+    - type: quiz
+      id: quizzes/beg11_v1
+
+    - type: video
+      id: beginner/11_5.mp4
+
+    - type: quiz
+      id: quizzes/beg11_v2

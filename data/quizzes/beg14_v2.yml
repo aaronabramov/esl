@@ -1,0 +1,72 @@
+name: 'Hotels (Translation - Word)'
+questions:
+  -
+    question: 'ванная комната'
+    answers:
+      - 'a bathtub'
+      - 'a bedroom'
+      - 'a bathroom'
+    correct: 3
+  -
+    question: ванна
+    answers:
+      - 'a bathtub'
+      - 'a bedroom'
+      - 'a bathroom'
+    correct: 1
+  -
+    question: душ
+    answers:
+      - 'a bathtub'
+      - 'a bathroom'
+      - 'a shower'
+    correct: 3
+  -
+    question: полотенце
+    answers:
+      - 'a floor'
+      - 'a towel'
+      - 'a pillow'
+    correct: 2
+  -
+    question: кровать
+    answers:
+      - 'a bath'
+      - 'a bed'
+      - 'a bedroom'
+    correct: 2
+  -
+    question: этаж
+    answers:
+      - 'a pillow'
+      - 'a towel'
+      - 'a floor'
+    correct: 3
+  -
+    question: подушка
+    answers:
+      - 'a pillow'
+      - 'a towel'
+      - 'a floor'
+    correct: 1
+  -
+    question: лампа
+    answers:
+      - 'a bulb'
+      - 'a lampas'
+      - 'a lamp'
+    correct: 2
+  -
+    question: 'пульт дистанционного управления'
+    answers:
+      - 'a control'
+      - 'a distant control'
+      - 'a remote control'
+    correct: 3
+  -
+    question: шкафчик
+    answers:
+      - 'a shelf'
+      - 'a storage'
+      - 'a cabinet'
+    correct: 3

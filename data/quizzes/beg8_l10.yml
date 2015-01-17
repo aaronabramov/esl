@@ -3,9 +3,9 @@ questions:
   -
     question: 'I start work at $, I finish work at $.'
     answers:
-      - '9 o''clock; 5 o''clock'
-      - '9 o''clock; 4 o''clock'
-      - '4 o''clock; 9 o''clock'
+      - '9 o''clock; 5 o''''''''clock'
+      - '9 o''clock; 4 o''''''''clock'
+      - '4 o''clock; 9 o''''''''clock'
     correct: 2
   -
     question: 'I work $.'

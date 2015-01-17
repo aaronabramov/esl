@@ -1,0 +1,49 @@
+name: Lesson 16
+items:
+    - type: quiz
+      id: quizzes/beg16_l1
+
+    - type: video
+      id: beginner/16_1.mp4
+
+    - type: audio
+      id: beginner/aef_3/46.mp3
+
+    - type: video
+      id: beginner/16_2.mp4
+
+    - type: video
+      id: beginner/16_3.mp4
+
+    - type: quiz
+      id: quizzes/beg16_g1
+
+    - type: video
+      id: beginner/16_4.mp4
+
+    - type: video
+      id: beginner/16_5.mp4
+
+    - type: quiz
+      id: quizzes/beg16_v1
+
+    - type: quiz
+      id: quizzes/beg16_l2
+
+    - type: video
+      id: beginner/16_6.mp4
+
+    - type: audio
+      id: beginner/aef_3/51.mp3
+
+    - type: video
+      id: beginner/16_7.mp4
+
+    - type: quiz
+      id: quizzes/beg16_g2
+
+    - type: video
+      id: beginner/16_8.mp4
+
+    - type: quiz
+      id: quizzes/beg16_l3

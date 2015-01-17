@@ -1,0 +1,23 @@
+name: 'Listening Quiz'
+questions:
+  -
+    question: "A: Is it a man or a $?\nB: It’s a $. Look at her hair. What’s she doing?"
+    answers:
+      - 'woman; man'
+      - 'woman; woman'
+      - 'women; woman'
+    correct: 2
+  -
+    question: "A: Is she playing $?\nB: No, she isn’t. She’s using $."
+    answer:
+      - 'computer games; the Internet'
+      - 'the piano; the Internet'
+      - 'the piano; computer'
+    correct: 3
+  -
+    question: 'A: No, they aren’t eating pasta. They’re eating $.'
+    answer:
+      - 'Japanese food'
+      - 'French food'
+      - 'Chinese food'
+    correct: 3

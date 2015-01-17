@@ -1,0 +1,72 @@
+name: 'More Irregular Verbs'
+questions:
+  -
+    question: 'I $ with my manager about my job yesterday.'
+    answers:
+      - speak
+      - spoke
+      - spoken
+    correct: 2
+  -
+    question: 'My Mom $ dinner last night. It was so good!'
+    answers:
+      - maked
+      - maded
+      - made
+    correct: 3
+  -
+    question: 'He can''t go to school because he $ his leg last week.'
+    answers:
+      - broke
+      - break
+      - broken
+    correct: 1
+  -
+    question: 'We just $ from vacation and we don''t want to work!'
+    answers:
+      - 'come backed'
+      - 'comed back'
+      - 'came back'
+    correct: 1
+  -
+    question: 'Bob $ he was hungry, so I made him a sandwich.'
+    answers:
+      - sayd
+      - said
+      - sayed
+    correct: 2
+  -
+    question: 'They $ a new car last month. It''s very beautiful.'
+    answers:
+      - buyed
+      - bought
+      - bout
+    correct: 2
+  -
+    question: 'I $ a job! Now I''m a doctor.'
+    answers:
+      - finded
+      - founded
+      - found
+    correct: 3
+  -
+    question: 'We $ your friend Zack in the shopping mall yesterday.'
+    answers:
+      - meet
+      - met
+      - meted
+    correct: 2
+  -
+    question: 'I $ find my keys yesterday. Did you see them?'
+    answers:
+      - could
+      - 'couldn''t'
+      - 'can''t'
+    correct: 2
+  -
+    question: 'We $ a new ''Walking Dead'''' episode two days ago. So scary!'
+    answers:
+      - saw
+      - see
+      - seen
+    correct: 1

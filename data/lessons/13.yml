@@ -1,0 +1,43 @@
+name: Lesson 13
+items:
+    - type: video
+      id: beginner/13_1.mp4
+
+    - type: quiz
+      id: quizzes/beg13_v1
+
+    - type: video
+      id: beginner/13_2.mp4
+
+    - type: audio
+      id: beginner/aef_3/11.mp3
+
+    - type: quiz
+      id: quizzes/beg13_voc2
+
+    - type: video
+      id: beginner/13_3.mp4
+
+    - type: audio
+      id: beginner/aef_3/08.mp3
+
+    - type: video
+      id: beginner/13_4.mp4
+
+    - type: audio
+      id: beginner/aef_3/09.mp3
+
+    - type: audio
+      id: beginner/aef_3/10.mp3
+
+    - type: audio
+      id: beginner/aef_3/12.mp3
+
+    - type: video
+      id: beginner/13_5.mp4
+
+    - type: audio
+      id: beginner/aef_3/13.mp3
+
+    - type: quiz
+      id: quizzes/beg13_l7

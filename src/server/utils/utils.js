@@ -6,7 +6,7 @@ module.exports = {
      * @param {Array,String} ks keys sequence array or
      * string separated by '/'
      *
-     * assocIn({}, 'a.b.c', 5) // => {a: {b: {c: 5}}}
+     * assocIn({}, 'a/b/c', 5) // => {a: {b: {c: 5}}}
      */
     assocIn: function(obj, ks, v) {
         if (typeof ks === 'string') {

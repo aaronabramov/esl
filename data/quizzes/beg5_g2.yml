@@ -32,7 +32,7 @@ questions:
     question: '$ is BMW.'
     answers:
       - 'My brother car''s'
-      - 'My brother''s car''s'
+      - 'My brother''s car''''''''s'
       - 'My brother''s car'
     correct: 3
   -
@@ -47,12 +47,12 @@ questions:
     answers:
       - 'Tim''s laptop.'
       - 'laptop Tim''s.'
-      - 'laptop''s Tim''s.'
+      - 'laptop''s Tim''''''''s.'
     correct: 1
   -
     question: 'They''re $.'
     answers:
-      - 'My sister''s key''s.'
+      - 'My sister''s key''''''''s.'
       - 'My sister''s keys.'
       - 'keys my sister''s.'
     correct: 2

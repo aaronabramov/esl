@@ -1,0 +1,57 @@
+name: 'Common Verbs'
+questions:
+  -
+    question: 'go $ movies'
+    answers:
+      - to
+      - 'to the'
+      - 'in the'
+    correct: 2
+  -
+    question: 'play $ tennis'
+    answers:
+      - 'in the'
+      - in
+      - –
+    correct: 3
+  -
+    question: 'play $ piano'
+    answers:
+      - 'on the'
+      - the
+      - –
+    correct: 2
+  -
+    question: 'play sports'
+    answers:
+      - –
+      - 'in the'
+      - the
+    correct: 1
+  -
+    question: 'In winter I $ and in summer I go to the beach and $.'
+    answers:
+      - 'swim; ski'
+      - 'ski; swim'
+    correct: 2
+  -
+    question: 'Do you $ or drive to work?'
+    answers:
+      - swim
+      - ski
+      - walk
+    correct: 3
+  -
+    question: 'Can we go $ beach?'
+    answers:
+      - 'on the'
+      - 'to the'
+      - to
+    correct: 2
+  -
+    question: 'Do you play $ computer games?'
+    answers:
+      - –
+      - in
+      - 'in the'
+    correct: 1

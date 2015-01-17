@@ -1,0 +1,52 @@
+name: Lesson 10
+items:
+    - type: video
+      id: beginner/10_1.mp4
+
+    - type: quiz
+      id: quizzes/beg10_g1
+
+    - type: video
+      id: beginner/10_2.mp4
+
+    - type: audio
+      id: beginner/aef_2/47.mp3
+
+    - type: quiz
+      id: quizzes/beg10_v1
+
+    - type: video
+      id: beginner/10_3.mp4
+
+    - type: audio
+      id: beginner/aef_2/48.mp3
+
+    - type: audio
+      id: beginner/aef_2/49.mp3
+
+    - type: audio
+      id: beginner/aef_2/50.mp3
+
+    - type: video
+      id: beginner/10_4.mp4
+
+    - type: video
+      id: beginner/10_5.mp4
+
+    - type: quiz
+      id: quizzes/beg10_g2
+
+    - type: video
+      id: beginner/10_6.mp4
+
+    - type: audio
+      id: beginner/aef_2/52.mp3
+
+    - type: video
+      id: beginner/10_7.mp4
+
+    - type: audio
+      id: beginner/aef_2/55.mp3
+
+    - type: quiz
+      id: quizzes/beg10_v2
