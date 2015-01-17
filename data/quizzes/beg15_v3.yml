@@ -126,7 +126,7 @@ questions:
       - leaves
     correct: 2
 
-    - question: I $ my keys on the train.
+  - question: I $ my keys on the train.
     answers:
       - lost
       - losed
@@ -147,7 +147,7 @@ questions:
       - meet
     correct: 2
 
-  -question: I $ by credit card in the restaurant.
+  - question: I $ by credit card in the restaurant.
     answers:
       - payd
       - paid

@@ -197,7 +197,7 @@ questions:
       - be
     correct: 1
   -
-    question: 'A: What''s the $ today?\nB: It''s October 1st.'
+    question: 'A: What''s the $ today?\nB: It''''s October 1st.'
     answers:
       - time
       - month

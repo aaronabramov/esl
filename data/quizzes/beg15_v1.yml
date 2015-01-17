@@ -91,7 +91,7 @@ questions:
       - the river
     correct: 3
 
-  - I live in San Francisco by the Pacific $.
+  - question: I live in San Francisco by the Pacific $.
     answers:
       - River
       - Ocean

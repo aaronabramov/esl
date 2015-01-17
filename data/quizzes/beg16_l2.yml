@@ -1,27 +1,28 @@
-name: "Listening Quiz"
+name: 'Listening Quiz'
 questions:
-  - question: "A: What exactly are your plans, Liz?\nB: I’m going to $ a bike from Ecuador to Argentina."
+  -
+    question: "A: What exactly are your plans, Liz?\nB: I’m going to $ a bike from Ecuador to Argentina."
     answers:
       - drive
       - ride
       - travel
     correct: 2
-
-  - question: "A: Are you going to $ alone?\nB: No, I’m not. I’m going to $ with a friend."
+  -
+    question: "A: Are you going to $ alone?\nB: No, I’m not. I’m going to $ with a friend."
     answers:
       - go
       - travel
       - ride
     correct: 1
-
-  - question: "A: Where are you going to $?\nB: We’re going to $, and maybe sometimes stay in small hotels."
+  -
+    question: "A: Where are you going to $?\nB: We’re going to $, and maybe sometimes stay in small hotels."
     answers:
-      - camp; travel
-      - stay; camp
-      - stay; drive
+      - 'camp; travel'
+      - 'stay; camp'
+      - 'stay; drive'
     correct: 2
-
-  - question: "A: When are you going to $ your trip?\nB: B: In October."
+  -
+    question: "A: When are you going to $ your trip?\nB: B: In October."
     answers:
       - finish
       - start

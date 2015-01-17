@@ -1,71 +1,72 @@
-name: Common Verbs
+name: 'Common Verbs'
 questions:
-  - question: "I $ my friend, but he didn't answer his phone so I left a voicemail."
+  -
+    question: 'I $ my friend, but he didn''t answer his phone so I left a voicemail.'
     answers:
       - texted
       - emailed
       - called
     correct: 3
-
-  - question: Can you $ the light please? I try to sleep.
+  -
+    question: 'Can you $ the light please? I try to sleep.'
     answer:
-      - turn off
-      - turn on
-      - turn up
+      - 'turn off'
+      - 'turn on'
+      - 'turn up'
     correct: 1
-
-  - question: I $ a letter from my grandpa yesterday. He lives in Germany.
+  -
+    question: 'I $ a letter from my grandpa yesterday. He lives in Germany.'
     answers:
       - sent
       - got
       - get
     correct: 2
-
-  - question: '"Please $ me a story!" I asked my dad before I went to bed.'
+  -
+    question: '"Please $ me a story!" I asked my dad before I went to bed.'
     answers:
       - say
       - tell
       - speak
     correct: 2
-
-  - question: I always $ my keys! Can you open the door please?
+  -
+    question: 'I always $ my keys! Can you open the door please?'
     answers:
       - find
       - seek
       - lose
     correct: 3
-
-  - question: I need to $ the house early to get on a train.
+  -
+    question: 'I need to $ the house early to get on a train.'
     answers:
       - come
       - arrive
       - leave
     correct: 3
-
-  - question: $ your umbrella. It might rain.
+  -
+    question: '$ your umbrella. It might rain.'
     answers:
       - Give
       - Take
       - Leave
     correct: 2
-
-  - question: Is his birthday next week! I need to $ him a present.
+  -
+    question: 'Is his birthday next week! I need to $ him a present.'
     answers:
       - give
       - take
       - call
     correct: 1
-
-  - question: Did you $ my e-mail yesterday? It has all the details about my party.
+  -
+    question: 'Did you $ my e-mail yesterday? It has all the details about my party.'
     answers:
       - leave
       - send
       - get
     correct: 3
-
-  - question: Can I $ the light? I want to read a book.
+  -
+    question: 'Can I $ the light? I want to read a book.'
     answers:
-      - turn off
-      - turn on
+      - 'turn off'
+      - 'turn on'
       - turn
     correct: 2

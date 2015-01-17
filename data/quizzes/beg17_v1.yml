@@ -1,55 +1,56 @@
-name: Revision (Verb Collocations)
+name: 'Revision (Verb Collocations)'
 questions:
-  - question: $ an umbrella / a photo / a shower
+  -
+    question: '$ an umbrella / a photo / a shower'
     answers:
       - give
       - take
       - do
     correct: 2
-
-  - question: $ up in the morning / an email
+  -
+    question: '$ up in the morning / an email'
     answers:
       - send
       - get
       - wake
     correct: 2
-
-  - question: $ home / shopping / on vacation
+  -
+    question: '$ home / shopping / on vacation'
     answers:
       - come
       - get
       - go
     correct: 3
-
-  - question: $ dinner / a sandwich / children
+  -
+    question: '$ dinner / a sandwich / children'
     answers:
       - have
       - get
       - give
     correct: 1
-
-  - question: $ homework / housework
+  -
+    question: '$ homework / housework'
     answers:
       - make
       - get
       - do
     correct: 3
-
-  - question: $ the guitar / basketball / computer games
+  -
+    question: '$ the guitar / basketball / computer games'
     answers:
-      - play in
+      - 'play in'
       - play
       - game
     correct: 2
-
-  - question: $ friends / a mistake / dinner
+  -
+    question: '$ friends / a mistake / dinner'
     answers:
       - make
       - do
       - meet
     correct: 1
-
-  - question: $ somebody for the first time / some friends after class
+  -
+    question: '$ somebody for the first time / some friends after class'
     answers:
       - meet
       - find

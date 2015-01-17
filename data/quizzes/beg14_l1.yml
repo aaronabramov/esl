@@ -1,21 +1,19 @@
-name: Listening Quiz
+name: 'Listening Quiz'
 questions:
   -
-    question: "Welcome to the island. Your $’s upstairs, number seven."
+    question: 'Welcome to the island. Your $’s upstairs, number seven.'
     answers:
       - apartment
       - bedroom
       - room
     correct: 3
-
   -
     question: "A: Is there $?\nB: B: No, I’m sorry, there isn’t. But I can help you with your suitcases."
     answers:
-      - a bathroom
-      - an elevator
-      - a stair
+      - 'a bathroom'
+      - 'an elevator'
+      - 'a stair'
     correct: 3
-
   -
     question: 'A: There are two $. We wanted a double $.'
     answers:
@@ -23,15 +21,13 @@ questions:
       - 'beds; bed'
       - 'bedrooms; bedroom'
     correct: 2
-
   -
     question: "A: Where’s the $?\nB: There isn’t one. There are some $ over there."
     answers:
-      - radio; disks
-      - TV; magazines
-      - TV; books
+      - 'radio; disks'
+      - 'TV; magazines'
+      - 'TV; books'
     correct: 3
-
   -
     question: "A: This is the bathroom.\nB: There isn’t a $."
     answers:
@@ -39,15 +35,13 @@ questions:
       - shower
       - towel
     correct: 1
-
   -
-    question: "A: No, there’s $. It uses less water."
+    question: 'A: No, there’s $. It uses less water.'
     answers:
-      - a bathtub
-      - a sink
-      - a shower
+      - 'a bathtub'
+      - 'a sink'
+      - 'a shower'
     correct: 3
-
   -
     question: "A: Are there any $ near here? \nB: No, ma’am, there aren’t. Enjoy your stay."
     answers:

@@ -1,71 +1,72 @@
-name: Hotels (Translation - Word)
+name: 'Hotels (Translation - Word)'
 questions:
-  - question: ванная комната
+  -
+    question: 'ванная комната'
     answers:
-      - a bathtub
-      - a bedroom
-      - a bathroom
+      - 'a bathtub'
+      - 'a bedroom'
+      - 'a bathroom'
     correct: 3
-
-  - question: ванна
+  -
+    question: ванна
     answers:
-      - a bathtub
-      - a bedroom
-      - a bathroom
+      - 'a bathtub'
+      - 'a bedroom'
+      - 'a bathroom'
     correct: 1
-
-  - question: душ
+  -
+    question: душ
     answers:
-      - a bathtub
-      - a bathroom
-      - a shower
+      - 'a bathtub'
+      - 'a bathroom'
+      - 'a shower'
     correct: 3
-
-  - question: полотенце
+  -
+    question: полотенце
     answers:
-      - a floor
-      - a towel
-      - a pillow
+      - 'a floor'
+      - 'a towel'
+      - 'a pillow'
     correct: 2
-
-  - question: кровать
+  -
+    question: кровать
     answers:
-      - a bath
-      - a bed
-      - a bedroom
+      - 'a bath'
+      - 'a bed'
+      - 'a bedroom'
     correct: 2
-
-  - question: этаж
+  -
+    question: этаж
     answers:
-      - a pillow
-      - a towel
-      - a floor
+      - 'a pillow'
+      - 'a towel'
+      - 'a floor'
     correct: 3
-
-  - question: подушка
+  -
+    question: подушка
     answers:
-      - a pillow
-      - a towel
-      - a floor
+      - 'a pillow'
+      - 'a towel'
+      - 'a floor'
     correct: 1
-
-  - question: лампа
+  -
+    question: лампа
     answers:
-      - a bulb
-      - a lampas
-      - a lamp
+      - 'a bulb'
+      - 'a lampas'
+      - 'a lamp'
     correct: 2
-
-  - question: пульт дистанционного управления
+  -
+    question: 'пульт дистанционного управления'
     answers:
-      - a control
-      - a distant control
-      - a remote control
+      - 'a control'
+      - 'a distant control'
+      - 'a remote control'
     correct: 3
-
-  - question: шкафчик
+  -
+    question: шкафчик
     answers:
-      - a shelf
-      - a storage
-      - a cabinet
+      - 'a shelf'
+      - 'a storage'
+      - 'a cabinet'
     correct: 3

@@ -1,69 +1,70 @@
-name: Common Verbs (Pt 2)
+name: 'Common Verbs (Pt 2)'
 questions:
-  - question: Let's $ a break. I'm tired.
+  -
+    question: 'Let''s $ a break. I''m tired.'
     answers:
       - take
       - do
       - make
     correct: 1
-
-  - question: 'Can I $ money here? I have dollars, but I need euros.'
+  -
+    question: 'Can I $ money here? I have dollars, but I need euros.'
     answers:
       - have
       - use
       - change
     correct: 3
-
-  - question: You can't $ the Internet during the exam!
+  -
+    question: 'You can''t $ the Internet during the exam!'
     answers:
       - change
       - use
       - have
     correct: 2
-
-  - question: Can we $ photos in this museum?
+  -
+    question: 'Can we $ photos in this museum?'
     answers:
       - make
       - take
       - do
     correct: 2
-
-  - question: "A: Does she $ a car?/nB: No, she doesn't. She goes to work by bus."
+  -
+    question: 'A: Does she $ a car?/nB: No, she doesn''t. She goes to work by bus.'
     answers:
       - go
       - ride
       - drive
     correct: 3
-
-  - question: "A: Can I $ credit card?\nB: No, sorry. Cash only."
+  -
+    question: "A: Can I $ credit card?\nB: No, sorry. Cash only."
     answers:
-      - pay with
-      - pay by
-      - buy by
+      - 'pay with'
+      - 'pay by'
+      - 'buy by'
     correct: 2
-
-  - question: "A Can I $ here?\nB: Sorry, ma'am. The sign says 'no parking'."
+  -
+    question: "A Can I $ here?\nB: Sorry, ma'am. The sign says 'no parking'."
     answers:
       - come
       - drive
       - park
     correct: 3
-
-  - question: My Dad usually $ home at 8pm.
+  -
+    question: 'My Dad usually $ home at 8pm.'
     answers:
-      - goes at
-      - comes at
+      - 'goes at'
+      - 'comes at'
       - comes
     correct: 3
-
-  - question: Do you $ that black car? It's so beautiful!
+  -
+    question: 'Do you $ that black car? It''s so beautiful!'
     answers:
       - see
       - hear
       - watch
     correct: 1
-
-  - question: I can't $ you! The music is very loud.
+  -
+    question: 'I can''t $ you! The music is very loud.'
     answers:
       - see
       - hear

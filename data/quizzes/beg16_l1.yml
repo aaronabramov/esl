@@ -1,6 +1,6 @@
-name: Listening Quiz
+name: 'Listening Quiz'
 questions:
-  - question: "A: Is it a man or a $?\nB: It’s a $. Look at her hair. What’s she doing?
+  - question: "A: Is it a man or a $?\nB: It’s a $. Look at her hair. What’s she doing?"
     answers:
       - woman; man
       - woman; woman

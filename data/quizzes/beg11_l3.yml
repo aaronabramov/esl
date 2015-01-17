@@ -1,57 +1,58 @@
-name: Listening Quiz
+name: 'Listening Quiz'
 questions:
-  - question: James Blunt was $.
+  -
+    question: 'James Blunt was $.'
     answers:
-      - a salesperson
-      - a soldier
-      - a mechanic
+      - 'a salesperson'
+      - 'a soldier'
+      - 'a mechanic'
     correct: 2
-
-  - question: Sting was $.
+  -
+    question: 'Sting was $.'
     answers:
-      - a soldier
-      - a doctor
-      - an English teacher
+      - 'a soldier'
+      - 'a doctor'
+      - 'an English teacher'
     correct: 3
-
-  - question: Jack Nicholson was $.
+  -
+    question: 'Jack Nicholson was $.'
     answers:
-      - a salesperson
-      - an English teacher
-      - a mechanic
+      - 'a salesperson'
+      - 'an English teacher'
+      - 'a mechanic'
     correct: 1
-
-  - question: Jennifer Aniston and Barbra Streisand were $.
+  -
+    question: 'Jennifer Aniston and Barbra Streisand were $.'
     answers:
       - nurses
-      - aerobic teachers
+      - 'aerobic teachers'
       - waitresses
     correct: 3
-
-  - question: Morgan Freeman was $.
+  -
+    question: 'Morgan Freeman was $.'
     answers:
-      - a mechanic
-      - a soldier
-      - a soldier
+      - 'a mechanic'
+      - 'a soldier'
+      - 'a soldier'
     correct: 1
-
-  - question: "Danny deVito was $."
+  -
+    question: 'Danny deVito was $.'
     answers:
-      - a teacher
-      - a doctor
-      - a hairdresser
+      - 'a teacher'
+      - 'a doctor'
+      - 'a hairdresser'
     correct: 3
-
-  - question: Lucy Liu and Calista Flockhart were $.
+  -
+    question: 'Lucy Liu and Calista Flockhart were $.'
     answers:
       - waitresses
-      - aerobics teachers
+      - 'aerobics teachers'
       - nurses
     correct: 2
-
-  - question: Tina Turner was $.
+  -
+    question: 'Tina Turner was $.'
     answers:
-      - a waitress
-      - a nurse
-      - a teacher
+      - 'a waitress'
+      - 'a nurse'
+      - 'a teacher'
     correct: 2

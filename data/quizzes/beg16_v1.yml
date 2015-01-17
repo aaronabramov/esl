@@ -1,4 +1,4 @@
-name: Verbs and Verb Phrases
+name: 'Verbs and Verb Phrases'
 questions:
   - question: It cheap to $ by train at this time of the year.
     answers:
@@ -28,7 +28,7 @@ questions:
       - laying
     correct: 2
 
-  - question: "A: Let's $ the tango!\nB: But I don't know how!
+  - question: "A: Let's $ the tango!\nB: But I don't know how!"
     answers:
       - paint
       - dance
@@ -51,7 +51,7 @@ questions:
 
   - question: If it $ all day we can't go to the beach.
     answers:
-      - 's sunny
-      - 's warm
+      - "'s sunny"
+      - "'s warm"
       - rains
     correct: 3
