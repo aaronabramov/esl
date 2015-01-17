@@ -1,0 +1,43 @@
+name: What's the next month?
+questions:
+  - question: December
+    answers:
+      - February
+      - November
+      - January
+    correct: 3
+
+  - question: June
+    answers:
+      - August
+      - September
+      - July
+    correct: 3
+
+  - question: May
+    answers:
+      - June
+      - July
+      - April
+    correct: 1
+
+  - question: October
+    answers:
+      - December
+      - November
+      - September
+    correct: 2
+
+  - question: August
+    answers:
+      - July
+      - November
+      - September
+    correct: 3
+
+  - question: February
+    answers:
+      - January
+      - March
+      - May
+    correct: 2

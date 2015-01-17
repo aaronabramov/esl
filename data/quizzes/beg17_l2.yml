@@ -1,0 +1,15 @@
+name: Listening Quiz
+questions:
+  - question: Excuse me. Is there a $ near here?
+    answers:
+      - bookstore
+      - store
+      - bank
+    correct: 3
+
+  - question: "Yes, there’s one on South Street, next $."
+    answers:
+      - to the bookstore
+      - the bookstore
+      - to the store
+    correct: 1

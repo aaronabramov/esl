@@ -1,0 +1,34 @@
+name: Lesson 17
+items:
+    - type: video
+      id: beginner17_1.mp4
+
+    - type: quiz
+      id: quizzes/beg17_l1.yml
+
+    - type: video
+      id: beginner17_2.mp4
+
+    - type: quiz
+      id: quizzes/beg17_g1.yml
+
+    - type: video
+      id: beginner17_3.mp4
+
+    - type: audio
+      id: cd3_59_pista_59.mp3
+
+    - type: quiz
+      id: quizzes/beg17_v1.yml
+
+    - type: video
+      id: beginner17_4.mp4
+
+    - type: quiz
+      id: quizzes/beg17_l2.yml
+
+    - type: quiz
+      id: quizzes/beg17_l3.yml
+
+    - type: quiz
+      id: quizzes/beg17_l4.yml
