@@ -64,7 +64,7 @@ questions:
       - 'can''t'
     correct: 2
   -
-    question: 'We $ a new ''Walking Dead'' episode two days ago. So scary!'
+    question: 'We $ a new ''Walking Dead'''' episode two days ago. So scary!'
     answers:
       - saw
       - see

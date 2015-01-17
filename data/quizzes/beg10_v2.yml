@@ -1,7 +1,7 @@
 name: 'Common Verbs (Pt 2)'
 questions:
   -
-    question: 'Let''s $ a break. I''m tired.'
+    question: 'Let''s $ a break. I''''m tired.'
     answers:
       - take
       - do

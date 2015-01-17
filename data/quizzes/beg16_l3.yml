@@ -1,43 +1,44 @@
 name: 'True or False'
 questions:
-  - question: Liz and her friend finished their trip.
+  -
+    question: 'Liz and her friend finished their trip.'
     answers:
-      - "True"
-      - "False"
+      - 'True'
+      - 'False'
     correct: 1
-
-  - question: They rode bikes all the way.
+  -
+    question: 'They rode bikes all the way.'
     answers:
-      - "True"
-      - "False"
+      - 'True'
+      - 'False'
     correct: 2
-
-  - question: They always camped in Ecuador and Peru.
+  -
+    question: 'They always camped in Ecuador and Peru.'
     answers:
-      - "True"
-      - "False"
+      - 'True'
+      - 'False'
     correct: 2
-
-  - question: Liz's bike broke when they were near La Paz.'
+  -
+    question: 'Liz''s bike broke when they were near La Paz.'''
     answers:
-      - "True"
-      - "False"
+      - 'True'
+      - 'False'
     correct: 1
-
-  - question: Liz’s friend repaired the bike.
+  -
+    question: 'Liz’s friend repaired the bike.'
     answers:
-      - "True"
-      - "False"
+      - 'True'
+      - 'False'
     correct: 2
-
-  - question: Their favorite place was Patagonia.
+  -
+    question: 'Their favorite place was Patagonia.'
     answers:
-      - "True"
-      - "False"
+      - 'True'
+      - 'False'
     correct: 1
-
-  - question: "For their next trip, they're going to go to Australia."
+  -
+    question: 'For their next trip, they''re going to go to Australia.'
     answers:
-      - "True"
-      - "False"
+      - 'True'
+      - 'False'
     correct: 2

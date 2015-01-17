@@ -15,7 +15,7 @@ questions:
       - 'the United States'
     correct: 3
   -
-    question: 'No, she isn''t. She''''s from $.'
+    question: 'No, she isn''t. She''''''''s from $.'
     answers:
       - England
       - 'the United Kingdom'

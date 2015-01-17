@@ -1,251 +1,252 @@
-name: Irregular Verbs
+name: 'Irregular Verbs'
 questions:
-  - question: They $ in Brazil last week.
+  -
+    question: 'They $ in Brazil last week.'
     answers:
       - are
       - was
       - were
     correct: 3
-
-  - question: It $ to snow.
+  -
+    question: 'It $ to snow.'
     answers:
       - began
       - begun
       - begin
     correct: 1
-
-  - question: I’m sorry I $ the window.
+  -
+    question: 'I’m sorry I $ the window.'
     answers:
       - broken
       - break
       - broke
     correct: 3
-
-  - question: We $ some food in the market.
+  -
+    question: 'We $ some food in the market.'
     answers:
       - buy
       - bout
       - bought
     correct: 3
-
-  - question: She $ speak Russian when she was four.
+  -
+    question: 'She $ speak Russian when she was four.'
     answers:
       - can
       - could
       - coud
     correct: 2
-
-  - question: They $ to class last week.
+  -
+    question: 'They $ to class last week.'
     answers:
       - come
       - came
       - camed
     correct: 2
-
-  - question: I $ my homework in the evening.
+  -
+    question: 'I $ my homework in the evening.'
     answers:
       - done
       - made
       - did
     correct: 3
-
-  - question: We $ a lot of coffee.
+  -
+    question: 'We $ a lot of coffee.'
     answers:
       - drank
       - drunk
       - drink
     correct: 1
-
-  - question: He $ very fast because he was in a hurry.
+  -
+    question: 'He $ very fast because he was in a hurry.'
     answers:
       - drove
       - drives
       - driven
     correct: 1
-
-  - question: I $ a lot yesterday.
+  -
+    question: 'I $ a lot yesterday.'
     answers:
       - eat
       - ate
       - eaten
     correct: 2
-
-  - question: They $ an apartment downtown.
+  -
+    question: 'They $ an apartment downtown.'
     answers:
       - found
       - find
       - founded
     correct: 1
-
-  - question: We $ up early this morning.
+  -
+    question: 'We $ up early this morning.'
     answers:
       - get
       - gotten
       - got
     correct: 3
-
-  - question: I $ Anna a birthday present.
+  -
+    question: 'I $ Anna a birthday present.'
     answers:
       - give
       - given
       - gave
     correct: 3
-
-  - question: They $ on vacation in July.
+  -
+    question: 'They $ on vacation in July.'
     answers:
       - go
       - gone
       - went
     correct: 3
-
-  - question: I $ my old car for 15 years.
+  -
+    question: 'I $ my old car for 15 years.'
     answers:
       - haved
       - had
       - have
     correct: 2
-
-  - question: We $ a noise during the night.
+  -
+    question: 'We $ a noise during the night.'
     answers:
       - heard
       - heared
       - heard
     correct: 3
-
-  - question: I $ all the answers.
+  -
+    question: 'I $ all the answers.'
     answers:
       - knew
       - know
       - known
     correct: 1
-
-  - question: The train $ the station at 8:00.
+  -
+    question: 'The train $ the station at 8:00.'
     answers:
       - leaved
       - left
       - leaves
     correct: 2
-
-  - question: I $ my keys on the train.
+  -
+    question: 'I $ my keys on the train.'
     answers:
       - lost
       - losed
       - lose
     correct: 1
-
-  - question: John $ dinner last night.
+  -
+    question: 'John $ dinner last night.'
     answers:
       - maked
       - maden
       - made
     correct: 3
-
-  - question: I $ a lot of people at the university.
+  -
+    question: 'I $ a lot of people at the university.'
     answers:
       - meeted
       - met
       - meet
     correct: 2
-
-  - question: I $ by credit card in the restaurant.
+  -
+    question: 'I $ by credit card in the restaurant.'
     answers:
       - payd
       - paid
       - payed
     correct: 2
-
-  - question: They $ a lot of books on vacation.
+  -
+    question: 'They $ a lot of books on vacation.'
     answers:
       - read
       - readed
       - readen
     correct: 1
-
-  - question: We $ our bikes in the park
+  -
+    question: 'We $ our bikes in the park'
     answers:
       - rode
       - ridden
       - ride
     correct: 1
-
-  - question: I $ I was sorry.
+  -
+    question: 'I $ I was sorry.'
     answers:
       - said
       - sayd
       - sayed
     correct: 1
-
-  - question: I $ an old friend at the party.
+  -
+    question: 'I $ an old friend at the party.'
     answers:
       - seed
       - seen
       - saw
     correct: 3
-
-  - question: He $ a lot of emails.
+  -
+    question: 'He $ a lot of emails.'
     answers:
       - send
       - sent
       - sented
     correct: 2
-
-  - question: They $ near the window.
+  -
+    question: 'They $ near the window.'
     answers:
       - sat
       - sit
       - satted
     correct: 1
-
-  - question: I $ for 4 hours last night.
+  -
+    question: 'I $ for 4 hours last night.'
     answers:
       - sleep
       - slept
       - sleeped
     correct: 2
-
-  - question: We $ Chinese to the waiter.
+  -
+    question: 'We $ Chinese to the waiter.'
     answers:
       - spoke
       - speak
       - spoken
     correct: 1
-
-  - question: I $ every day when I was in Mexico.
+  -
+    question: 'I $ every day when I was in Mexico.'
     answers:
       - swim
       - swimmen
       - swam
     correct: 3
-
-  - question: Jane $ good pictures of the house.
+  -
+    question: 'Jane $ good pictures of the house.'
     answers:
       - taken
       - tooken
       - took
     correct: 3
-
-  - question: I $ my children a story last night.
+  -
+    question: 'I $ my children a story last night.'
     answers:
       - told
       - tell
       - said
     correct: 1
-
-  - question: We $ the music was terrible.
+  -
+    question: 'We $ the music was terrible.'
     answers:
       - thought
       - thinked
       - think
     correct: 1
-
-  - question: I $ my new boots to the party.
+  -
+    question: 'I $ my new boots to the party.'
     answers:
       - wear
       - wore
       - worn
     correct: 2
-
-  - question: She $ a lot of emails this morning.
+  -
+    question: 'She $ a lot of emails this morning.'
     answers:
       - write
       - written

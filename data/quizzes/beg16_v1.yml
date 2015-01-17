@@ -1,57 +1,58 @@
 name: 'Verbs and Verb Phrases'
 questions:
-  - question: It cheap to $ by train at this time of the year.
+  -
+    question: 'It cheap to $ by train at this time of the year.'
     answers:
       - ride
       - drive
       - travel
     correct: 3
-
-  - question: "I want to $ a marathon next week, so I practice a lot."
+  -
+    question: 'I want to $ a marathon next week, so I practice a lot.'
     answers:
       - run
       - go
       - do
     correct: 1
-
-  - question: Can you $ my bag please? It's so heavy!
+  -
+    question: 'Can you $ my bag please? It''s so heavy!'
     answers:
       - have
       - wear
       - carry
     correct: 3
-
-  - question: "A: Why are you $ on the floor?\nB: I'm doing yoga!"
+  -
+    question: "A: Why are you $ on the floor?\nB: I'm doing yoga!"
     answers:
       - putting
       - lying
       - laying
     correct: 2
-
-  - question: "A: Let's $ the tango!\nB: But I don't know how!"
+  -
+    question: "A: Let's $ the tango!\nB: But I don't know how!"
     answers:
       - paint
       - dance
       - sing
     correct: 2
-
-  - question: I usually $ a bike in the morning.
+  -
+    question: 'I usually $ a bike in the morning.'
     answers:
       - ride
       - drive
       - travel
     correct: 1
-
-  - question: "A: Do you $ in tents in summers?\nB: Sometimes, when it's not very cold."
+  -
+    question: "A: Do you $ in tents in summers?\nB: Sometimes, when it's not very cold."
     answers:
       - travel
       - stay
       - camp
     correct: 3
-
-  - question: If it $ all day we can't go to the beach.
+  -
+    question: 'If it $ all day we can''t go to the beach.'
     answers:
-      - "'s sunny"
-      - "'s warm"
+      - '''s sunny'
+      - '''s warm'
       - rains
     correct: 3
