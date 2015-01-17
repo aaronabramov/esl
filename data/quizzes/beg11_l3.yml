@@ -35,7 +35,7 @@ questions:
       - a soldier
     correct: 1
 
-    - question: Danny deVito was $.
+  - question: "Danny deVito was $."
     answers:
       - a teacher
       - a doctor
