@@ -1,7 +1,7 @@
 name: Lesson 14
 items:
     - type: video
-      id: beginner14_1.mp4
+      id: beginner/14_1.mp4
 
     - type: audio
       id: cd3_18_pista_18.mp3
@@ -19,25 +19,25 @@ items:
       id: quizzes/beg14_l1.yml
 
     - type: video
-      id: beginner14_2.mp4
+      id: beginner/14_2.mp4
 
     - type: audio
       id: cd3_20_pista_20.mp3
 
     - type: video
-      id: beginner14_3.mp4
+      id: beginner/14_3.mp4
 
     - type: quiz
       id: quizzes/beg14_g1.yml
 
     - type: video
-      id: beginner14_4.mp4
+      id: beginner/14_4.mp4
 
     - type: audio
       id: cd3_23_pista_23.mp3
 
     - type: video
-      id: beginner14_5.mp4
+      id: beginner/14_5.mp4
 
     - type: quiz
       id: quizzes/beg14_g2.yml

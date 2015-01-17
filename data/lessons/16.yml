@@ -4,25 +4,25 @@ items:
       id: quizzes/beg16_l1.yml
 
     - type: video
-      id: beginner16_1.mp4
+      id: beginner/16_1.mp4
 
     - type: audio
       id: cd3_46_pista_46.mp3
 
     - type: video
-      id: beginner16_2.mp4
+      id: beginner/16_2.mp4
 
     - type: video
-      id: beginner16_3.mp4
+      id: beginner/16_3.mp4
 
     - type: quiz
       id: quizzes/beg16_g1.yml
 
     - type: video
-      id: beginner16_4.mp4
+      id: beginner/16_4.mp4
 
     - type: video
-      id: beginner16_5.mp4
+      id: beginner/16_5.mp4
 
     - type: quiz
       id: quizzes/beg16_v1.yml
@@ -31,19 +31,19 @@ items:
       id: quizzes/beg16_l2.yml
 
     - type: video
-      id: beginner16_6.mp4
+      id: beginner/16_6.mp4
 
     - type: audio
       id: cd3_51_pista_51.mp3
 
     - type: video
-      id: beginner16_7.mp4
+      id: beginner/16_7.mp4
 
     - type: quiz
       id: quizzes/beg16_g2.yml
 
     - type: video
-      id: beginner16_8.mp4
+      id: beginner/16_8.mp4
 
     - type: quiz
       id: quizzes/beg16_l3.yml

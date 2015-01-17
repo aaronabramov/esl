@@ -1,7 +1,7 @@
 name: Lesson 15
 items:
     - type: video
-      id: beginner15_1.mp4
+      id: beginner/15_1.mp4
 
     - type: audio
       id: cd3_24_pista_24.mp3
@@ -10,13 +10,13 @@ items:
       id: quizzes/beg15_v1.yml
 
     - type: video
-      id: beginner15_2.mp4
+      id: beginner/15_2.mp4
 
     - type: audio
       id: cd3_28_pista_28.mp3
 
     - type: video
-      id: beginner15_3.mp4
+      id: beginner/15_3.mp4
 
     - type: audio
       id: cd3_30_pista_30.mp3
@@ -25,13 +25,13 @@ items:
       id: quizzes/beg15_v2.yml
 
     - type: video
-      id: beginner15_4.mp4
+      id: beginner/15_4.mp4
 
     - type: quiz
       id: quizzes/beg15_v3.yml
 
     - type: video
-      id: beginner15_5.mp4
+      id: beginner/15_5.mp4
 
     - type: quiz
       id: quizzes/beg15_g1.yml
