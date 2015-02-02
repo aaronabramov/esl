@@ -1,0 +1,93 @@
+name: Present Continious
+questions:
+  -
+    question: Don't take your umbrella. It $ now.
+    answers:
+      - "doesn't rain"
+      - "isn't rain"
+      - "isn't raining"
+    correct: 3
+  -
+    question: Hey! $ on my foot!
+    answers:
+      - "You're stand"
+      - "You standing"
+      - "You're standing"
+    correct: 3
+  -
+    question: They $ very well today.
+    answers:
+      - "aren't playing"
+      - "don't playing"
+      - "aren't play"
+    correct: 1
+  -
+    question: What $ right now?
+    answers:
+      - "you're studying"
+      - "are you studying"
+      - "you studying"
+    correct: 2
+  -
+    question: $ of you.
+    answers:
+      - "We're thinking"
+      - "We thinking
+      - "We're think"
+    correct: 1
+  -
+    question: $ makeup?
+    answers:
+      - "She's wearing"
+      - "Is she wear"
+      - "Is she wearing"
+    correct: 3
+  -
+    question: $ a big mistake.
+    answers:
+      - "They're making"
+      - "Are they making"
+      - "They do making"
+    correct: 1
+  -
+    question: $ in London now?
+    answers:
+      - "Is your brother work"
+      - "Is your brother working"
+      - "Your brother working"
+    correct: 2
+  -
+    question: She $ on the phone right now.
+    answers:
+      - "doesn't talk"
+      - "isn't talking"
+      - "not talking"
+    correct: 2
+  -
+    question: Why $ your sunglasses? It's raining!
+    answers:
+      - "you're wearing"
+      - "you wear"
+      - "are you wearing"
+    correct: 3
+  -
+    question: You can turn off the radio. $ to it.
+    answers:
+      - "I don't listening"
+      - "I'm not listening"
+      - "I'm not listen"
+    correct: 2
+  -
+    question: My dog's isn't dangerous. $.
+    answers:
+      - "It's not biting"
+      - "It's not bite"
+      - "It doesn't bite"
+    correct: 3
+  -
+    question: $ to go to the bank.
+    answers:
+      - "I need"
+      - "I'm needing"
+      - "I do needing"
+    correct: 1

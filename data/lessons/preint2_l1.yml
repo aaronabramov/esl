@@ -1,0 +1,44 @@
+name: Listening Quiz
+questions:
+  -
+    question: '1'
+    answers:
+      - a cook
+      - a waiter
+      - an assistant
+    correct: 2
+  -
+    question: '2'
+    answers:
+      - a store
+      - a department store
+      - a shopping mall
+    correct: 2
+  -
+    question: '3'
+    answers:
+      - a mouth
+      - a computer
+      - a cell phone
+    correct: 3
+  -
+    question: '4'
+    answers:
+      - thin
+      - slim
+      - tall
+    correct: 2
+  -
+    question: '5'
+    answers:
+      - busy
+      - worried
+      - stressed
+    correct: 3
+  -
+    question: '6'
+    answers:
+      - watch
+      - 'turn on'
+      - 'turn off'
+    correct: 3

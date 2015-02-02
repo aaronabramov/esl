@@ -1,41 +1,114 @@
 name: Lesson 2
 items:
     - type: video
+      title: Video 1. Where are you from?
       id: beginner/2_1.mp4
 
     - type: video
-      id: beginner/2_1.mp4
+      title: Video 2. Countries
+      id: beginner/2_2.mp4
 
     - type: audio
+      title: Listening 1
       id: beginner/aef_1/14.mp3
+      text: |
+          "Listen and repeat
+          Brazil
+          China
+          England
+          Italy
+          Japan
+          Korea
+          Mexico
+          Peru
+          Russia
+          Spain
+          Turkey
+          the United States"
 
     - type: audio
+      title: Listening 2
       id: beginner/aef_1/15.mp3
+      text: |
+          "Read and listen (Прочитайте и послушайте диалог):
+          A: Where are you from?
+          B: Mexico.
+          A: Where in Mexico?
+          B: I’m from Mexico City."
 
     - type: quiz
-      id: quizzes/beg2_l1
+      title: Vocabulary Quiz 1
+      id: quizzes/beg2_v1.yml
+      text: |
+          "Стoлица какой страны этот город?"
 
     - type: audio
+      title: Listening Quiz 1 (Listening)
+      id: beginner/aef_1/16.mp3
+      text: |
+          "Listen and choose the correct answer (Послушайте и выберите правильный ответ)
+          Прим: Тест к этому заданию вы можете найти в следующей вкладке в меню 'Listening Quiz 1 (Test)"
+
+    - type: quiz
+      title: Listening Quiz 1 (Test)
+      id: quezzes/beg2_l1.yml
+      text: |
+          "Это тест к заданию "Listening Quiz 1 (Listening)"
+
+    - type: audio
+      title: Listening 3
       id: beginner/aef_1/17.mp3
+      text: |
+          "Listen and repeat
+          A: Where’s he from?
+          B: He’s from the United States.
+          A: Is she from the United States, too?
+          B: No, she isn’t. She’s from England.
+          A: Is it a good movie?
+          B: Yes, it is. it’s great!"
 
     - type: video
+      title: Video 3. Dialogue
       id: beginner/2_3.mp4
 
     - type: video
+      title: "Video 4. Verb be: He, She, It"
       id: beginner/2_4.mp4
 
     - type: quiz
-      id: quizzes/beg2_g1
+      title: Grammar Quiz 1
+      id: quizzes/beg2_g1.yml
 
     - type: video
-      id: beginner/2_5
+      title: Video 5. Sounds
+      id: beginner/2_5.mp4
 
     - type: audio
+      title: Listening 4
       id: beginner/aef_1/21.mp3
+      text: |
+          "Listen and repeat
+          /ɪ/  it Italy six Mexico England
+          /ɑɪ/ China I five nine hi nice"
 
     - type: audio
+      title: Listening 5
       id: beginner/aef_1/22.mp3
+      text: |
+          "Listen and repeat
+          It’s from Italy.
+          Liverpool is in England.
+          Hi. I’m from China. Nice to meet you."
+
+    - type: audio
+      title: Listening Quiz 2 (Listening)
+      id: beginner/aef_1/24.mp3
+      text: |
+          "Listen and choose the correct answers (Послушайте и выберите правильные ответы)
+          Прим: Тест к этому заданию вы можете найти в следующей вкладке в меню 'Listening Quiz 2 (Test)"
 
     - type: quiz
-      id: beg2_l2
-
+      title: Listening Quiz 2 (Test)
+      id: quizzes/beg2_l2.yml
+      text: |
+          "Это тест к заданию "Listening Quiz 2 (Listening)"

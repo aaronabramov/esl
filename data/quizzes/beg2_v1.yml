@@ -5,7 +5,7 @@ questions:
     answers:
       - Turkey
       - Peru
-      - Korea
+      - 'South Korea'
     correct: 2
   -
     question: Tokyo
@@ -17,7 +17,7 @@ questions:
   -
     question: Pyongyang
     answers:
-      - Korea
+      - 'North Korea'
       - Peru
       - Italy
     correct: 1
@@ -46,7 +46,7 @@ questions:
     question: Beijing
     answers:
       - Japan
-      - Korea
+      - 'North Korea'
       - China
     correct: 3
   -

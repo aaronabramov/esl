@@ -1,0 +1,79 @@
+name: Prepositions of place
+questions:
+  -
+    question: The window is $ the curtains.
+    answers:
+      - in front of
+      - next to
+      - behind
+    correct: 3
+  -
+    question: The traffic lights have the yellow light $ red and green lights.
+    answers:
+      - behind
+      - between
+      - in front of
+    correct: 2
+  -
+    question: There was a dog $ the street.
+    answers:
+      - "at the middle of"
+      - "on the middle of"
+      - "in the middle of"
+    correct: 3
+  -
+    question: Your car keys are $ the car.
+    answers:
+      - at
+      - on
+      - in
+    correct: 3
+  -
+    question: "A: Where's your house?\nB: It's $ the right."
+    answers:
+      - on
+      - at
+      - in
+    correct: 1
+  -
+    question: Stop sitting $ front of your computer!
+    answers:
+      - in
+      - at the
+      - in the
+    correct: 1
+  -
+    question: I put my slippers $ my bed.
+    answers:
+      - on
+      - in
+      - under
+    correct: 3
+  -
+    question: There's a hospital across $ my house.
+    answers:
+      - of
+      - from
+      - at
+    correct: 2
+  -
+    question: My school is next $ the shopping mall.
+    answers:
+      - -
+      - of
+      - to
+    correct: 3
+  -
+    question: "A: I can't find my jeans!\nB: They're $ your closet!"
+    answers:
+      - on
+      - at
+      - in
+    correct: 3
+  -
+    question: "A: Where's my food?\nB: It's $ the table!"
+    answers:
+      - on
+      - at
+      - in
+    correct: 1

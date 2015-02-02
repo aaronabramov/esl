@@ -1,0 +1,72 @@
+name: Defining relative clauses
+questions:
+  -
+    question: It's a person $ serves you in a cafe.
+    answers:
+      - who
+      - that
+      - where
+    correct: 1
+  -
+    question: They're people $ make you laugh.
+    answers:
+      - who
+      - that
+      - where
+    correct: 1
+  -
+    question: It's a machine $ cuts the grass.
+    answers:
+      - who
+      - that
+      - where
+    correct: 2
+  -
+    question: It's an animal $ lives in the sea and has 8 legs.
+    answers:
+      - who
+      - that
+      - where
+    correct: 2
+  -
+    question: It's a room $ people try on clothes.
+    answers:
+      - who
+      - that
+      - where
+    correct: 3
+  -
+    question: He's the person $ helps you with your luggage.
+    answers:
+      - who
+      - that
+      - where
+    correct: 1
+  -
+    question: It's a kind of food $ keeps vampires away.
+    answers:
+      - who
+      - that
+      - where
+    correct: 2
+  -
+    question: That's the dog $ always barks at night.
+    answers:
+      - who
+      - that
+      - where
+    correct: 2
+  -
+    question: She's the woman $ lives next door to me.
+    answers:
+      - who
+      - that
+      - where
+    correct: 1
+  -
+    question: That's the store $ I bought my dress.
+    answers:
+      - who
+      - that
+      - where
+    correct: 3
