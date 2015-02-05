@@ -60,11 +60,11 @@ items:
 
     - type: quiz
       title: Vocabulary Quiz 1
-      id: quizzes/beg1_v1.yml
+      id: quizzes/beg1_v1
 
     - type: quiz
       title: Vocabulary Quiz 2
-      id: quizzes/beg1_v2.yml
+      id: quizzes/beg1_v2
 
     - type: video
       title: "Video 3. Verb be: I and You"
