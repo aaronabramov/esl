@@ -69,6 +69,7 @@ app.get('/logout', Routes.Logout);
 app.use('/s3', Routes.S3);
 app.use('/views', Routes.View);
 app.get('/course', authorize, require('./src/server/routes/course'));
+app.get('/course2', authorize, require('./src/server/routes/course2'));
 app.get('/', require('./src/server/routes/landing'));
 
 app.use('/api', require('./src/server/api'));

@@ -27,15 +27,17 @@
     "lodash": "^2.4.1",
     "morgan": "~1.0.0",
     "node-jsx": "^0.11.0",
+    "page": "^1.6.0",
     "passport": "^0.2.1",
     "passport-facebook": "^1.0.3",
     "pg": "^3.4.2",
-    "react": "^0.11.1",
+    "react": "^0.13.0-beta.1",
     "sequelize": "^1.7.10",
     "sequelize-cli": "^0.2.5",
     "ssh-kit": "0.0.3",
     "static-favicon": "~1.0.0",
-    "superagent": "^0.18.2"
+    "superagent": "^0.18.2",
+    "traceur-runtime": "0.0.59"
   },
   "devDependencies": {
     "browserify": "^5.11.0",
@@ -47,6 +49,7 @@
     "migrate": "^0.1.4",
     "mkdirp": "^0.5.0",
     "react-tools": "^0.11.1",
+    "reactify": "^1.0.0",
     "through": "^2.3.4"
   }
 }
