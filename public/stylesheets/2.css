@@ -1,0 +1,22 @@
+.esl-app {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.l-navigation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background: #ccaaff;
+}
+
+.l-content {
+  position: fixed;
+  overflow: auto;
+  left: 200px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #aaccff;
+}
