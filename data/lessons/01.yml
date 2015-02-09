@@ -28,8 +28,12 @@ items:
           Tom: Sorry!"
 
     - type: video
-      title: Video 2. Dialogues
+      title: Video 2. Dialogue 1
       id: beginner/1_2.mp4
+
+    - type: video
+      title: Video 3. Dialogue 2
+      id: beginner/1_3.mp4
 
     - type: audio
       title: Listening 2
