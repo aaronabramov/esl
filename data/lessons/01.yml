@@ -64,19 +64,19 @@ items:
 
     - type: quiz
       title: Vocabulary Quiz 1
-      id: quizzes/beg1_v1.yml
+      id: quizzes/beg1_v1
 
     - type: quiz
       title: Vocabulary Quiz 2
-      id: quizzes/beg1_v2.yml
+      id: quizzes/beg1_v2
 
     - type: video
-      title: Video 3. Verb be: I and You
-      id: beginner/1_4.mp4
+      title: "Video 3. Verb be: I and You"
+      id: beginner/1_3.mp4
 
     - type: video
       title: Video 4. Numbers
-      id: beginner/1_5.mp4
+      id: beginner/1_4.mp4
 
     - type: audio
       title: Listening 4
@@ -103,7 +103,7 @@ items:
 
     - type: video
       title: Video 5. Sounds
-      id: beginner/1_6.mp4
+      id: beginner/1_5.mp4
 
     - type: audio
       title: Listening 6

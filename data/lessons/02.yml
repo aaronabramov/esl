@@ -38,7 +38,7 @@ items:
 
     - type: quiz
       title: Vocabulary Quiz 1
-      id: quizzes/beg2_v1.yml
+      id: quizzes/beg2_v1
       text: |
           "Стoлица какой страны этот город?"
 
@@ -51,7 +51,7 @@ items:
 
     - type: quiz
       title: Listening Quiz 1 (Test)
-      id: quezzes/beg2_l1.yml
+      id: quezzes/beg2_l1
       text: |
           "Это тест к заданию "Listening Quiz 1 (Listening)"
 
@@ -77,7 +77,7 @@ items:
 
     - type: quiz
       title: Grammar Quiz 1
-      id: quizzes/beg2_g1.yml
+      id: quizzes/beg2_g1
 
     - type: video
       title: Video 5. Sounds
@@ -109,6 +109,6 @@ items:
 
     - type: quiz
       title: Listening Quiz 2 (Test)
-      id: quizzes/beg2_l2.yml
+      id: quizzes/beg2_l2
       text: |
           "Это тест к заданию "Listening Quiz 2 (Listening)"
