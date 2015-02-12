@@ -74,6 +74,10 @@ items:
       title: "Video 3. Verb be: I and You"
       id: beginner/1_3.mp4
 
+    - type: quiz
+      title: Grammar Quiz 1
+      id: quizzes/beg1_g1.yml
+
     - type: video
       title: Video 4. Numbers
       id: beginner/1_4.mp4
