@@ -76,7 +76,7 @@ items:
 
     - type: quiz
       title: Grammar Quiz 1
-      id: quizzes/beg1_g1.yml
+      id: quizzes/beg1_g1
 
     - type: video
       title: Video 5. Numbers
